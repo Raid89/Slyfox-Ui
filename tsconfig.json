@@ -15,6 +15,11 @@
     "experimentalDecorators": true,
     "moduleResolution": "bundler",
     "importHelpers": true,
+    "paths": {
+      "slyfox-ui": [
+        "./projects/slyfox-components/main.ts"
+      ]
+    },
     "target": "ES2022",
     "module": "ES2022"
   },

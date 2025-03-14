@@ -1,0 +1,137 @@
+/* TÍTULOS (HEADINGS) */
+.heading-sm {
+  font-size: var(--font-title-size-sm);
+  line-height: var(--font-title-line-sm);
+  font-weight: bold;
+}
+
+.heading-md {
+  font-size: var(--font-title-size-md);
+  line-height: var(--font-title-line-md);
+  font-weight: bold;
+}
+
+.heading-lg {
+  font-size: var(--font-title-size-lg);
+  line-height: var(--font-title-line-lg);
+  font-weight: bold;
+}
+
+.heading-xl {
+  font-size: var(--font-title-size-xl);
+  line-height: var(--font-title-line-xl);
+  font-weight: bold;
+}
+
+/* SUBTÍTULOS (SUBTITLES) */
+.subtitle-bold-sm {
+  font-size: var(--font-subtitle-size-sm);
+  line-height: var(--font-subtitle-line-sm);
+  font-weight: bold;
+}
+
+.subtitle-bold-md {
+  font-size: var(--font-subtitle-size-md);
+  line-height: var(--font-subtitle-line-md);
+  font-weight: bold;
+}
+
+.subtitle-bold-lg {
+  font-size: var(--font-subtitle-size-lg);
+  line-height: var(--font-subtitle-line-lg);
+  font-weight: bold;
+}
+
+.subtitle-bold-xl {
+  font-size: var(--font-subtitle-size-xl);
+  line-height: var(--font-subtitle-line-xl);
+  font-weight: bold;
+}
+
+/* MEDIUM SUBTÍTULOS */
+.subtitle-medium-sm {
+  font-size: var(--font-subtitle-size-sm);
+  line-height: var(--font-subtitle-line-sm);
+  font-weight: 500;
+}
+
+.subtitle-medium-md {
+  font-size: var(--font-subtitle-size-md);
+  line-height: var(--font-subtitle-line-md);
+  font-weight: 500;
+}
+
+.subtitle-medium-lg {
+  font-size: var(--font-subtitle-size-lg);
+  line-height: var(--font-subtitle-line-lg);
+  font-weight: 500;
+}
+
+.subtitle-medium-xl {
+  font-size: var(--font-subtitle-size-xl);
+  line-height: var(--font-subtitle-line-xl);
+  font-weight: 500;
+}
+
+/* REGULAR SUBTÍTULOS */
+.subtitle-regular-sm {
+  font-size: var(--font-subtitle-size-sm);
+  line-height: var(--font-subtitle-line-sm);
+  font-weight: 400;
+}
+
+.subtitle-regular-md {
+  font-size: var(--font-subtitle-size-md);
+  line-height: var(--font-subtitle-line-md);
+  font-weight: 400;
+}
+
+.subtitle-regular-lg {
+  font-size: var(--font-subtitle-size-lg);
+  line-height: var(--font-subtitle-line-lg);
+  font-weight: 400;
+}
+
+.subtitle-regular-xl {
+  font-size: var(--font-subtitle-size-xl);
+  line-height: var(--font-subtitle-line-xl);
+  font-weight: 400;
+}
+
+/* PÁRRAFOS (PARAGRAPHS) */
+.paragraph-medium-sm {
+  font-size: var(--font-paragraph-size-sm);
+  line-height: var(--font-paragraph-line-sm);
+  font-weight: 500;
+}
+
+.paragraph-medium-md {
+  font-size: var(--font-paragraph-size-md);
+  line-height: var(--font-paragraph-line-md);
+  font-weight: 500;
+}
+
+.paragraph-medium-lg {
+  font-size: var(--font-paragraph-size-lg);
+  line-height: var(--font-paragraph-line-lg);
+  font-weight: 500;
+}
+
+/* PÁRRAFOS REGULARES */
+.paragraph-regular-sm {
+  font-size: var(--font-paragraph-size-sm);
+  line-height: var(--font-paragraph-line-sm);
+  font-weight: 400;
+}
+
+.paragraph-regular-md {
+  font-size: var(--font-paragraph-size-md);
+  line-height: var(--font-paragraph-line-md);
+  font-weight: 400;
+}
+
+.paragraph-regular-lg {
+  font-size: var(--font-paragraph-size-lg);
+  line-height: var(--font-paragraph-line-lg);
+  font-weight: 400;
+}

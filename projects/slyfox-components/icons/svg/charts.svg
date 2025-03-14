@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+<symbol id="bar-chart-01" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M18 20V10m-6 10V4M6 20v-6"/>
+</symbol>
+<symbol id="bar-chart-02" viewBox="0 0 24 24">
+    <path style="stroke-linecap: round; stroke-linejoin: round;" d="M18 20V10m-6 10V4M6 20v-6"/>
+</symbol>
+<symbol id="bar-chart-03" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M6 20V4m12 16v-4m-6 4V10"/>
+</symbol>
+<symbol id="bar-chart-04" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M3 11v10m12-10v10M9 3v18M21 3v18"/>
+</symbol>
+<symbol id="bar-chart-05" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M3 17v4M15 8v13m-6-8v8M21 3v18"/>
+</symbol>
+<symbol id="bar-chart-06" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M9 8v13m12-4v4M3 3v18m12-8v8"/>
+</symbol>
+<symbol id="bar-chart-07" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M21 21H6.2c-1.12 0-1.68 0-2.108-.218a2 2 0 0 1-.874-.874C3 19.48 3 18.92 3 17.8V3m4 7.5v7m4.5-12v12m4.5-7v7m4.5-12v12"/>
+</symbol>
+<symbol id="bar-chart-08" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M21 21H6.2c-1.12 0-1.68 0-2.108-.218a2 2 0 0 1-.874-.874C3 19.48 3 18.92 3 17.8V3m4 11.5v3m4.5-6v6m4.5-9v9m4.5-12v12"/>
+</symbol>
+<symbol id="bar-chart-09" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M21 21H6.2c-1.12 0-1.68 0-2.108-.218a2 2 0 0 1-.874-.874C3 19.48 3 18.92 3 17.8V3m4 2.5v12m4.5-9v9m4.5-6v6m4.5-3v3"/>
+</symbol>
+<symbol id="bar-chart-10" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M9 7H4.6c-.56 0-.84 0-1.054.109a1 1 0 0 0-.437.437C3 7.76 3 8.04 3 8.6v10.8c0 .56 0 .84.109 1.054a1 1 0 0 0 .437.437C3.76 21 4.04 21 4.6 21H9m0 0h6m-6 0V4.6c0-.56 0-.84.109-1.054a1 1 0 0 1 .437-.437C9.76 3 10.04 3 10.6 3h2.8c.56 0 .84 0 1.054.109a1 1 0 0 1 .437.437C15 3.76 15 4.04 15 4.6V21m0-10h4.4c.56 0 .84 0 1.054.109a1 1 0 0 1 .437.437C21 11.76 21 12.04 21 12.6v6.8c0 .56 0 .84-.109 1.054a1 1 0 0 1-.437.437C20.24 21 19.96 21 19.4 21H15"/>
+</symbol>
+<symbol id="bar-chart-11" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M9 21H4.6c-.56 0-.84 0-1.054-.109a1 1 0 0 1-.437-.437C3 20.24 3 19.96 3 19.4V4.6c0-.56 0-.84.109-1.054a1 1 0 0 1 .437-.437C3.76 3 4.04 3 4.6 3h2.8c.56 0 .84 0 1.054.109a1 1 0 0 1 .437.437C9 3.76 9 4.04 9 4.6V7m0 14h6m-6 0V7m0 0h4.4c.56 0 .84 0 1.054.109a1 1 0 0 1 .437.437C15 7.76 15 8.04 15 8.6V21m0-10h4.4c.56 0 .84 0 1.054.109a1 1 0 0 1 .437.437C21 11.76 21 12.04 21 12.6v6.8c0 .56 0 .84-.109 1.054a1 1 0 0 1-.437.437C20.24 21 19.96 21 19.4 21H15"/>
+</symbol>
+<symbol id="bar-chart-12" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M9 12H4.6c-.56 0-.84 0-1.054.109a1 1 0 0 0-.437.437C3 12.76 3 13.04 3 13.6v5.8c0 .56 0 .84.109 1.054a1 1 0 0 0 .437.437C3.76 21 4.04 21 4.6 21H9m0 0h6m-6 0V8.6c0-.56 0-.84.109-1.054a1 1 0 0 1 .437-.437C9.76 7 10.04 7 10.6 7h2.8c.56 0 .84 0 1.054.109a1 1 0 0 1 .437.437C15 7.76 15 8.04 15 8.6V21m0 0h4.4c.56 0 .84 0 1.054-.109a1 1 0 0 0 .437-.437C21 20.24 21 19.96 21 19.4V4.6c0-.56 0-.84-.109-1.054a1 1 0 0 0-.437-.437C20.24 3 19.96 3 19.4 3h-2.8c-.56 0-.84 0-1.054.109a1 1 0 0 0-.437.437C15 3.76 15 4.04 15 4.6V8"/>
+</symbol>
+<symbol id="bar-chart-circle-01" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M8 13v4m8-6v6M12 7v10m10-5c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Z"/>
+</symbol>
+<symbol id="bar-chart-circle-02" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M8 15v2m4-6v6m4-10v10m6-5c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Z"/>
+</symbol>
+<symbol id="bar-chart-circle-03" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M8 7v10m4-6v6m4-2v2m6-5c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Z"/>
+</symbol>
+<symbol id="bar-chart-square-01" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M8 13v4m8-6v6M12 7v10m-4.2 4h8.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311C21 18.72 21 17.88 21 16.2V7.8c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C18.72 3 17.88 3 16.2 3H7.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C3 5.28 3 6.12 3 7.8v8.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C5.28 21 6.12 21 7.8 21Z"/>
+</symbol>
+<symbol id="bar-chart-square-02" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M8 15v2m4-6v6m4-10v10m-8.2 4h8.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311C21 18.72 21 17.88 21 16.2V7.8c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C18.72 3 17.88 3 16.2 3H7.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C3 5.28 3 6.12 3 7.8v8.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C5.28 21 6.12 21 7.8 21Z"/>
+</symbol>
+<symbol id="bar-chart-square-03" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M8 7v10m4-6v6m4-2v2m-8.2 4h8.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311C21 18.72 21 17.88 21 16.2V7.8c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C18.72 3 17.88 3 16.2 3H7.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C3 5.28 3 6.12 3 7.8v8.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C5.28 21 6.12 21 7.8 21Z"/>
+</symbol>
+<symbol id="bar-chart-square-down" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M12 3h4.2c1.68 0 2.52 0 3.162.327a3 3 0 0 1 1.311 1.311C21 5.28 21 6.12 21 7.8v8.4c0 1.68 0 2.52-.327 3.162a3 3 0 0 1-1.311 1.311C18.72 21 17.88 21 16.2 21H7.8c-1.68 0-2.52 0-3.162-.327a3 3 0 0 1-1.311-1.311C3 18.72 3 17.88 3 16.2V12m5 1v4m8-6v6M12 7v10M2 5l3 3m0 0 3-3M5 8V2"/>
+</symbol>
+<symbol id="bar-chart-square-minus" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M12 3h4.2c1.68 0 2.52 0 3.162.327a3 3 0 0 1 1.311 1.311C21 5.28 21 6.12 21 7.8v8.4c0 1.68 0 2.52-.327 3.162a3 3 0 0 1-1.311 1.311C18.72 21 17.88 21 16.2 21H7.8c-1.68 0-2.52 0-3.162-.327a3 3 0 0 1-1.311-1.311C3 18.72 3 17.88 3 16.2V12m5 1v4m8-6v6M12 7v10M2 5h6"/>
+</symbol>
+<symbol id="bar-chart-square-plus" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M12 3h4.2c1.68 0 2.52 0 3.162.327a3 3 0 0 1 1.311 1.311C21 5.28 21 6.12 21 7.8v8.4c0 1.68 0 2.52-.327 3.162a3 3 0 0 1-1.311 1.311C18.72 21 17.88 21 16.2 21H7.8c-1.68 0-2.52 0-3.162-.327a3 3 0 0 1-1.311-1.311C3 18.72 3 17.88 3 16.2V12m5 1v4m8-6v6M12 7v10M5 8V2M2 5h6"/>
+</symbol>
+<symbol id="bar-chart-square-up" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M12 3h4.2c1.68 0 2.52 0 3.162.327a3 3 0 0 1 1.311 1.311C21 5.28 21 6.12 21 7.8v8.4c0 1.68 0 2.52-.327 3.162a3 3 0 0 1-1.311 1.311C18.72 21 17.88 21 16.2 21H7.8c-1.68 0-2.52 0-3.162-.327a3 3 0 0 1-1.311-1.311C3 18.72 3 17.88 3 16.2V12m5 1v4m8-6v6M12 7v10M2 5l3-3m0 0 3 3M5 2v6"/>
+</symbol>
+<symbol id="bar-line-chart" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M20 20v-7m-8 7V10M4 20v-4m9.407-10.973 5.168 1.939M10.8 5.4 5.2 9.6m15.86-3.16a1.5 1.5 0 1 1-2.121 2.12 1.5 1.5 0 0 1 2.122-2.12Zm-16 3a1.5 1.5 0 1 1-2.12 2.12 1.5 1.5 0 0 1 2.12-2.12Zm8-6a1.5 1.5 0 1 1-2.121 2.12 1.5 1.5 0 0 1 2.122-2.12Z"/>
+</symbol>
+<symbol id="chart-breakout-circle" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M15.5 3.5V2m3.94 2.56L20.5 3.5m.01 5h1.5m-.06 4.5c-.501 5.053-4.765 9-9.95 9-5.523 0-10-4.477-10-10 0-5.185 3.947-9.449 9-9.95M12 8h4v4m-.38-4A12.984 12.984 0 0 1 5 13.5c-1.003 0-1.98-.114-2.917-.329"/>
+</symbol>
+<symbol id="chart-breakout-square" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M11 3H7.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C3 5.28 3 6.12 3 7.8v8.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C5.28 21 6.12 21 7.8 21h8.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311C21 18.72 21 17.88 21 16.2V13m-9-5h4v4m-.5-8.5V2m3.94 2.56L20.5 3.5m.01 5h1.5M3 13.347c.652.1 1.32.153 2 .153 4.386 0 8.265-2.172 10.62-5.5"/>
+</symbol>
+<symbol id="horizontal-bar-chart-01" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M17 9.5V6.1c0-.56 0-.84-.109-1.054a1 1 0 0 0-.437-.437C16.24 4.5 15.96 4.5 15.4 4.5H3m10 10v3.4c0 .56 0 .84-.109 1.054a1 1 0 0 1-.437.437c-.214.109-.494.109-1.054.109H3M3 2v20m0-7.5h16.4c.56 0 .84 0 1.054-.109a1 1 0 0 0 .437-.437C21 13.74 21 13.46 21 12.9v-1.8c0-.56 0-.84-.109-1.054a1 1 0 0 0-.437-.437C20.24 9.5 19.96 9.5 19.4 9.5H3v5Z"/>
+</symbol>
+<symbol id="horizontal-bar-chart-02" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M17 9.5v3.4c0 .56 0 .84-.109 1.054a1 1 0 0 1-.437.437c-.214.109-.494.109-1.054.109H3m10 0v3.4c0 .56 0 .84-.109 1.054a1 1 0 0 1-.437.437c-.214.109-.494.109-1.054.109H3M3 2v20M3 9.5h16.4c.56 0 .84 0 1.054-.109a1 1 0 0 0 .437-.437C21 8.74 21 8.46 21 7.9V6.1c0-.56 0-.84-.109-1.054a1 1 0 0 0-.437-.437C20.24 4.5 19.96 4.5 19.4 4.5H3v5Z"/>
+</symbol>
+<symbol id="horizontal-bar-chart-03" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M13 9.5V6.1c0-.56 0-.84-.109-1.054a1 1 0 0 0-.437-.437C12.24 4.5 11.96 4.5 11.4 4.5H3m14 10v-3.4c0-.56 0-.84-.109-1.054a1 1 0 0 0-.437-.437C16.24 9.5 15.96 9.5 15.4 9.5H3M3 2v20m0-2.5h16.4c.56 0 .84 0 1.054-.109a1 1 0 0 0 .437-.437C21 18.74 21 18.46 21 17.9v-1.8c0-.56 0-.84-.109-1.054a1 1 0 0 0-.437-.437c-.214-.109-.494-.109-1.054-.109H3v5Z"/>
+</symbol>
+<symbol id="line-chart-down-01" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M21 21H4.6c-.56 0-.84 0-1.054-.109a1 1 0 0 1-.437-.437C3 20.24 3 19.96 3 19.4V3m17 12-3.919-4.183c-.148-.158-.223-.237-.312-.278a.5.5 0 0 0-.253-.044c-.098.01-.194.06-.387.16l-3.258 1.69c-.193.1-.289.15-.387.16a.5.5 0 0 1-.253-.044c-.09-.04-.164-.12-.312-.278L7 8"/>
+</symbol>
+<symbol id="line-chart-down-02" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M21 21H4.6c-.56 0-.84 0-1.054-.109a1 1 0 0 1-.437-.437C3 20.24 3 19.96 3 19.4V3m18 12-5.434-5.434c-.198-.198-.297-.297-.412-.334a.5.5 0 0 0-.309 0c-.114.037-.213.136-.41.334l-1.87 1.868c-.197.198-.296.297-.41.334a.499.499 0 0 1-.31 0c-.114-.037-.213-.136-.41-.334L7 7m14 8h-4m4 0v-4"/>
+</symbol>
+<symbol id="line-chart-down-03" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="m17 15-5.434-5.434c-.198-.198-.297-.297-.412-.334a.5.5 0 0 0-.309 0c-.114.037-.213.136-.41.334l-1.87 1.868c-.197.198-.296.297-.41.334a.499.499 0 0 1-.31 0c-.114-.037-.213-.136-.41-.334L3 7m14 8h-4m4 0v-4M7.8 21h8.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311C21 18.72 21 17.88 21 16.2V7.8c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C18.72 3 17.88 3 16.2 3H7.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C3 5.28 3 6.12 3 7.8v8.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C5.28 21 6.12 21 7.8 21Z"/>
+</symbol>
+<symbol id="line-chart-down-04" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="m3 9 6.655 4.754a.5.5 0 0 0 .645-.053l3.4-3.402a.5.5 0 0 1 .645-.053L21 15M6 21h12a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3Z"/>
+</symbol>
+<symbol id="line-chart-down-05" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="m6 10 3.434 3.434c.198.198.297.297.411.334.1.033.21.033.31 0 .114-.037.213-.136.41-.334l2.87-2.868c.197-.198.296-.297.41-.334a.499.499 0 0 1 .31 0c.114.037.213.136.41.334L18 14m4-2c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Z"/>
+</symbol>
+<symbol id="line-chart-up-01" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M21 21H4.6c-.56 0-.84 0-1.054-.109a1 1 0 0 1-.437-.437C3 20.24 3 19.96 3 19.4V3m17 5-3.919 4.183c-.148.158-.223.237-.312.278a.5.5 0 0 1-.253.044c-.098-.01-.194-.06-.387-.16l-3.258-1.69c-.193-.1-.289-.15-.387-.16a.5.5 0 0 0-.253.044c-.09.04-.164.12-.312.278L7 15"/>
+</symbol>
+<symbol id="line-chart-up-02" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M21 21H4.6c-.56 0-.84 0-1.054-.109a1 1 0 0 1-.437-.437C3 20.24 3 19.96 3 19.4V3m18 4-5.434 5.434c-.198.198-.297.297-.412.334a.499.499 0 0 1-.309 0c-.114-.037-.213-.136-.41-.334l-1.87-1.868c-.197-.198-.296-.297-.41-.334a.499.499 0 0 0-.31 0c-.114.037-.213.136-.41.334L7 15m14-8h-4m4 0v4"/>
+</symbol>
+<symbol id="line-chart-up-03" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="m17 9-5.434 5.434c-.198.198-.297.297-.412.334a.499.499 0 0 1-.309 0c-.114-.037-.213-.136-.41-.334l-1.87-1.868c-.197-.198-.296-.297-.41-.334a.499.499 0 0 0-.31 0c-.114.037-.213.136-.41.334L3 17m14-8h-4m4 0v4m-9.2 8h8.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311C21 18.72 21 17.88 21 16.2V7.8c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C18.72 3 17.88 3 16.2 3H7.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C3 5.28 3 6.12 3 7.8v8.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C5.28 21 6.12 21 7.8 21Z"/>
+</symbol>
+<symbol id="line-chart-up-04" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="m21 9-6.448 4.606c-.197.14-.294.21-.4.231a.5.5 0 0 1-.276-.023c-.1-.038-.185-.123-.355-.293l-3.042-3.042c-.17-.17-.255-.255-.355-.293a.5.5 0 0 0-.277-.023c-.105.021-.203.091-.398.23L3 15m4.8 6h8.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311C21 18.72 21 17.88 21 16.2V7.8c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C18.72 3 17.88 3 16.2 3H7.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C3 5.28 3 6.12 3 7.8v8.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C5.28 21 6.12 21 7.8 21Z"/>
+</symbol>
+<symbol id="line-chart-up-05" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="m18 10-3.434 3.434c-.198.198-.297.297-.412.334a.499.499 0 0 1-.309 0c-.114-.037-.213-.136-.41-.334l-2.87-2.868c-.197-.198-.296-.297-.41-.334a.499.499 0 0 0-.31 0c-.114.037-.213.136-.41.334L6 14m16-2c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Z"/>
+</symbol>
+<symbol id="pie-chart-01" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M21.21 15.89A10 10 0 1 1 8 2.83m13.24 5.343a10 10 0 0 1 .728 3.028c.021.257.031.385-.02.5a.525.525 0 0 1-.22.239c-.11.06-.25.06-.528.06h-8.4c-.28 0-.42 0-.527-.054a.5.5 0 0 1-.218-.219C12 11.62 12 11.48 12 11.2V2.8c0-.278 0-.417.06-.528a.525.525 0 0 1 .239-.22c.115-.05.244-.04.5-.02a10 10 0 0 1 8.44 6.141Z"/>
+</symbol>
+<symbol id="pie-chart-02" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M17.2 14c.277 0 .416 0 .528.061a.537.537 0 0 1 .22.244c.05.117.037.243.012.494a8 8 0 1 1-8.759-8.76c.251-.024.376-.037.494.013a.53.53 0 0 1 .243.22c.062.112.062.25.062.528v6.4c0 .28 0 .42.055.527a.5.5 0 0 0 .218.218c.107.055.247.055.527.055h6.4ZM14 2.8c0-.277 0-.416.062-.528a.53.53 0 0 1 .243-.22c.117-.05.243-.037.494-.012A8 8 0 0 1 21.96 9.2c.025.251.038.376-.012.494a.53.53 0 0 1-.22.243c-.113.062-.251.062-.528.062h-6.4c-.28 0-.42 0-.527-.055a.5.5 0 0 1-.218-.218C14 9.62 14 9.48 14 9.2V2.8Z"/>
+</symbol>
+<symbol id="pie-chart-03" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M12 2a10 10 0 0 1 10 10M12 2v10m0-10C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10M12 2c5.523 0 10 4.477 10 10m0 0H12m10 0a10 10 0 0 1-4.122 8.09L12 12"/>
+</symbol>
+<symbol id="pie-chart-04" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M12 12 2.332 9.446a10 10 0 0 0 5.922 11.826L12 12Zm0 0 .105-10A10 10 0 0 0 2.34 9.413L12 12Zm10 0c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Z"/>
+</symbol>
+<symbol id="presentation-chart-01" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M12 16v5m0-5 6 5m-6-5-6 5M21 3v8.2c0 1.68 0 2.52-.327 3.162a3 3 0 0 1-1.311 1.311C18.72 16 17.88 16 16.2 16H7.8c-1.68 0-2.52 0-3.162-.327a3 3 0 0 1-1.311-1.311C3 13.72 3 12.88 3 11.2V3m5 6v3m4-5v5m4-1v1m6-9H2"/>
+</symbol>
+<symbol id="presentation-chart-02" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M12 16v5m6 0-3.951-3.293c-.73-.607-1.094-.91-1.5-1.027a2 2 0 0 0-1.098 0c-.406.116-.77.42-1.5 1.027L6 21m2-10v1m4-3v3m4-5v5m6-9H2m1 0h18v8.2c0 1.68 0 2.52-.327 3.162a3 3 0 0 1-1.311 1.311C18.72 16 17.88 16 16.2 16H7.8c-1.68 0-2.52 0-3.162-.327a3 3 0 0 1-1.311-1.311C3 13.72 3 12.88 3 11.2V3Z"/>
+</symbol>
+<symbol id="presentation-chart-03" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M12 16v5m0-5 6 5m-6-5-6 5M8 7v5m4-3v3m4-1v1m6-9H2m1 0h18v8.2c0 1.68 0 2.52-.327 3.162a3 3 0 0 1-1.311 1.311C18.72 16 17.88 16 16.2 16H7.8c-1.68 0-2.52 0-3.162-.327a3 3 0 0 1-1.311-1.311C3 13.72 3 12.88 3 11.2V3Z"/>
+</symbol>
+<symbol id="trend-down-01" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="m22 17-7.869-7.869c-.396-.396-.594-.594-.822-.668a1 1 0 0 0-.618 0c-.228.074-.426.272-.822.668L9.13 11.87c-.396.396-.594.594-.822.668a1 1 0 0 1-.618 0c-.228-.074-.426-.272-.822-.668L2 7m20 10h-7m7 0v-7"/>
+</symbol>
+<symbol id="trend-down-02" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="m7 7 10 10m0 0V7m0 10H7"/>
+</symbol>
+<symbol id="trend-up-01" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="m22 7-7.869 7.869c-.396.396-.594.594-.822.668a1 1 0 0 1-.618 0c-.228-.074-.426-.272-.822-.668L9.13 12.13c-.396-.396-.594-.594-.822-.668a1 1 0 0 0-.618 0c-.228.074-.426.272-.822.668L2 17M22 7h-7m7 0v7"/>
+</symbol>
+<symbol id="trend-up-02" >
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M7 17 17 7m0 0H7m10 0v10"/>
+</symbol>
+</svg>

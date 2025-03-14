@@ -1,11 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 
 @Component({
   selector: 'slf-ui-button',
   imports: [],
-  template: `<button>hola</button>`,
-  styles: ``
+  templateUrl: `./button.component.html`,
+  styleUrl: `./button.component.scss`,
 })
 export class SlyfoxUiButtonComponent {
+
+  public type = input('button');
 
 }

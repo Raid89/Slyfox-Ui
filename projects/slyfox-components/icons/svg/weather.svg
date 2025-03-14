@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+<symbol id="cloud-01" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M6.5 19a4.5 4.5 0 0 1-.42-8.98 6.002 6.002 0 0 1 11.84 0A4.5 4.5 0 0 1 17.5 19h-11Z"/>
+</symbol>
+<symbol id="cloud-02" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M6 19a4 4 0 0 1-.999-7.874L5 11a7 7 0 0 1 13.96-.758A4.502 4.502 0 0 1 17.5 19H6Z"/>
+</symbol>
+<symbol id="cloud-03" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M9.5 19a7.5 7.5 0 1 1 6.641-10.988A5.5 5.5 0 1 1 16.5 19h-7Z"/>
+</symbol>
+<symbol id="cloud-lightning" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M19 15.744a4.502 4.502 0 0 0-1.08-8.725 6.002 6.002 0 0 0-11.84 0A4.5 4.5 0 0 0 5 15.744M13 10l-4 6h6l-4 6"/>
+</symbol>
+<symbol id="cloud-moon" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M16.5 13a5.502 5.502 0 0 0 5.337-4.164 5.5 5.5 0 0 1-6.673-6.672 5.502 5.502 0 0 0-3.548 7.867M5 7V3M3 5h4M6 22a4 4 0 0 1-.679-7.943 6.003 6.003 0 0 1 10.968-.892A4.5 4.5 0 1 1 17.5 22H6.001Z"/>
+</symbol>
+<symbol id="cloud-off" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M21.7 16.118a4.5 4.5 0 0 0-3.78-6.099 6.002 6.002 0 0 0-7.22-4.878M7.287 7.286a5.973 5.973 0 0 0-1.207 2.733A4.5 4.5 0 0 0 6.5 19h11c.456 0 .896-.068 1.311-.194M3 3l18 18"/>
+</symbol>
+<symbol id="cloud-raining-01" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M20 15.242a4.5 4.5 0 0 0-2.08-8.223 6.002 6.002 0 0 0-11.84 0A4.5 4.5 0 0 0 4 15.242M8 18v2m0-8v2m8 4v2m0-8v2m-4 6v2m0-8v2"/>
+</symbol>
+<symbol id="cloud-raining-02" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M16 12v8m-8-8v8m4-6v8m8-6.758a4.5 4.5 0 0 0-2.08-8.223 6.002 6.002 0 0 0-11.84 0A4.5 4.5 0 0 0 4 15.242"/>
+</symbol>
+<symbol id="cloud-raining-03" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M20 15.242a4.5 4.5 0 0 0-2.08-8.223 6.002 6.002 0 0 0-11.84 0A4.5 4.5 0 0 0 4 15.242M12.25 15l-2.8 7m7.6-9-2.8 7m-5.2-7-2.8 7"/>
+</symbol>
+<symbol id="cloud-raining-04" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M16 18.5V21m-8-2.5V21m4-1.5V22m-5-7a5 5 0 1 1 .1-9.999 5.502 5.502 0 0 1 10.195 1.004A4.5 4.5 0 1 1 17.5 15H6.999Z"/>
+</symbol>
+<symbol id="cloud-raining-05" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M16 18.5 15 21m-7-2.5L7 21m5-2.5L11 21m-4-6a5 5 0 1 1 .1-9.999 5.502 5.502 0 0 1 10.195 1.004A4.5 4.5 0 1 1 17.5 15H6.999Z"/>
+</symbol>
+<symbol id="cloud-raining-06" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M13 21H6m13-3h-9m-3 0H5m13 3h-2m-9-6a5 5 0 1 1 .1-9.999 5.502 5.502 0 0 1 10.195 1.004A4.5 4.5 0 1 1 17.5 15H6.999Z"/>
+</symbol>
+<symbol id="cloud-snowing-01" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M20 15.242a4.5 4.5 0 0 0-2.08-8.223 6.002 6.002 0 0 0-11.84 0A4.5 4.5 0 0 0 4 15.242M8 15h.01M8 19h.01M12 17h.01M12 21h.01M16 15h.01M16 19h.01"/>
+</symbol>
+<symbol id="cloud-snowing-02" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M8 18h.01M8 21h.01M12 18.5h.01m-.01 3h.01M16 18h.01M16 21h.01M7 15a5 5 0 1 1 .1-9.999 5.502 5.502 0 0 1 10.195 1.004A4.5 4.5 0 1 1 17.5 15H6.999Z"/>
+</symbol>
+<symbol id="cloud-sun-01" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M19.368 12.405A5 5 0 1 0 12 8m0 0a5.5 5.5 0 0 0-4.9 3.001L7 11a5 5 0 0 0 0 10h10.5a4.5 4.5 0 1 0-.206-8.995A5.502 5.502 0 0 0 12 8Z"/>
+</symbol>
+<symbol id="cloud-sun-02" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M10.5 1.5v1.6M3.6 10H2m3.451-5.049L4.32 3.82m11.23 1.131 1.13-1.131M19 10h-1.6M6.5 10A4 4 0 0 1 14 8.062M6 22a4 4 0 1 1 1.324-7.775 5.002 5.002 0 0 1 9.352 0A4 4 0 1 1 18 22H6Z"/>
+</symbol>
+<symbol id="cloud-sun-03" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M3.15 11a7.5 7.5 0 1 1 14.784-2.5M6 22a4 4 0 1 1 .337-7.986 6.003 6.003 0 0 1 10.866-1.004A4.5 4.5 0 1 1 17.5 22H6Z"/>
+</symbol>
+<symbol id="droplets-01" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M22 16a6 6 0 0 1-12 0c0-4.314 6-14 6-14s6 9.686 6 14ZM8 9a3 3 0 1 1-6 0c0-2.157 3-7 3-7s3 4.843 3 7Z"/>
+</symbol>
+<symbol id="droplets-02" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M12 21.5a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5C11.5 5 10 7.4 8 9c-2 1.6-3 3.5-3 5.5a7 7 0 0 0 7 7Z"/>
+</symbol>
+<symbol id="droplets-03" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M12.56 6.08A10.97 10.97 0 0 0 14 2.5c.5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97M7 15.78c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19-1.14-.93-2-2.31-2.29-3.76a6.585 6.585 0 0 1-2.29 3.76C3.56 9.46 3 10.58 3 11.73c0 2.22 1.8 4.05 4 4.05Z"/>
+</symbol>
+<symbol id="hurricane-01" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M16.5 20.5c-1.254.314-2.812.5-4.5.5-1.688 0-3.247-.186-4.5-.5M18 16.43c-1.466.554-3.61.903-6 .903s-4.534-.349-6-.902m-1.5-4.763c1.431.892 4.253 1.499 7.5 1.499s6.069-.607 7.5-1.5M21 6c0 1.657-4.03 3-9 3S3 7.657 3 6s4.03-3 9-3 9 1.343 9 3Z"/>
+</symbol>
+<symbol id="hurricane-02" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M18 12a6 6 0 0 1-12 0m12 0a6 6 0 0 0-12 0m12 0a8 8 0 1 1-16 0m4 0a8 8 0 1 1 16 0m-9 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/>
+</symbol>
+<symbol id="hurricane-03" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M21 4H3m17 4H6m12 4H9m6 4H8m9 4h-5"/>
+</symbol>
+<symbol id="lightning-01" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M13 2 4.093 12.688c-.348.418-.523.628-.525.804a.5.5 0 0 0 .185.397c.138.111.41.111.955.111H12l-1 8 8.907-10.688c.348-.418.523-.628.525-.804a.5.5 0 0 0-.185-.397c-.138-.111-.41-.111-.955-.111H12l1-8Z"/>
+</symbol>
+<symbol id="lightning-02" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M14.25 2H8.493c-.18 0-.27 0-.348.027a.5.5 0 0 0-.187.116c-.06.058-.1.139-.18.3l-4.2 8.4c-.192.383-.288.574-.265.73a.5.5 0 0 0 .208.337c.129.09.343.09.772.09h6.205l-3 10L19.694 9.355c.411-.426.617-.64.629-.822a.5.5 0 0 0-.177-.415C20.005 8 19.71 8 19.117 8h-7.118l2.25-6Z"/>
+</symbol>
+<symbol id="moon-01" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M22 15.844a10.424 10.424 0 0 1-4.306.925c-5.779 0-10.463-4.684-10.463-10.462 0-1.536.33-2.994.925-4.307A10.464 10.464 0 0 0 2 11.538C2 17.316 6.684 22 12.462 22c4.243 0 7.896-2.526 9.538-6.156Z"/>
+</symbol>
+<symbol id="moon-02" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M21.955 12.957a8 8 0 1 1-10.91-10.911C5.97 2.525 2 6.8 2 12c0 5.523 4.477 10 10 10 5.2 0 9.473-3.97 9.955-9.043Z"/>
+</symbol>
+<symbol id="moon-eclipse" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M20.002 6A10.006 10.006 0 0 1 20 18.002M12 22a9.96 9.96 0 0 0 4.38-1.008 9 9 0 1 1 0-17.984A9.96 9.96 0 0 0 12 2C6.477 2 2 6.477 2 12s4.477 10 10 10Z"/>
+</symbol>
+<symbol id="moon-star" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="m18 2 .618 1.236c.265.53.398.796.575 1.026.158.204.34.387.545.545.23.177.495.31 1.026.575L22 6l-1.236.618c-.53.265-.796.398-1.026.575-.204.158-.387.34-.545.545-.177.23-.31.495-.575 1.026L18 10l-.618-1.236c-.265-.53-.398-.796-.575-1.026a2.996 2.996 0 0 0-.545-.545c-.23-.177-.495-.31-1.026-.575L14 6l1.236-.618c.53-.265.796-.398 1.026-.575.204-.158.387-.34.545-.545.177-.23.31-.495.575-1.026L18 2Zm3 11.39A7.617 7.617 0 1 1 10.611 3C5.78 3.458 2 7.527 2 12.479A9.521 9.521 0 0 0 11.521 22c4.952 0 9.02-3.78 9.479-8.61Z"/>
+</symbol>
+<symbol id="snowflake-01" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="m18.062 8.5-12.124 7m12.124-7 1.098-4.098M18.062 8.5l4.098 1.098M5.938 15.5 1.84 14.402M5.938 15.5 4.84 19.598M18.062 15.5l-12.124-7m12.124 7 4.098-1.098M18.062 15.5l1.098 4.098M5.938 8.5 4.84 4.402M5.938 8.5 1.84 9.598M12 5v14m0-14L9 2m3 3 3-3m-3 17-3 3m3-3 3 3"/>
+</symbol>
+<symbol id="snowflake-02" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M12 8v8m0-8V2m0 6L7 3m5 5 5-5m-5 13v6m0-6-5 5m5-5 5 5m-1-9H8m8 0h6m-6 0 5-5m-5 5 5 5M8 12H2m6 0L3 7m5 5-5 5"/>
+</symbol>
+<symbol id="stars-01" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="m6.5 13 .784 1.569c.266.53.399.796.576 1.026a3 3 0 0 0 .545.545c.23.177.495.31 1.026.575L11 17.5l-1.569.785c-.53.265-.796.398-1.026.575a3 3 0 0 0-.545.545c-.177.23-.31.495-.576 1.026L6.5 22l-.784-1.569c-.266-.53-.399-.796-.576-1.026a3 3 0 0 0-.545-.545c-.23-.177-.495-.31-1.026-.575L2 17.5l1.569-.785c.53-.265.796-.398 1.026-.575a3 3 0 0 0 .545-.545c.177-.23.31-.495.576-1.026L6.5 13ZM15 2l1.179 3.064c.282.734.423 1.1.642 1.409a3 3 0 0 0 .706.706c.309.22.675.36 1.409.642L22 9l-3.064 1.179c-.734.282-1.1.423-1.409.642a3 3 0 0 0-.706.706c-.22.309-.36.675-.642 1.409L15 16l-1.179-3.064c-.282-.734-.423-1.1-.642-1.409a3 3 0 0 0-.706-.706c-.309-.22-.675-.36-1.409-.642L8 9l3.064-1.179c.734-.282 1.1-.423 1.409-.642a3 3 0 0 0 .706-.706c.22-.309.36-.675.642-1.409L15 2Z"/>
+</symbol>
+<symbol id="stars-02" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M4.5 22v-5m0-10V2M2 4.5h5m-5 15h5M13 3l-1.734 4.509c-.282.733-.423 1.1-.643 1.408a3 3 0 0 1-.706.707c-.308.219-.675.36-1.408.642L4 12l4.509 1.734c.733.282 1.1.423 1.408.643.273.194.512.433.707.706.219.308.36.675.642 1.408L13 21l1.734-4.509c.282-.733.423-1.1.643-1.408.194-.273.433-.512.706-.707.308-.219.675-.36 1.408-.642L22 12l-4.509-1.734c-.733-.282-1.1-.423-1.408-.642a3 3 0 0 1-.706-.707c-.22-.308-.36-.675-.643-1.408L13 3Z"/>
+</symbol>
+<symbol id="stars-03" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M18.5 8V3m-13 18v-5M16 5.5h5m-18 13h5M6.5 2l-.784 1.569c-.266.53-.399.796-.576 1.026a3 3 0 0 1-.545.545c-.23.177-.495.31-1.026.576L2 6.5l1.569.784c.53.266.796.399 1.026.576a3 3 0 0 1 .545.545c.177.23.31.495.576 1.026L6.5 11l.784-1.569c.266-.53.399-.796.576-1.026a3 3 0 0 1 .545-.545c.23-.177.495-.31 1.026-.576L11 6.5l-1.569-.784c-.53-.266-.796-.399-1.026-.576a3 3 0 0 1-.545-.545c-.177-.23-.31-.495-.576-1.026L6.5 2ZM17 12l-.951 1.902c-.266.531-.398.797-.576 1.027a2.98 2.98 0 0 1-.544.544c-.23.178-.496.31-1.027.576L12 17l1.902.951c.531.266.797.398 1.027.576.204.157.387.34.544.544.178.23.31.496.576 1.027L17 22l.951-1.902c.266-.531.398-.797.576-1.027a2.98 2.98 0 0 1 .544-.544c.23-.178.496-.31 1.027-.576L22 17l-1.902-.951c-.531-.266-.797-.398-1.027-.576a3.005 3.005 0 0 1-.544-.544c-.178-.23-.31-.496-.576-1.027L17 12Z"/>
+</symbol>
+<symbol id="sun-setting-01" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M12 3v2M5.314 7.314 3.9 5.9m14.786 1.414L20.1 5.9M6 15a6 6 0 0 1 12 0m4 0H2m17 4H5"/>
+</symbol>
+<symbol id="sun-setting-02" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M22 16.5H2M20 20H4m8-17v2m-8 8H2m4.314-5.686L4.9 5.9m12.786 1.414L19.1 5.9M22 13h-2M7 13a5 5 0 0 1 10 0"/>
+</symbol>
+<symbol id="sun-setting-03" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M6.06 20.913c1.21.55 2.75.55 3.96 0s2.75-.55 3.96 0 2.75.55 3.96 0M12 3v2m-8 8H2m4.314-5.686L4.9 5.9m12.786 1.414L19.1 5.9M22 13h-2M7 13a5 5 0 0 1 10 0M2.1 17.413c1.21-.55 2.75-.55 3.96 0s2.75.55 3.96 0 2.75-.55 3.96 0 2.75.55 3.96 0 2.75-.55 3.96 0"/>
+</symbol>
+<symbol id="sun" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M12 2v2m0 16v2M4 12H2m4.314-5.686L4.9 4.9m12.786 1.414L19.1 4.9M6.314 17.69 4.9 19.104m12.786-1.414 1.414 1.414M22 12h-2m-3 0a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"/>
+</symbol>
+<symbol id="sunrise" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M4 18H2m4.314-5.686L4.9 10.9m12.786 1.414L19.1 10.9M22 18h-2M7 18a5 5 0 0 1 10 0m5 4H2M16 6l-4-4m0 0L8 6m4-4v7"/>
+</symbol>
+<symbol id="sunset" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M4 18H2m4.314-5.686L4.9 10.9m12.786 1.414L19.1 10.9M22 18h-2M7 18a5 5 0 0 1 10 0m5 4H2M16 5l-4 4m0 0L8 5m4 4V2"/>
+</symbol>
+<symbol id="thermometer-01" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M14.5 4.5a2.5 2.5 0 0 0-5 0v9.258a4.5 4.5 0 1 0 5 0V4.5Z"/>
+</symbol>
+<symbol id="thermometer-02" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M14.5 4.5a2.5 2.5 0 0 0-5 0v9.258a4.5 4.5 0 1 0 5 0V4.5Z"/>
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M12 18.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"/>
+</symbol>
+<symbol id="thermometer-03" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M21 3h-6m6 4h-6m6 4h-6m-9.5 2.758V4.5a2.5 2.5 0 0 1 5 0v9.258a4.5 4.5 0 1 1-5 0ZM9 17.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/>
+</symbol>
+<symbol id="thermometer-cold" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M2 12h10M9 4v16M3 9l3 3-3 3m9-9L9 9 6 6m0 12 3-3 1.5 1.5m9.5-1.965V4a2 2 0 1 0-4 0v10.535a4 4 0 1 0 4 0Z"/>
+</symbol>
+<symbol id="thermometer-warm" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M12 9a4 4 0 0 0-2 7.5M12 3v2M6.6 18.4l-1.4 1.4M4 13H2m4.6-5.4L5.2 6.2M20 14.535V4a2 2 0 1 0-4 0v10.535a4 4 0 1 0 4 0Z"/>
+</symbol>
+<symbol id="umbrella-01" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M17 19.4c0 1.436-1.12 2.6-2.5 2.6S12 20.836 12 19.4V12m-9.874-1.594C2.89 5.641 7.02 2 12 2s9.11 3.64 9.874 8.406c.074.465.111.698.018.946a1.097 1.097 0 0 1-.44.516c-.23.132-.504.132-1.052.132H3.6c-.548 0-.821 0-1.052-.132a1.097 1.097 0 0 1-.44-.516c-.093-.248-.056-.48.018-.946Z"/>
+</symbol>
+<symbol id="umbrella-02" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M7 19.4C7 20.836 8.12 22 9.5 22s2.5-1.164 2.5-2.6V11m0 0c-1.61 0-4 1-4 1s-1.39-1-3-1-3 1-3 1C2 6.477 6.477 2 12 2s10 4.477 10 10c0 0-1.39-1-3-1s-3 1-3 1-2.39-1-4-1Z"/>
+</symbol>
+<symbol id="umbrella-03" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M6.25 21.96 12 12m5-8.66C12.687.85 7.29 1.938 4.246 5.683c-.297.365-.446.548-.489.81-.034.208.017.485.123.667.134.23.371.366.845.64l14.55 8.4c.474.274.711.41.976.412.212 0 .476-.093.64-.227.205-.168.289-.388.457-.828C23.07 11.048 21.313 5.83 17 3.34Zm0 0C15.087 2.235 11.297 5.217 8.536 10M17 3.34c1.913 1.104 1.226 5.877-1.536 10.66M22 22H2"/>
+</symbol>
+<symbol id="waves" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c1.3 0 1.9.5 2.5 1 .6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1 .6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1 .6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/>
+</symbol>
+<symbol id="wind-01" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M21 18s-1.19-.47-2-.698c-5.12-1.445-8.88 2.84-14 1.396C4.19 18.469 3 18 3 18m18-6s-1.19-.47-2-.698c-5.12-1.445-8.88 2.84-14 1.396C4.19 12.469 3 12 3 12m18-6s-1.19-.47-2-.698c-5.12-1.445-8.88 2.84-14 1.396C4.19 6.47 3 6 3 6"/>
+</symbol>
+<symbol id="wind-02" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M9.51 4.667A2 2 0 1 1 11 8H2m10.51 11.333A2 2 0 1 0 14 16H2m14.764-9A3 3 0 1 1 19 12H2"/>
+</symbol>
+<symbol id="wind-03" viewBox="0 0 24 24">
+  <path style="stroke-linecap: round; stroke-linejoin: round;" d="M16.764 6.5a3 3 0 1 1 2.236 5h-6M6.764 4A3 3 0 1 1 9 9H2m8.764 11A3 3 0 1 0 13 15H2"/>
+</symbol>
+</svg>

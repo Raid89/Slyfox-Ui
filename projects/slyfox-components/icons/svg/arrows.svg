@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+<symbol id="arrow-block-down" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M9 3.8c0-.28 0-.42.055-.527a.5.5 0 0 1 .218-.219C9.38 3 9.52 3 9.8 3h4.4c.28 0 .42 0 .527.054a.5.5 0 0 1 .218.219C15 3.38 15 3.52 15 3.8V14h4l-7 7-7-7h4V3.8Z"/>
+</symbol>
+<symbol id="arrow-block-left" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M3 12L10 5V9H20.2C20.48 9 20.62 9 20.727 9.0545C20.8211 9.10243 20.8976 9.17892 20.9455 9.273C21 9.37996 21 9.51997 21 9.8V14.2C21 14.48 21 14.62 20.9455 14.727C20.8976 14.8211 20.8211 14.8976 20.727 14.9455C20.62 15 20.48 15 20.2 15H10V19L3 12Z"/>
+</symbol>
+<symbol id="arrow-block-right" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="m21 12-7-7v4H3.8c-.28 0-.42 0-.527.055a.5.5 0 0 0-.219.218C3 9.38 3 9.52 3 9.8v4.4c0 .28 0 .42.054.527a.5.5 0 0 0 .219.218C3.38 15 3.52 15 3.8 15H14v4l7-7Z"/>
+</symbol>
+<symbol id="arrow-block-up" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M9.8 21c-.28 0-.42 0-.527-.055a.5.5 0 0 1-.218-.218C9 20.62 9 20.48 9 20.2V10H5l7-7 7 7h-4v10.2c0 .28 0 .42-.055.527a.5.5 0 0 1-.218.218C14.62 21 14.48 21 14.2 21H9.8Z"/>
+</symbol>
+<symbol id="arrow-circle-broken-down-left" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M9 9v6m0 0h6m-6 0L19 5m2.66 4.41a9.996 9.996 0 0 1-2.589 9.661c-3.905 3.905-10.237 3.905-14.142 0-3.905-3.905-3.905-10.237 0-14.142a9.996 9.996 0 0 1 9.66-2.59"/>
+</symbol>
+<symbol id="arrow-circle-broken-down-right" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M9.41 2.34a9.996 9.996 0 0 1 9.661 2.589c3.905 3.905 3.905 10.237 0 14.142-3.905 3.905-10.237 3.905-14.142 0a9.996 9.996 0 0 1-2.59-9.66M15 9v6m0 0H9m6 0L5 5"/>
+</symbol>
+<symbol id="arrow-circle-broken-down" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M17 3.338A9.996 9.996 0 0 1 22 12c0 5.523-4.477 10-10 10S2 17.523 2 12a9.996 9.996 0 0 1 5-8.662M8 12l4 4m0 0 4-4m-4 4V2"/>
+</symbol>
+<symbol id="arrow-circle-broken-left" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M20.662 17A9.996 9.996 0 0 1 12 22C6.477 22 2 17.523 2 12S6.477 2 12 2a9.996 9.996 0 0 1 8.662 5M12 8l-4 4m0 0 4 4m-4-4h14"/>
+</symbol>
+<symbol id="arrow-circle-broken-right" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M3.338 7A9.996 9.996 0 0 1 12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10a9.996 9.996 0 0 1-8.662-5M12 16l4-4m0 0-4-4m4 4H2"/>
+</symbol>
+<symbol id="arrow-circle-broken-up-left" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M14.59 21.66a9.996 9.996 0 0 1-9.661-2.589c-3.905-3.905-3.905-10.237 0-14.142 3.905-3.905 10.237-3.905 14.142 0a9.996 9.996 0 0 1 2.59 9.66M9 15V9m0 0h6M9 9l10 10"/>
+</symbol>
+<symbol id="arrow-circle-broken-up-right" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M2.34 14.59a9.996 9.996 0 0 1 2.589-9.661c3.905-3.905 10.237-3.905 14.142 0 3.905 3.905 3.905 10.237 0 14.142a9.996 9.996 0 0 1-9.66 2.59M15 15V9m0 0H9m6 0L5 19"/>
+</symbol>
+<symbol id="arrow-circle-broken-up" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M7 20.662A9.996 9.996 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10a9.996 9.996 0 0 1-5 8.662M16 12l-4-4m0 0-4 4m4-4v14"/>
+</symbol>
+<symbol id="arrow-circle-down-left" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M9 9v6m0 0h6m-6 0 6-6m7 3c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Z"/>
+</symbol>
+<symbol id="arrow-circle-down-right" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M15 9v6m0 0H9m6 0L9 9m13 3c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Z"/>
+</symbol>
+<symbol id="arrow-circle-down" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="m8 12 4 4m0 0 4-4m-4 4V8m10 4c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Z"/>
+</symbol>
+<symbol id="arrow-circle-left" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="m12 8-4 4m0 0 4 4m-4-4h8m6 0c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Z"/>
+</symbol>
+<symbol id="arrow-circle-right" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="m12 16 4-4m0 0-4-4m4 4H8m14 0c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Z"/>
+</symbol>
+<symbol id="arrow-circle-up-left" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M9 15V9m0 0h6M9 9l6 6m7-3c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Z"/>
+</symbol>
+<symbol id="arrow-circle-up-right" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M15 15V9m0 0H9m6 0-6 6m13-3c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Z"/>
+</symbol>
+<symbol id="arrow-circle-up" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="m16 12-4-4m0 0-4 4m4-4v8m10-4c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Z"/>
+</symbol>
+<symbol id="arrow-down-left" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M17 7 7 17m0 0h10M7 17V7"/>
+</symbol>
+<symbol id="arrow-down-right" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="m7 7 10 10m0 0V7m0 10H7"/>
+</symbol>
+<symbol id="arrow-down" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M12 5v14m0 0 7-7m-7 7-7-7"/>
+</symbol>
+<symbol id="arrow-left" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M19 12H5m0 0 7 7m-7-7 7-7"/>
+</symbol>
+<symbol id="arrow-narrow-down-left" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M18 6 6 18m0 0h8m-8 0v-8"/>
+</symbol>
+<symbol id="arrow-narrow-down-right" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="m6 6 12 12m0 0v-8m0 8h-8"/>
+</symbol>
+<symbol id="arrow-narrow-down" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M12 4v16m0 0 6-6m-6 6-6-6"/>
+</symbol>
+<symbol id="arrow-narrow-left" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M20 12H4m0 0 6 6m-6-6 6-6"/>
+</symbol>
+<symbol id="arrow-narrow-right" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M4 12h16m0 0-6-6m6 6-6 6"/>
+</symbol>
+<symbol id="arrow-narrow-up-left" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M18 18 6 6m0 0v8m0-8h8"/>
+</symbol>
+<symbol id="arrow-narrow-up-right" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M6 18 18 6m0 0h-8m8 0v8"/>
+</symbol>
+<symbol id="arrow-narrow-up" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M12 20V4m0 0-6 6m6-6 6 6"/>
+</symbol>
+<symbol id="arrow-right" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M5 12h14m0 0-7-7m7 7-7 7"/>
+</symbol>
+<symbol id="arrow-square-down-left" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M9 9v6m0 0h6m-6 0 6-6M7.8 21h8.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311C21 18.72 21 17.88 21 16.2V7.8c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C18.72 3 17.88 3 16.2 3H7.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C3 5.28 3 6.12 3 7.8v8.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C5.28 21 6.12 21 7.8 21Z"/>
+</symbol>
+<symbol id="arrow-square-down-right" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M15 9v6m0 0H9m6 0L9 9M7.8 21h8.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311C21 18.72 21 17.88 21 16.2V7.8c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C18.72 3 17.88 3 16.2 3H7.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C3 5.28 3 6.12 3 7.8v8.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C5.28 21 6.12 21 7.8 21Z"/>
+</symbol>
+<symbol id="arrow-square-down" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="m8 12 4 4m0 0 4-4m-4 4V8M7.8 21h8.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311C21 18.72 21 17.88 21 16.2V7.8c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C18.72 3 17.88 3 16.2 3H7.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C3 5.28 3 6.12 3 7.8v8.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C5.28 21 6.12 21 7.8 21Z"/>
+</symbol>
+<symbol id="arrow-square-left" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="m12 8-4 4m0 0 4 4m-4-4h8m-8.2 9h8.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311C21 18.72 21 17.88 21 16.2V7.8c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C18.72 3 17.88 3 16.2 3H7.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C3 5.28 3 6.12 3 7.8v8.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C5.28 21 6.12 21 7.8 21Z"/>
+</symbol>
+<symbol id="arrow-square-right" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="m12 16 4-4m0 0-4-4m4 4H8m-.2 9h8.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311C21 18.72 21 17.88 21 16.2V7.8c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C18.72 3 17.88 3 16.2 3H7.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C3 5.28 3 6.12 3 7.8v8.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C5.28 21 6.12 21 7.8 21Z"/>
+</symbol>
+<symbol id="arrow-square-up-left" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M9 15V9m0 0h6M9 9l6 6m-7.2 6h8.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311C21 18.72 21 17.88 21 16.2V7.8c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C18.72 3 17.88 3 16.2 3H7.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C3 5.28 3 6.12 3 7.8v8.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C5.28 21 6.12 21 7.8 21Z"/>
+</symbol>
+<symbol id="arrow-square-up-right" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M15 15V9m0 0H9m6 0-6 6m-1.2 6h8.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311C21 18.72 21 17.88 21 16.2V7.8c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C18.72 3 17.88 3 16.2 3H7.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C3 5.28 3 6.12 3 7.8v8.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C5.28 21 6.12 21 7.8 21Z"/>
+</symbol>
+<symbol id="arrow-square-up" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="m16 12-4-4m0 0-4 4m4-4v8m-4.2 5h8.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311C21 18.72 21 17.88 21 16.2V7.8c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C18.72 3 17.88 3 16.2 3H7.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C3 5.28 3 6.12 3 7.8v8.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C5.28 21 6.12 21 7.8 21Z"/>
+</symbol>
+<symbol id="arrow-up-left" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M17 17 7 7m0 0v10M7 7h10"/>
+</symbol>
+<symbol id="arrow-up-right" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M7 17 17 7m0 0H7m10 0v10"/>
+</symbol>
+<symbol id="arrow-up" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M12 19V5m0 0-7 7m7-7 7 7"/>
+</symbol>
+<symbol id="arrow" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="m6 9 6 6 6-6"/>
+</symbol>
+<symbol id="arrows-down" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M17 4v11m0 0-4-4m4 4 4-4M7 4v16m0 0-4-4m4 4 4-4"/>
+</symbol>
+<symbol id="arrows-left" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M20 17H4m0 0 4 4m-4-4 4-4m12-6H9m0 0 4 4M9 7l4-4"/>
+</symbol>
+<symbol id="arrows-right" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M4 7h11m0 0-4 4m4-4-4-4M4 17h16m0 0-4 4m4-4-4-4"/>
+</symbol>
+<symbol id="arrows-triangle" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M13 19h4.294c1.865 0 2.798 0 3.328-.39a2 2 0 0 0 .804-1.436c.058-.655-.429-1.451-1.401-3.043l-.997-1.631M6.13 10.605l-2.155 3.526c-.972 1.592-1.459 2.388-1.401 3.043a2 2 0 0 0 .804 1.435C3.908 19 4.841 19 6.706 19H8.5m8.389-10L14.73 5.468C13.829 3.991 13.377 3.252 12.795 3a2 2 0 0 0-1.59 0c-.581.252-1.033.99-1.935 2.468L8.25 7.137M18 5l-1.098 4.098L12.804 8M2 11.598 6.098 10.5l1.098 4.098M15.5 22l-3-3 3-3"/>
+</symbol>
+<symbol id="arrows-up" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M7 20V4m0 0L3 8m4-4 4 4m6 12V9m0 0-4 4m4-4 4 4"/>
+</symbol>
+<symbol id="chevron-down-double" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="m7 13 5 5 5-5M7 6l5 5 5-5"/>
+</symbol>
+<symbol id="chevron-left-double" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="m18 17-5-5 5-5m-7 10-5-5 5-5"/>
+</symbol>
+<symbol id="chevron-left" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="m15 18-6-6 6-6"/>
+</symbol>
+<symbol id="chevron-right-double" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="m6 17 5-5-5-5m7 10 5-5-5-5"/>
+</symbol>
+<symbol id="chevron-right" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="m9 18 6-6-6-6"/>
+</symbol>
+<symbol id="chevron-selector-horizontal" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="m9 7-5 5 5 5m6-10 5 5-5 5"/>
+</symbol>
+<symbol id="chevron-selector-vertical" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="m7 15 5 5 5-5M7 9l5-5 5 5"/>
+</symbol>
+<symbol id="chevron-up-double" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="m17 18-5-5-5 5m10-7-5-5-5 5"/>
+</symbol>
+<symbol id="chevron-up" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="m18 15-6-6-6 6"/>
+</symbol>
+<symbol id="corner-down-left" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M20 4v1.4c0 3.36 0 5.04-.654 6.324a6 6 0 0 1-2.622 2.622C15.44 15 13.76 15 10.4 15H4m0 0 5-5m-5 5 5 5"/>
+</symbol>
+<symbol id="corner-down-right" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M4 4v1.4c0 3.36 0 5.04.654 6.324a6 6 0 0 0 2.622 2.622C8.56 15 10.24 15 13.6 15H20m0 0-5-5m5 5-5 5"/>
+</symbol>
+<symbol id="corner-left-down" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M21 4h-3.4c-3.36 0-5.04 0-6.324.654a6 6 0 0 0-2.622 2.622C8 8.56 8 10.24 8 13.6V20m0 0 5-5m-5 5-5-5"/>
+</symbol>
+<symbol id="corner-left-up" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M21 20h-3.4c-3.36 0-5.04 0-6.324-.654a6 6 0 0 1-2.622-2.622C8 15.44 8 13.76 8 10.4V4m0 0 5 5M8 4 3 9"/>
+</symbol>
+<symbol id="corner-right-down" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M3 4h3.4c3.36 0 5.04 0 6.324.654a6 6 0 0 1 2.622 2.622C16 8.56 16 10.24 16 13.6V20m0 0-5-5m5 5 5-5"/>
+</symbol>
+<symbol id="corner-right-up" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M3 20h3.4c3.36 0 5.04 0 6.324-.654a6 6 0 0 0 2.622-2.622C16 15.44 16 13.76 16 10.4V4m0 0-5 5m5-5 5 5"/>
+</symbol>
+<symbol id="corner-up-left" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M9 14 4 9m0 0 5-5M4 9h6.4c3.36 0 5.04 0 6.324.654a6 6 0 0 1 2.622 2.622C20 13.56 20 15.24 20 18.6V20"/>
+</symbol>
+<symbol id="corner-up-right" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M4 20v-1.4c0-3.36 0-5.04.654-6.324a6 6 0 0 1 2.622-2.622C8.56 9 10.24 9 13.6 9H20m0 0-5 5m5-5-5-5"/>
+</symbol>
+<symbol id="expand-01" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="m14 10 7-7m0 0h-6m6 0v6m-11 5-7 7m0 0h6m-6 0v-6"/>
+</symbol>
+<symbol id="expand-02" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M3 21 21 3M3 21h6m-6 0v-6M21 3h-6m6 0v6"/>
+</symbol>
+<symbol id="expand-03" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M21 14v2.2c0 1.68 0 2.52-.327 3.162a3 3 0 0 1-1.311 1.311C18.72 21 17.88 21 16.2 21H14M10 3H7.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C3 5.28 3 6.12 3 7.8V10m12-1 6-6m0 0h-6m6 0v6M9 15l-6 6m0 0h6m-6 0v-6"/>
+</symbol>
+<symbol id="expand-04" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M20 14v2.8c0 1.12 0 1.68-.218 2.108a2 2 0 0 1-.874.874C18.48 20 17.92 20 16.8 20H14M10 4H7.2c-1.12 0-1.68 0-2.108.218a2 2 0 0 0-.874.874C4 5.52 4 6.08 4 7.2V10m11-1 6-6m0 0h-6m6 0v6M9 15l-6 6m0 0h6m-6 0v-6"/>
+</symbol>
+<symbol id="expand-05" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="m15 9 6-6m0 0h-6m6 0v6M9 9 3 3m0 0v6m0-6h6m0 12-6 6m0 0h6m-6 0v-6m12 0 6 6m0 0v-6m0 6h-6"/>
+</symbol>
+<symbol id="expand-06" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="m16 8 5-5m0 0h-5m5 0v5M8 8 3 3m0 0v5m0-5h5m0 13-5 5m0 0h5m-5 0v-5m13 0 5 5m0 0v-5m0 5h-5"/>
+</symbol>
+<symbol id="flip-backward" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M3 9h13.5a4.5 4.5 0 1 1 0 9H12M3 9l4-4M3 9l4 4"/>
+</symbol>
+<symbol id="flip-forward" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M21 9H7.5a4.5 4.5 0 1 0 0 9H12m9-9-4-4m4 4-4 4"/>
+</symbol>
+<symbol id="infinity" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M18.178 8c5.096 0 5.096 8 0 8-5.095 0-7.133-8-12.74-8-4.584 0-4.584 8 0 8 5.607 0 7.645-8 12.74-8h0Z"/>
+</symbol>
+<symbol id="refresh-ccw-01" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M2 10s2.005-2.732 3.634-4.362A9 9 0 1 1 12 21a9.004 9.004 0 0 1-8.648-6.5M2 10V4m0 6h6"/>
+</symbol>
+<symbol id="refresh-ccw-02" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M2 10s.121-.85 3.636-4.364A9 9 0 0 1 20.776 10M2 10V4m0 6h6m14 4s-.121.85-3.636 4.364A9 9 0 0 1 3.224 14M22 14v6m0-6h-6"/>
+</symbol>
+<symbol id="refresh-ccw-03" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M14 2s.85.121 4.364 3.636A9 9 0 0 1 14 20.776M14 2h6m-6 0v6m-4 14s-.85-.122-4.364-3.636A9 9 0 0 1 10 3.224M10 22H4m6 0v-6"/>
+</symbol>
+<symbol id="refresh-ccw-04" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M17 18.875A8.5 8.5 0 0 0 12 3.5h-.5m.5 17A8.5 8.5 0 0 1 7 5.125M11 22.4l2-2-2-2m2-12.8-2-2 2-2"/>
+</symbol>
+<symbol id="refresh-ccw-05" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M8.547 19.767A8.5 8.5 0 0 0 19.362 7.75l-.25-.433M4.638 16.25A8.5 8.5 0 0 1 15.453 4.233m-12.96 12.1 2.732.733.733-2.732m12.085-4.668.732-2.732 2.732.732"/>
+</symbol>
+<symbol id="refresh-cw-01" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M22 10s-2.005-2.732-3.634-4.362a9 9 0 1 0 2.282 8.862M22 10V4m0 6h-6"/>
+</symbol>
+<symbol id="refresh-cw-02" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M2 14s.121.85 3.636 4.364A9 9 0 0 0 20.776 14M2 14v6m0-6h6m14-4s-.121-.85-3.636-4.364A9 9 0 0 0 3.224 10M22 10V4m0 6h-6"/>
+</symbol>
+<symbol id="refresh-cw-03" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M14 22s.85-.121 4.364-3.636A9 9 0 0 0 14 3.224M14 22h6m-6 0v-6M10 2s-.85.122-4.364 3.636A9 9 0 0 0 10 20.776M10 2H4m6 0v6"/>
+</symbol>
+<symbol id="refresh-cw-04" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M17 5.125A8.5 8.5 0 0 1 12 20.5h-.5M7 18.875A8.5 8.5 0 0 1 12 3.5h.5m.5 18.9-2-2 2-2M11 5.6l2-2-2-2"/>
+</symbol>
+<symbol id="refresh-cw-05" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M20.453 12.893A8.5 8.5 0 0 1 4.638 16.25l-.25-.433m-.842-4.71A8.5 8.5 0 0 1 19.361 7.75l.25.433M3.493 18.066l.732-2.732 2.732.732m10.085-8.132 2.732.732.732-2.732"/>
+</symbol>
+<symbol id="reverse-left" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M4 7h10a6 6 0 0 1 0 12H4M4 7l4-4M4 7l4 4"/>
+</symbol>
+<symbol id="reverse-right" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M20 7H10a6 6 0 1 0 0 12h10m0-12-4-4m4 4-4 4"/>
+</symbol>
+<symbol id="switch-horizontal-01" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M20 17H4m0 0 4-4m-4 4 4 4M4 7h16m0 0-4-4m4 4-4 4"/>
+</symbol>
+<symbol id="switch-horizontal-02" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M4 17h16m0 0-4-4m4 4-4 4m4-14H4m0 0 4-4M4 7l4 4"/>
+</symbol>
+<symbol id="switch-vertical-01" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M17 4v16m0 0-4-4m4 4 4-4M7 20V4m0 0L3 8m4-4 4 4"/>
+</symbol>
+<symbol id="switch-vertical-02" viewBox="0 0 24 24">
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M7 4v16m0 0-4-4m4 4 4-4m6 4V4m0 0-4 4m4-4 4 4"/>
+</symbol>
+</svg>

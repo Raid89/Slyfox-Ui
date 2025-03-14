@@ -3,5 +3,9 @@
   "dest": "../../dist/slyfox-components",
   "lib": {
     "entryFile": "./index.ts"
-  }
+  },
+  "assets": [
+    "styles/color-vars.css",
+    "icons/svg"
+  ]
 }

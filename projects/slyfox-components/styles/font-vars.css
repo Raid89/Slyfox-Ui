@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../fonts/Satoshi-Variable.woff2') format('woff2'),
+       url('../fonts/Satoshi-Variable.woff') format('woff'),
+       url('../fonts/Satoshi-Variable.ttf') format('truetype');
+       font-weight: 300 900;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+:root {
+  /* VARIABLES DE TAMAÑOS FUENTES */
+  --font-root-size: 10px;
+
+  --font-title-size-sm: 1.8rem;
+  --font-title-size-md: 2.6rem;
+  --font-title-size-lg: 2.8rem;
+  --font-title-size-xl: 3.8rem;
+
+  --font-title-line-sm: 3.6rem;
+  --font-title-line-md: 5.2rem;
+  --font-title-line-lg: 5.6rem;
+  --font-title-line-xl: 7.6rem;
+
+  --font-subtitle-size-sm: 2rem;
+  --font-subtitle-size-md: 2.2rem;
+  --font-subtitle-size-lg: 2.4rem;
+  --font-subtitle-size-xl: 2.6rem;
+
+  --font-subtitle-line-sm: 4rem;
+  --font-subtitle-line-md: 4.4rem;
+  --font-subtitle-line-lg: 4.8rem;
+  --font-subtitle-line-xl: 5.2rem;
+
+  --font-paragraph-size-sm: 1.2rem;
+  --font-paragraph-size-md: 1.4rem;
+  --font-paragraph-size-lg: 1.6rem;
+
+  --font-paragraph-line-sm: 2.4rem;
+  --font-paragraph-line-md: 2.8rem;
+  --font-paragraph-line-lg: 3.2rem;
+}

@@ -62,7 +62,12 @@
               {
                 "glob": "**/*",
                 "input": "projects/showcase/public"
+              },
+              {
+                "glob": "**/*",
+                "input": "projects/slyfox-components/icons/svg"
               }
+
             ],
             "styles": [
               "projects/showcase/src/styles.scss"

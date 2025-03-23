@@ -1,0 +1,13 @@
+<button class="slf-button" [ngClass]="buttonStyles()" [disabled]="IsDisabled()">
+  @if (IconType() === 'left' || IconType() === 'double') {
+    <slf-ui-icon [category]="IconCategory()" [name]="IconName()" [size]="20" />
+  }
+
+  @if (Size() !== 'sm') {
+    {{ Text() }}
+  }
+
+  @if (IconType() === 'right' || IconType() === 'double') {
+    <slf-ui-icon [category]="IconCategory()" [name]="IconName()" [size]="20" />
+  }
+</button>

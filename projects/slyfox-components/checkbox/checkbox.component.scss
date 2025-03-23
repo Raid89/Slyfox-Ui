@@ -1,0 +1,81 @@
+.origin-checkbox {
+  display: none;
+}
+
+.slf-checkbox {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+
+  &:hover {
+    border: 2px solid var(--primary-color-200);
+    box-shadow: 0px 0px 3px 5px #ff385c7d;
+  }
+
+  & * {
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+
+  &--md {
+    width: 20px;
+    height: 20px;
+  }
+
+  &--sm {
+    width: 16px;
+    height: 16px;
+  }
+
+  &--squareCheck, &--squareSymbol {
+    border-radius: 6px;
+    color: var(--primary-color-200);
+    border: 2px solid var(--border-color-500);
+  }
+
+  &--squareCheck.slf-checkbox--checked, &--squareSymbol.slf-checkbox--checked {
+    border: 2px solid var(--primary-color-200);
+  }
+
+  &--circleCheck, &--circleSymbol {
+    border-radius: 50%;
+    color: var(--primary-color-200);
+    border: 2px solid var(--primary-color-200);
+
+    & .checkbox-cicle {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: var(--primary-color-200);
+    }
+  }
+
+  &--circleCheck.slf-checkbox--checked  {
+    color: #FFF;
+    background-color: var(--primary-color-200);
+  }
+
+  &--checked {
+    box-shadow: 0px 0px 0px 0px #0000004a;
+    & * {
+      opacity: 1;
+    }
+  }
+
+}
+
+.origin-checkbox:disabled + .slf-checkbox {
+  border: 2px solid var(--fill-color-75);
+  background-color: var(--border-color-50);
+  color: var(--fill-color-75);
+
+  &:hover {
+    box-shadow: 0px 0px 0px 0px rgba(var(--fill-color-75), 0.2);
+  }
+
+  & .checkbox-cicle {
+    background-color: var(--fill-color-75);
+  }
+}

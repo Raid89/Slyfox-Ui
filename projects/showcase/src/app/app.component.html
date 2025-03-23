@@ -1,3 +1,285 @@
-<slf-ui-icon category="weather" name="cloud-01"></slf-ui-icon>
-<slf-ui-icon category="development" name="brackets-slash"></slf-ui-icon>
-<slf-ui-icon category="communication" name="send-03"></slf-ui-icon>
+<div style="display: flex; gap: 10px; align-items: center; justify-content: center;">
+  <slf-ui-checkbox [Id]="'unchecked'" [FormControl]="formControl('disable')"></slf-ui-checkbox>
+  <slf-ui-checkbox [Id]="'unchecked'" [FormControl]="formControl('unchecked')"></slf-ui-checkbox>
+  <slf-ui-checkbox [Id]="'checked'" [FormControl]="formControl('checked')"></slf-ui-checkbox>
+  <slf-ui-checkbox Type="squareSymbol" [Id]="'checked'" [FormControl]="formControl('disable')"></slf-ui-checkbox>
+  <slf-ui-checkbox Type="squareSymbol" [Id]="'symbolchecked'" [FormControl]="formControl('checked')"></slf-ui-checkbox>
+</div>
+<br>
+<div style="display: flex; gap: 10px; align-items: center; justify-content: center;">
+  <slf-ui-checkbox [Id]="'circleunchecked'" Type="circleCheck" [FormControl]="formControl('disable')"></slf-ui-checkbox>
+  <slf-ui-checkbox [Id]="'circleunchecked'" Type="circleCheck" [FormControl]="formControl('circleUnchecked')"></slf-ui-checkbox>
+  <slf-ui-checkbox [Id]="'circlechecked'" Type="circleCheck" [FormControl]="formControl('circleChecked')"></slf-ui-checkbox>
+  <slf-ui-checkbox [Id]="'circlecheckedDisabled'" Type="circleSymbol" [FormControl]="formControl('disable')"></slf-ui-checkbox>
+  <slf-ui-checkbox Type="circleSymbol" [Id]="'circlesymbolchecked'" [FormControl]="formControl('circleChecked')"></slf-ui-checkbox>
+</div>
+<br>
+<div style="display: flex; gap: 10px; align-items: center; justify-content: center;">
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="primary" Type="default"
+    Size="lg" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="left" Color="primary" Type="default"
+    Size="lg" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="double" Color="primary"
+    Type="default" Size="lg" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="primary" Type="default"
+    Size="md" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="left" Color="primary" Type="default"
+    Size="md" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="double" Color="primary"
+    Type="default" Size="md" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="primary" Type="default"
+    Size="sm" />
+</div>
+<br>
+<div style="display: flex; gap: 10px; align-items: center; justify-content: center;">
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="primary"
+    Type="bordered" Size="lg" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="left" Color="primary" Type="bordered"
+    Size="lg" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="double" Color="primary"
+    Type="bordered" Size="lg" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="primary"
+    Type="bordered" Size="md" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="left" Color="primary" Type="bordered"
+    Size="md" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="double" Color="primary"
+    Type="bordered" Size="md" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="primary"
+    Type="bordered" Size="sm" />
+</div>
+<br>
+<div style="display: flex; gap: 10px; align-items: center; justify-content: center;">
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="primary"
+    Type="outlined" Size="lg" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="left" Color="primary" Type="outlined"
+    Size="lg" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="double" Color="primary"
+    Type="outlined" Size="lg" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="primary"
+    Type="outlined" Size="md" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="left" Color="primary" Type="outlined"
+    Size="md" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="double" Color="primary"
+    Type="outlined" Size="md" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="primary"
+    Type="outlined" Size="sm" />
+</div>
+<br>
+<div style="display: flex; gap: 10px; align-items: center; justify-content: center;">
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="primary"
+    Type="default" Size="lg" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="left" Color="primary" Type="default"
+    Size="lg" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="double" Color="primary"
+    Type="default" Size="lg" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="primary"
+    Type="default" Size="md" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="left" Color="primary" Type="default"
+    Size="md" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="double" Color="primary"
+    Type="default" Size="md" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="primary"
+    Type="default" Size="sm" />
+</div>
+<br>
+<br>
+<div style="display: flex; gap: 10px; align-items: center; justify-content: center;">
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="primary"
+    Type="bordered" Size="lg" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="left" Color="primary" Type="bordered"
+    Size="lg" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="double" Color="primary"
+    Type="bordered" Size="lg" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="primary"
+    Type="bordered" Size="md" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="left" Color="primary" Type="bordered"
+    Size="md" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="double" Color="primary"
+    Type="bordered" Size="md" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="primary"
+    Type="bordered" Size="sm" />
+</div>
+<br>
+<div style="display: flex; gap: 10px; align-items: center; justify-content: center;">
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="primary"
+    Type="outlined" Size="lg" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="left" Color="primary" Type="outlined"
+    Size="lg" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="double" Color="primary"
+    Type="outlined" Size="lg" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="primary"
+    Type="outlined" Size="md" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="left" Color="primary" Type="outlined"
+    Size="md" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="double" Color="primary"
+    Type="outlined" Size="md" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="primary"
+    Type="outlined" Size="sm" />
+</div>
+<br>
+<div style="display: flex; gap: 10px; align-items: center; justify-content: center;">
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="secondary" Type="default"
+    Size="lg" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="left" Color="secondary" Type="default"
+    Size="lg" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="double" Color="secondary"
+    Type="default" Size="lg" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="secondary" Type="default"
+    Size="md" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="left" Color="secondary" Type="default"
+    Size="md" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="double" Color="secondary"
+    Type="default" Size="md" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="secondary" Type="default"
+    Size="sm" />
+</div>
+<br>
+<div style="display: flex; gap: 10px; align-items: center; justify-content: center;">
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="secondary"
+    Type="bordered" Size="lg" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="left" Color="secondary" Type="bordered"
+    Size="lg" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="double" Color="secondary"
+    Type="bordered" Size="lg" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="secondary"
+    Type="bordered" Size="md" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="left" Color="secondary" Type="bordered"
+    Size="md" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="double" Color="secondary"
+    Type="bordered" Size="md" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="secondary"
+    Type="bordered" Size="sm" />
+</div>
+<br>
+<div style="display: flex; gap: 10px; align-items: center; justify-content: center;">
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="secondary"
+    Type="outlined" Size="lg" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="left" Color="secondary" Type="outlined"
+    Size="lg" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="double" Color="secondary"
+    Type="outlined" Size="lg" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="secondary"
+    Type="outlined" Size="md" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="left" Color="secondary" Type="outlined"
+    Size="md" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="double" Color="secondary"
+    Type="outlined" Size="md" />
+  <slf-ui-button Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="secondary"
+    Type="outlined" Size="sm" />
+</div>
+<div style="display: flex; gap: 10px; align-items: center; justify-content: center;">
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="secondary" Type="default"
+    Size="lg" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="left" Color="secondary" Type="default"
+    Size="lg" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="double" Color="secondary"
+    Type="default" Size="lg" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="secondary" Type="default"
+    Size="md" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="left" Color="secondary" Type="default"
+    Size="md" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="double" Color="secondary"
+    Type="default" Size="md" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="secondary" Type="default"
+    Size="sm" />
+</div>
+<br>
+<div style="display: flex; gap: 10px; align-items: center; justify-content: center;">
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="secondary"
+    Type="bordered" Size="lg" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="left" Color="secondary" Type="bordered"
+    Size="lg" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="double" Color="secondary"
+    Type="bordered" Size="lg" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="secondary"
+    Type="bordered" Size="md" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="left" Color="secondary" Type="bordered"
+    Size="md" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="double" Color="secondary"
+    Type="bordered" Size="md" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="secondary"
+    Type="bordered" Size="sm" />
+</div>
+<br>
+<div style="display: flex; gap: 10px; align-items: center; justify-content: center;">
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="secondary"
+    Type="outlined" Size="lg" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="left" Color="secondary" Type="outlined"
+    Size="lg" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="double" Color="secondary"
+    Type="outlined" Size="lg" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="secondary"
+    Type="outlined" Size="md" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="left" Color="secondary" Type="outlined"
+    Size="md" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="double" Color="secondary"
+    Type="outlined" Size="md" />
+  <slf-ui-button [IsDisabled]="true" Text="Button" IconCategory="general" IconName="edit-02" IconType="right" Color="secondary"
+    Type="outlined" Size="sm" />
+</div>
+
+<div style="display: flex; gap: 10px; align-items: center; justify-content: center;">
+  <slf-ui-avatar [Bordered]="true" Size="xs"
+    Src="https://media.licdn.com/dms/image/v2/D4E03AQHw16Nq1EwoTQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1714014664280?e=1747872000&v=beta&t=DzfFILd9PQHn6W7HRqnl1a1pLY-az5Ql1hmqQvpK1b0" />
+  <slf-ui-avatar [Bordered]="true" Size="sm"
+    Src="https://media.licdn.com/dms/image/v2/D4E03AQHw16Nq1EwoTQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1714014664280?e=1747872000&v=beta&t=DzfFILd9PQHn6W7HRqnl1a1pLY-az5Ql1hmqQvpK1b0" />
+  <slf-ui-avatar [Bordered]="true" Size="md"
+    Src="https://media.licdn.com/dms/image/v2/D4E03AQHw16Nq1EwoTQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1714014664280?e=1747872000&v=beta&t=DzfFILd9PQHn6W7HRqnl1a1pLY-az5Ql1hmqQvpK1b0" />
+  <slf-ui-avatar [Bordered]="true" Size="lg"
+    Src="https://media.licdn.com/dms/image/v2/D4E03AQHw16Nq1EwoTQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1714014664280?e=1747872000&v=beta&t=DzfFILd9PQHn6W7HRqnl1a1pLY-az5Ql1hmqQvpK1b0" />
+  <slf-ui-avatar [Bordered]="true" Size="xl"
+    Src="https://media.licdn.com/dms/image/v2/D4E03AQHw16Nq1EwoTQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1714014664280?e=1747872000&v=beta&t=DzfFILd9PQHn6W7HRqnl1a1pLY-az5Ql1hmqQvpK1b0" />
+  <slf-ui-avatar [Bordered]="true" Size="xxl"
+    Src="https://media.licdn.com/dms/image/v2/D4E03AQHw16Nq1EwoTQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1714014664280?e=1747872000&v=beta&t=DzfFILd9PQHn6W7HRqnl1a1pLY-az5Ql1hmqQvpK1b0" />
+</div>
+<br>
+<div style="display: flex; gap: 10px; align-items: center; justify-content: center;">
+  <slf-ui-avatar [Bordered]="true" Size="xs" IconCategory="users" IconName="user-02" />
+  <slf-ui-avatar [Bordered]="true" Size="sm" IconCategory="users" IconName="user-02" />
+  <slf-ui-avatar [Bordered]="true" Size="md" IconCategory="users" IconName="user-02" />
+  <slf-ui-avatar [Bordered]="true" Size="lg" IconCategory="users" IconName="user-02" />
+  <slf-ui-avatar [Bordered]="true" Size="xl" IconCategory="users" IconName="user-02" />
+  <slf-ui-avatar [Bordered]="true" Size="xxl" IconCategory="users" IconName="user-02" />
+</div>
+<br>
+<div style="display: flex; gap: 10px; align-items: center; justify-content: center;">
+  <slf-ui-avatar [Bordered]="true" Size="xs" Text="NC" />
+  <slf-ui-avatar [Bordered]="true" Size="sm" Text="NC" />
+  <slf-ui-avatar [Bordered]="true" Size="md" Text="NC" />
+  <slf-ui-avatar [Bordered]="true" Size="lg" Text="NC" />
+  <slf-ui-avatar [Bordered]="true" Size="xl" Text="NC" />
+  <slf-ui-avatar [Bordered]="true" Size="xxl" Text="NC" />
+</div>
+<br>
+<div style="display: flex; gap: 10px; align-items: center; justify-content: center;">
+  <slf-ui-avatar Size="xs"
+    Src="https://media.licdn.com/dms/image/v2/D4E03AQHw16Nq1EwoTQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1714014664280?e=1747872000&v=beta&t=DzfFILd9PQHn6W7HRqnl1a1pLY-az5Ql1hmqQvpK1b0" />
+  <slf-ui-avatar Size="sm"
+    Src="https://media.licdn.com/dms/image/v2/D4E03AQHw16Nq1EwoTQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1714014664280?e=1747872000&v=beta&t=DzfFILd9PQHn6W7HRqnl1a1pLY-az5Ql1hmqQvpK1b0" />
+  <slf-ui-avatar Size="md"
+    Src="https://media.licdn.com/dms/image/v2/D4E03AQHw16Nq1EwoTQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1714014664280?e=1747872000&v=beta&t=DzfFILd9PQHn6W7HRqnl1a1pLY-az5Ql1hmqQvpK1b0" />
+  <slf-ui-avatar Size="lg"
+    Src="https://media.licdn.com/dms/image/v2/D4E03AQHw16Nq1EwoTQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1714014664280?e=1747872000&v=beta&t=DzfFILd9PQHn6W7HRqnl1a1pLY-az5Ql1hmqQvpK1b0" />
+  <slf-ui-avatar Size="xl"
+    Src="https://media.licdn.com/dms/image/v2/D4E03AQHw16Nq1EwoTQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1714014664280?e=1747872000&v=beta&t=DzfFILd9PQHn6W7HRqnl1a1pLY-az5Ql1hmqQvpK1b0" />
+  <slf-ui-avatar Size="xxl"
+    Src="https://media.licdn.com/dms/image/v2/D4E03AQHw16Nq1EwoTQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1714014664280?e=1747872000&v=beta&t=DzfFILd9PQHn6W7HRqnl1a1pLY-az5Ql1hmqQvpK1b0" />
+</div>
+<br>
+<div style="display: flex; gap: 10px; align-items: center; justify-content: center;">
+  <slf-ui-avatar Size="xs" IconCategory="users" IconName="user-02" />
+  <slf-ui-avatar Size="sm" IconCategory="users" IconName="user-02" />
+  <slf-ui-avatar Size="md" IconCategory="users" IconName="user-02" />
+  <slf-ui-avatar Size="lg" IconCategory="users" IconName="user-02" />
+  <slf-ui-avatar Size="xl" IconCategory="users" IconName="user-02" />
+  <slf-ui-avatar Size="xxl" IconCategory="users" IconName="user-02" />
+</div>
+<br>
+<div style="display: flex; gap: 10px; align-items: center; justify-content: center;">
+  <slf-ui-avatar Size="xs" Text="NC" BackgroundColor="secondary" />
+  <slf-ui-avatar Size="sm" Text="NC" BackgroundColor="secondary" />
+  <slf-ui-avatar Size="md" Text="NC" BackgroundColor="secondary" />
+  <slf-ui-avatar Size="lg" Text="NC" BackgroundColor="secondary" />
+  <slf-ui-avatar Size="xl" Text="NC" BackgroundColor="secondary" />
+  <slf-ui-avatar Size="xxl" Text="NC" BackgroundColor="secondary" />
+</div>

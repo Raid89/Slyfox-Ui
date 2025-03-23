@@ -22,6 +22,28 @@
   --secondary-color-700: #1E1E1E;
   --secondary-color-800: #171717;
 
+  --error-color-50:  #FFE7E7;
+  --error-color-75:  #FFDCDC;
+  --error-color-100: #FFB6B6;
+  --error-color-200: #FF1313;
+  --error-color-300: #E61111;
+  --error-color-400: #CC0F0F;
+  --error-color-500: #BF0E0E;
+  --error-color-600: #990B0B;
+  --error-color-700: #731929;
+  --error-color-800: #591420;
+
+  --success-color-50:  #EBFBF3;
+  --success-color-75:  #E0F9EC;
+  --success-color-100: #BFF2D9;
+  --success-color-200: #32D583;
+  --success-color-300: #2DC076;
+  --success-color-400: #28AA69;
+  --success-color-500: #26A062;
+  --success-color-600: #1E804F;
+  --success-color-700: #16603B;
+  --success-color-800: #124B2E;
+
   --border-color-50:  #F3F4F5;
   --border-color-75:  #CDD1D6;
   --border-color-100: #B9BFC6;
@@ -47,7 +69,7 @@
   --text-color-500: #121419;
 
   /* VARIABLES DE COLORES PARA BOTONES */
-  --button-font-color-primary: var(--text-color-50);
+  --button-font-color-primary: #FFF;
   --button-bg-primary-disabled: var(--primary-color-100);
   --button-bg-primary-active: var(--primary-color-200);
   --button-bg-primary-hover: var(--primary-color-300);

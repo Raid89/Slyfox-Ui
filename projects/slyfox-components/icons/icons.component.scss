@@ -12,3 +12,7 @@ svg {
 .icon-filled {
   fill: currentColor;
 }
+
+:root {
+  --stroke-width-icon: 2px;
+}

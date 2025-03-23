@@ -1,0 +1,13 @@
+<div class="slf-avatar" [ngStyle]="Styles()" [ngClass]="avatarClass()">
+  @if (Src()) {
+    <img [src]="Src()" [alt]="Alt()" />
+  }
+
+  @if(!Src() && IconName()) {
+    <slf-ui-icon [weight]="1.5" [category]="IconCategory()" [name]="IconName()" [size]="setIconSize()" />
+  }
+
+  @if (!Src() && !IconName() && Text()) {
+    <span>{{ Text() }}</span>
+  }
+</div>

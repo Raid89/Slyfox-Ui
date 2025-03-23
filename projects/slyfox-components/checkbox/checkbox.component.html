@@ -1,0 +1,7 @@
+<input type="checkbox" [id]="Id()" [formControl]="FormControl()" class="origin-checkbox" />
+<label [for]="Id()" class="slf-checkbox" [ngClass]="CheckboxClass()">
+  @if(Type() === 'squareCheck' || Type() === 'circleCheck') { <slf-ui-icon category="general" name="check" [size]="15" [weight]="4" /> }
+  @if(Type() === 'squareSymbol') { <slf-ui-icon category="general" name="minus" [size]="15" [weight]="4" /> }
+  @if(Type() === 'circleSymbol') { <div class="checkbox-cicle"></div> }
+
+</label>

@@ -1,0 +1,117 @@
+<div class="doc-page">
+  <section class="doc-section">
+    <header class="section-header">
+      <h2>Button</h2>
+      <p>A versatile button component with different styles and variants.</p>
+    </header>
+
+    <div class="doc-showcase">
+      <div class="doc-demo">
+        <h3>Basic Usage</h3>
+        <div class="demo-row basic">
+          <slf-ui-button Text="Primary Button" />
+          <slf-ui-button Text="Disable Button" [IsDisabled]="true" />
+          <slf-ui-button Text="Loading..." [IsLoading]="true" />
+
+          <slf-ui-button Color="secondary" Text="Secondary Button" />
+          <slf-ui-button Color="secondary" Text="Disable Button" [IsDisabled]="true" />
+          <slf-ui-button Color="secondary" Text="Loading..." [IsLoading]="true" />
+        </div>
+
+        <!-- Código de ejemplo para Basic Usage -->
+        <div class="code-example">
+          <pre><code class="language-html">
+&lt;slf-ui-button Text="Primary Button" /&gt;
+&lt;slf-ui-button Text="Default Button" [IsDisabled]="true" /&gt;
+&lt;slf-ui-button Text="Loading..." [IsLoading]="true" /&gt;
+
+&lt;slf-ui-button Color="secondary" Text="Secondary Button" /&gt;
+&lt;slf-ui-button Color="secondary" Text="Secondary Button" [IsDisabled]="true" /&gt;
+&lt;slf-ui-button Color="secondary" Text="Loading..." [IsLoading]="true" /&gt;
+          </code></pre>
+        </div>
+
+        <h3>Button Types</h3>
+        <div class="demo-row types">
+          <slf-ui-button Type="default" Text="Default" />
+          <slf-ui-button Type="bordered" Text="Bordered" />
+          <slf-ui-button Type="outlined" Text="Outlined"/>
+
+          <slf-ui-button Color="secondary" Type="default" Text="Default"/>
+          <slf-ui-button Color="secondary" Type="bordered" Text="Bordered"/>
+          <slf-ui-button Color="secondary" Type="outlined" Text="Outlined"/>
+        </div>
+
+        <!-- Código de ejemplo para Square Symbol -->
+        <div class="code-example">
+          <pre><code class="language-html">
+&lt;slf-ui-button Type="default" Text="Default" /&gt;
+&lt;slf-ui-button Type="bordered" Text="Bordered" /&gt;
+&lt;slf-ui-button Type="outlined" Text="Outlined" /&gt;
+
+&lt;slf-ui-button Color="secondary" Type="default" Text="Default" /&gt;
+&lt;slf-ui-button Color="secondary" Type="bordered" Text="Bordered" /&gt;
+&lt;slf-ui-button Color="secondary" Type="outlined" Text="Outlined" /&gt;
+          </code></pre>
+        </div>
+
+        <h3>Icon Button</h3>
+        <div class="demo-row icons">
+          <slf-ui-button Text="Button" IconType="left" IconCategory="general" IconName="edit-02" />
+          <slf-ui-button Text="Button" IconType="right" IconCategory="general" IconName="edit-02" />
+          <slf-ui-button Text="Button" IconType="double" IconCategory="general" IconName="edit-02" />
+          <slf-ui-button Text="Button sm" Size="sm" IconType="left" IconCategory="general" IconName="edit-02" />
+
+          <slf-ui-button Color="secondary" Text="Button" IconType="left" IconCategory="general" IconName="edit-02" />
+          <slf-ui-button Color="secondary" Text="Button" IconType="right" IconCategory="general" IconName="edit-02" />
+          <slf-ui-button Color="secondary" Text="Button" IconType="double" IconCategory="general" IconName="edit-02" />
+          <slf-ui-button Color="secondary" Text="Button sm" Size="sm" IconType="left" IconCategory="general" IconName="edit-02" />
+
+
+        </div>
+
+        <!-- Código de ejemplo para Circle Variants -->
+        <div class="code-example">
+          <pre><code class="language-html">
+&lt;slf-ui-button Text="Button lg" Size="lg" /&gt;
+&lt;slf-ui-button Text="Button md" Size="md" /&gt;
+&lt;slf-ui-button Text="Button sm" Size="sm" IconType="left" IconCategory="general" IconName="edit-02" /&gt;
+
+&lt;slf-ui-button Color="secondary" Text="Button lg" Size="lg" /&gt;
+&lt;slf-ui-button Color="secondary" Text="Button md" Size="md" /&gt;
+&lt;slf-ui-button Color="secondary" Text="Button sm" Size="sm" IconType="left" IconCategory="general" IconName="edit-02" /&gt;
+          </code></pre>
+        </div>
+
+        <h3>Button Sizes`</h3>
+        <div class="demo-row types">
+          <slf-ui-button Text="Button lg" Size="lg" />
+          <slf-ui-button Text="Button md" Size="md" />
+          <slf-ui-button Text="Button sm" Size="sm" IconType="left" IconCategory="general" IconName="edit-02" />
+
+          <slf-ui-button Color="secondary" Text="Button lg" Size="lg" />
+          <slf-ui-button Color="secondary" Text="Button md" Size="md" />
+          <slf-ui-button Color="secondary" Text="Button sm" Size="sm" IconType="left" IconCategory="general" IconName="edit-02" />
+        </div>
+
+        <!-- Código de ejemplo para Circle Variants -->
+        <div class="code-example">
+          <pre><code class="language-html">
+&lt;slf-ui-button Text="Button lg" Size="lg" /&gt;
+&lt;slf-ui-button Text="Button md" Size="md" /&gt;
+&lt;slf-ui-button Text="Button sm" Size="sm" IconType="left" IconCategory="general" IconName="edit-02" /&gt;
+
+&lt;slf-ui-button Color="secondary" Text="Button lg" Size="lg" /&gt;
+&lt;slf-ui-button Color="secondary" Text="Button md" Size="md" /&gt;
+&lt;slf-ui-button Color="secondary" Text="Button sm" Size="sm" IconType="left" IconCategory="general" IconName="edit-02" /&gt;
+          </code></pre>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+   <!-- Tabla de propiedades -->
+   <table-properties-name [Properties]="buttonProperties" [ComponentName]="'Button'"></table-properties-name>
+</div>

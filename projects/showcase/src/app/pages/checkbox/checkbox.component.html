@@ -1,0 +1,60 @@
+<div class="doc-page">
+  <section class="doc-section">
+    <header class="section-header">
+      <h2>Checkbox</h2>
+      <p>A checkbox component that allows users to select multiple options.</p>
+    </header>
+
+    <div class="doc-showcase">
+      <div class="doc-demo">
+        <h3>Basic Usage</h3>
+        <div class="demo-row">
+          <slf-ui-checkbox [Id]="'unchecked'" [FormControl]="formControl('disable')"></slf-ui-checkbox>
+          <slf-ui-checkbox [Id]="'unchecked'" [FormControl]="formControl('unchecked')"></slf-ui-checkbox>
+          <slf-ui-checkbox [Id]="'checked'" [FormControl]="formControl('checked')"></slf-ui-checkbox>
+        </div>
+
+        <!-- Código de ejemplo para Basic Usage -->
+        <div class="code-example">
+          <pre><code class="language-html">
+&lt;slf-ui-checkbox [Id]="'unchecked'" [FormControl]="formControl('disable')"&gt;&lt;/slf-ui-checkbox&gt;
+&lt;slf-ui-checkbox [Id]="'unchecked'" [FormControl]="formControl('unchecked')"&gt;&lt;/slf-ui-checkbox&gt;
+&lt;slf-ui-checkbox [Id]="'checked'" [FormControl]="formControl('checked')"&gt;&lt;/slf-ui-checkbox&gt;
+          </code></pre>
+        </div>
+
+        <h3>Square Symbol</h3>
+        <div class="demo-row">
+          <slf-ui-checkbox Type="squareSymbol" [Id]="'checked'" [FormControl]="formControl('disable')"></slf-ui-checkbox>
+          <slf-ui-checkbox Type="squareSymbol" [Id]="'symbolchecked'" [FormControl]="formControl('checked')"></slf-ui-checkbox>
+        </div>
+
+        <!-- Código de ejemplo para Square Symbol -->
+        <div class="code-example">
+          <pre><code class="language-html">
+&lt;slf-ui-checkbox Type="squareSymbol" [Id]="'checked'" [FormControl]="formControl('disable')"&gt;&lt;/slf-ui-checkbox&gt;
+&lt;slf-ui-checkbox Type="squareSymbol" [Id]="'symbolchecked'" [FormControl]="formControl('checked')"&gt;&lt;/slf-ui-checkbox&gt;
+          </code></pre>
+        </div>
+
+        <h3>Circle Variants</h3>
+        <div class="demo-row">
+          <slf-ui-checkbox [Id]="'circleunchecked'" Type="circleCheck" [FormControl]="formControl('disable')"></slf-ui-checkbox>
+          <slf-ui-checkbox [Id]="'circleunchecked'" Type="circleCheck" [FormControl]="formControl('circleUnchecked')"></slf-ui-checkbox>
+          <slf-ui-checkbox [Id]="'circlechecked'" Type="circleCheck" [FormControl]="formControl('circleChecked')"></slf-ui-checkbox>
+        </div>
+
+        <!-- Código de ejemplo para Circle Variants -->
+        <div class="code-example">
+          <pre><code class="language-html">
+&lt;slf-ui-checkbox [Id]="'circleunchecked'" Type="circleCheck" [FormControl]="formControl('disable')"&gt;&lt;/slf-ui-checkbox&gt;
+&lt;slf-ui-checkbox [Id]="'circleunchecked'" Type="circleCheck" [FormControl]="formControl('circleUnchecked')"&gt;&lt;/slf-ui-checkbox&gt;
+&lt;slf-ui-checkbox [Id]="'circlechecked'" Type="circleCheck" [FormControl]="formControl('circleChecked')"&gt;&lt;/slf-ui-checkbox&gt;
+          </code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <table-properties-name [Properties]="checkboxProperties" [ComponentName]="'Checkbox'"></table-properties-name>
+</div>

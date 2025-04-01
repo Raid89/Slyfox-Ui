@@ -1,6 +1,6 @@
 <button class="slf-button" [ngClass]="buttonStyles()" [disabled]="IsDisabled()">
   @if (IconType() === 'left' || IconType() === 'double') {
-    <slf-ui-icon [category]="IconCategory()" [name]="IconName()" [size]="20" />
+    <slf-ui-icon [category]="IconCategory()" [name]="IconName()" [size]="20" [weight]="1.5"/>
   }
 
   @if (Size() !== 'sm') {
@@ -8,6 +8,6 @@
   }
 
   @if (IconType() === 'right' || IconType() === 'double') {
-    <slf-ui-icon [category]="IconCategory()" [name]="IconName()" [size]="20" />
+    <slf-ui-icon [category]="IconCategory()" [name]="IconName()" [size]="20" [weight]="1.5" />
   }
 </button>

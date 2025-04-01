@@ -1,0 +1,29 @@
+<section class="doc-section">
+  <header class="section-header">
+    <h2>Propiedades del Componente</h2>
+    <p>Lista completa de propiedades disponibles para el componente {{ComponentName()}}</p>
+  </header>
+
+  <div class="properties-table-container">
+    <table class="properties-table">
+      <thead>
+        <tr>
+          <th>Propiedad</th>
+          <th>Descripción</th>
+          <th>Tipo</th>
+          <th>Valores</th>
+          <th>Por defecto</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let prop of Properties()">
+          <td><code>{{prop.property}}</code></td>
+          <td>{{prop.description}}</td>
+          <td><code>{{prop.type}}</code></td>
+          <td>{{prop.values}}</td>
+          <td>{{prop.default}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>

@@ -1,0 +1,147 @@
+<div class="doc-page">
+  <section class="doc-section">
+    <header class="section-header">
+      <h2>Button</h2>
+      <p>A versatile button component with different styles and variants.</p>
+    </header>
+
+    <div class="doc-showcase">
+
+      <div class="doc-demo">
+       <ng-container>
+        <h3>Avatar Sizes</h3>
+        <div class="demo-row basic">
+          <slf-ui-avatar [Src]="imageExample" Size="xs"></slf-ui-avatar>
+          <slf-ui-avatar [Src]="imageExample" Size="sm"></slf-ui-avatar>
+          <slf-ui-avatar [Src]="imageExample" Size="md"></slf-ui-avatar>
+          <slf-ui-avatar [Src]="imageExample" Size="lg"></slf-ui-avatar>
+          <slf-ui-avatar [Src]="imageExample" Size="xl"></slf-ui-avatar>
+          <slf-ui-avatar [Src]="imageExample" Size="xxl"></slf-ui-avatar>
+        </div>
+
+        <!-- Código de ejemplo para Basic Usage -->
+        <div class="code-example">
+          <pre><code class="language-html">
+&lt;slf-ui-avatar [Src]="imageExample" Size="xs"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar [Src]="imageExample" Size="sm"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar [Src]="imageExample" Size="md"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar [Src]="imageExample" Size="lg"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar [Src]="imageExample" Size="xl"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar [Src]="imageExample" Size="xxl"&gt;&lt;/slf-ui-avatar&gt;
+          </code></pre>
+        </div>
+       </ng-container>
+
+
+      <ng-container>
+        <h3>Avatar Bordered</h3>
+        <div class="demo-row basic">
+          <slf-ui-avatar [Src]="imageExample" Size="xs" [Bordered]="true"></slf-ui-avatar>
+          <slf-ui-avatar [Src]="imageExample" Size="sm" [Bordered]="true"></slf-ui-avatar>
+          <slf-ui-avatar [Src]="imageExample" Size="md" [Bordered]="true"></slf-ui-avatar>
+          <slf-ui-avatar [Src]="imageExample" Size="lg" [Bordered]="true"></slf-ui-avatar>
+          <slf-ui-avatar [Src]="imageExample" Size="xl" [Bordered]="true"></slf-ui-avatar>
+          <slf-ui-avatar [Src]="imageExample" Size="xxl"[Bordered]="true"></slf-ui-avatar>
+
+          <slf-ui-avatar [Src]="imageExample" Size="xs" [Bordered]="true" BorderColor="secondary"></slf-ui-avatar>
+          <slf-ui-avatar [Src]="imageExample" Size="sm" [Bordered]="true" BorderColor="secondary"></slf-ui-avatar>
+          <slf-ui-avatar [Src]="imageExample" Size="md" [Bordered]="true" BorderColor="secondary"></slf-ui-avatar>
+          <slf-ui-avatar [Src]="imageExample" Size="lg" [Bordered]="true" BorderColor="secondary"></slf-ui-avatar>
+          <slf-ui-avatar [Src]="imageExample" Size="xl" [Bordered]="true" BorderColor="secondary"></slf-ui-avatar>
+          <slf-ui-avatar [Src]="imageExample" Size="xxl"[Bordered]="true" BorderColor="secondary"></slf-ui-avatar>
+        </div>
+
+        <!-- Código de ejemplo para Basic Usage -->
+        <div class="code-example">
+          <pre><code class="language-html">
+&lt;slf-ui-avatar [Src]="imageExample" Size="xs" [Bordered]="true"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar [Src]="imageExample" Size="sm" [Bordered]="true"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar [Src]="imageExample" Size="md" [Bordered]="true"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar [Src]="imageExample" Size="lg" [Bordered]="true"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar [Src]="imageExample" Size="xl" [Bordered]="true"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar [Src]="imageExample" Size="xxl" [Bordered]="true"&gt;&lt;/slf-ui-avatar&gt;
+
+&lt;slf-ui-avatar [Src]="imageExample" Size="xs" [Bordered]="true" BorderColor="secondary"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar [Src]="imageExample" Size="sm" [Bordered]="true" BorderColor="secondary"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar [Src]="imageExample" Size="md" [Bordered]="true" BorderColor="secondary"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar [Src]="imageExample" Size="lg" [Bordered]="true" BorderColor="secondary"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar [Src]="imageExample" Size="xl" [Bordered]="true" BorderColor="secondary"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar [Src]="imageExample" Size="xxl" [Bordered]="true" BorderColor="secondary"&gt;&lt;/slf-ui-avatar&gt;
+          </code></pre>
+        </div>
+       </ng-container>
+
+      <ng-container>
+        <h3>Avatar Types</h3>
+        <div class="demo-row basic">
+          <slf-ui-avatar Text="NC" Size="xs"></slf-ui-avatar>
+          <slf-ui-avatar Text="NC" Size="sm"></slf-ui-avatar>
+          <slf-ui-avatar Text="NC" Size="md"></slf-ui-avatar>
+          <slf-ui-avatar Text="NC" Size="lg"></slf-ui-avatar>
+          <slf-ui-avatar Text="NC" Size="xl"></slf-ui-avatar>
+          <slf-ui-avatar Text="NC" Size="xxl"></slf-ui-avatar>
+
+          <slf-ui-avatar IconCategory="users" IconName="user-03" Size="xs"></slf-ui-avatar>
+          <slf-ui-avatar IconCategory="users" IconName="user-03" Size="sm"></slf-ui-avatar>
+          <slf-ui-avatar IconCategory="users" IconName="user-03" Size="md"></slf-ui-avatar>
+          <slf-ui-avatar IconCategory="users" IconName="user-03" Size="lg"></slf-ui-avatar>
+          <slf-ui-avatar IconCategory="users" IconName="user-03" Size="xl"></slf-ui-avatar>
+          <slf-ui-avatar IconCategory="users" IconName="user-03" Size="xxl"></slf-ui-avatar>
+
+          <slf-ui-avatar Text="NC" Size="xs" BackgroundColor="secondary"></slf-ui-avatar>
+          <slf-ui-avatar Text="NC" Size="sm" BackgroundColor="secondary"></slf-ui-avatar>
+          <slf-ui-avatar Text="NC" Size="md" BackgroundColor="secondary"></slf-ui-avatar>
+          <slf-ui-avatar Text="NC" Size="lg" BackgroundColor="secondary"></slf-ui-avatar>
+          <slf-ui-avatar Text="NC" Size="xl" BackgroundColor="secondary"></slf-ui-avatar>
+          <slf-ui-avatar Text="NC" Size="xxl" BackgroundColor="secondary"></slf-ui-avatar>
+
+          <slf-ui-avatar IconCategory="users" IconName="user-03" Size="xs" BackgroundColor="secondary"></slf-ui-avatar>
+          <slf-ui-avatar IconCategory="users" IconName="user-03" Size="sm" BackgroundColor="secondary"></slf-ui-avatar>
+          <slf-ui-avatar IconCategory="users" IconName="user-03" Size="md" BackgroundColor="secondary"></slf-ui-avatar>
+          <slf-ui-avatar IconCategory="users" IconName="user-03" Size="lg" BackgroundColor="secondary"></slf-ui-avatar>
+          <slf-ui-avatar IconCategory="users" IconName="user-03" Size="xl" BackgroundColor="secondary"></slf-ui-avatar>
+          <slf-ui-avatar IconCategory="users" IconName="user-03" Size="xxl" BackgroundColor="secondary"></slf-ui-avatar>
+        </div>
+
+        <!-- Código de ejemplo para Basic Usage -->
+        <div class="code-example">
+          <pre><code class="language-html">
+&lt;slf-ui-avatar Text="NC" Size="xs"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar Text="NC" Size="sm"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar Text="NC" Size="md"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar Text="NC" Size="lg"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar Text="NC" Size="xl"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar Text="NC" Size="xxl"&gt;&lt;/slf-ui-avatar&gt;
+
+&lt;slf-ui-avatar IconCategory="users" IconName="user-03" Size="xs"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar IconCategory="users" IconName="user-03" Size="sm"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar IconCategory="users" IconName="user-03" Size="md"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar IconCategory="users" IconName="user-03" Size="lg"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar IconCategory="users" IconName="user-03" Size="xl"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar IconCategory="users" IconName="user-03" Size="xxl"&gt;&lt;/slf-ui-avatar&gt;
+
+&lt;slf-ui-avatar Text="NC" Size="xs" BackgroundColor="secondary"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar Text="NC" Size="sm" BackgroundColor="secondary"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar Text="NC" Size="md" BackgroundColor="secondary"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar Text="NC" Size="lg" BackgroundColor="secondary"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar Text="NC" Size="xl" BackgroundColor="secondary"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar Text="NC" Size="xxl" BackgroundColor="secondary"&gt;&lt;/slf-ui-avatar&gt;
+
+&lt;slf-ui-avatar IconCategory="users" IconName="user-03" Size="xs" BackgroundColor="secondary"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar IconCategory="users" IconName="user-03" Size="sm" BackgroundColor="secondary"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar IconCategory="users" IconName="user-03" Size="md" BackgroundColor="secondary"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar IconCategory="users" IconName="user-03" Size="lg" BackgroundColor="secondary"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar IconCategory="users" IconName="user-03" Size="xl" BackgroundColor="secondary"&gt;&lt;/slf-ui-avatar&gt;
+&lt;slf-ui-avatar IconCategory="users" IconName="user-03" Size="xxl" BackgroundColor="secondary"&gt;&lt;/slf-ui-avatar&gt;
+
+
+          </code></pre>
+        </div>
+       </ng-container>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tabla de propiedades -->
+  <table-properties-name [Properties]="avatarProperties" [ComponentName]="'Avatar'"></table-properties-name>
+</div>

@@ -1,0 +1,183 @@
+// Importar fuentes
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+// Variables
+:root {
+  --doc-primary: #f32121;
+  --doc-secondary: #607d8b;
+  --doc-text: #495057;
+  --doc-bg: #ffffff;
+  --doc-border: #e9ecef;
+  --doc-sidebar-bg: #f8f9fa;
+  --doc-radius: 8px;
+  --doc-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+// Reset y estilos base
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--doc-text);
+  background: var(--doc-bg);
+  line-height: 1.5;
+}
+
+// Layout principal
+.documentation-layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  min-height: 100vh;
+}
+
+// Sidebar
+.sidebar {
+  background: #FFF;
+  padding: 2rem 1.5rem;
+  border-right: 1px solid var(--doc-border);
+  position: fixed;
+  height: 100vh;
+  width: 280px;
+  overflow-y: auto;
+
+  .logo {
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--doc-border);
+
+    h1 {
+      font-size: 1.75rem;
+      color: var(--doc-primary);
+      margin: 0;
+      font-weight: 600;
+    }
+
+    .version {
+      font-size: 0.875rem;
+      color: var(--doc-secondary);
+      margin-top: 0.25rem;
+    }
+  }
+
+  .nav-group {
+    margin-bottom: 2rem;
+
+    h3 {
+      font-size: 0.875rem;
+      text-transform: uppercase;
+      color: var(--doc-secondary);
+      margin-bottom: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    a {
+      display: block;
+      padding: 0.625rem 1rem;
+      color: var(--doc-text);
+      text-decoration: none;
+      font-size: 0.9375rem;
+      border-radius: var(--doc-radius);
+      transition: all 0.2s ease;
+      margin-bottom: 0.25rem;
+
+      &:hover {
+        color: var(--doc-primary);
+        background: rgba(243, 33, 33, 0.08);
+      }
+
+      &.active {
+        color: var(--doc-primary);
+        background: rgba(243, 33, 33, 0.12);
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+// Contenido principal
+.content {
+  width: 100vh;
+  padding: 2rem 3rem;
+  margin-left: 280px;
+  background: #fafafa;
+}
+
+// Página de documentación
+.doc-page {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+// Secciones
+.doc-section {
+  background: white;
+  border-radius: var(--doc-radius);
+  box-shadow: var(--doc-shadow);
+  margin-bottom: 2rem;
+  overflow: hidden;
+
+  .section-header {
+    padding: 2rem;
+    border-bottom: 1px solid var(--doc-border);
+
+    h2 {
+      font-size: 1.5rem;
+      color: var(--doc-text);
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      color: var(--doc-secondary);
+      font-size: 1rem;
+    }
+  }
+
+  .doc-showcase {
+    .doc-demo {
+      padding: 2rem;
+
+      h3 {
+        font-size: 1.125rem;
+        color: var(--doc-text);
+        margin-bottom: 1rem;
+        font-weight: 500;
+      }
+
+      .demo-row {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        margin-bottom: 2rem;
+        padding: 1.5rem;
+        background: #f8f9fa;
+        border-radius: var(--doc-radius);
+        border: 1px solid var(--doc-border);
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+// Responsive
+@media (max-width: 1024px) {
+  .documentation-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .content {
+    margin-left: 0;
+    padding: 1rem;
+  }
+}

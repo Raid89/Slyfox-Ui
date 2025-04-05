@@ -2,29 +2,23 @@
   <label for="{{Id()}}" [ngStyle]="LabelStyles()">{{Label()}}</label>
 }
 
-<div class="slf-input-container" [ngClass]="ClassList()">
-  @if (iconPosition() === 'left' || iconPosition() === 'double') {
-    <div class="slf-input__icon slf-input__icon--left">
-      <ng-content select="[iconLeft]"></ng-content>
-    </div>
-  }
 
-  <input
+  <textarea
     [ngClass]="ClassList()"
-    class="slf-input"
+    class="slf-textarea"
     [id]="Id()"
     [name]="Name()"
     [placeholder]="Placeholder()"
     [formControl]="FormControl()"
-    [type]="Type()"
     [readonly]="ReadOnly()"
     [ngStyle]="InputStyles()"
     (change)="handleChange($event)"
     (keyup)="onKeyUp.emit($event)"
     (keydown)="onKeyDown.emit($event)"
     (focus)="onFocus.emit($event)"
-    (blur)="onBlur.emit($event)" />
-</div>
+    (blur)="onBlur.emit($event)">
+  </textarea>
+
 
 @if (Error()) {
   <p class="slf-input__hint input-error" [ngStyle]="{'opacity': Error() ? '1' : '0'}" >{{Error()}}</p>

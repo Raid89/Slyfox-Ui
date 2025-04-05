@@ -4,24 +4,22 @@ import { CommonModule } from '@angular/common';
 
 type IInputIconPosition = 'left' | 'right' | 'double'
 @Component({
-  selector: 'slf-ui-input',
+  selector: 'slf-ui-textarea',
   imports: [CommonModule, ReactiveFormsModule],
-  templateUrl: './input.component.html',
-  styleUrls: ['./input.component.scss']
+  templateUrl: './textarea.component.html',
+  styleUrls: ['./textarea.component.scss']
 })
-export class SlyfoxUiInputComponent {
+export class SlyfoxUiTextareaComponent {
 
   // Inputs
   public Id = input<string>('');
   public Name = input<string>('');
   public Placeholder = input<string>('');
   public FormControl = input.required<FormControl>();
-  public Type = input<string>('text');
   public Label = input<string>('');
   public Hint = input<string>('');
   public Error = input<string | undefined>();
   public ReadOnly = input<boolean>(false);
-  public iconPosition = input<IInputIconPosition>('right');
 
   // Styles
   public LabelStyles = input<object>({});
@@ -39,11 +37,8 @@ export class SlyfoxUiInputComponent {
   //Getters
   public ClassList = computed(() => {
     return {
-      'slf-input--error': this.Error(),
-      'slf-input--icon-left': this.iconPosition() === 'left',
-      'slf-input--icon-right': this.iconPosition() === 'right',
-      'slf-input--icon-double': this.iconPosition() === 'double',
-      'slf-input--readonly': this.ReadOnly(),
+      'slf-textarea--error': this.Error(),
+      'slf-textarea--readonly': this.ReadOnly(),
       'shake': this.isShaking()
     }
   })

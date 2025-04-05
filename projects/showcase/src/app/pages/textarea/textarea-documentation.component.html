@@ -1,0 +1,77 @@
+<div class="doc-page">
+  <section class="doc-section">
+    <header class="section-header">
+      <h2>Textarea</h2>
+      <p>A versatile textarea component with different styles, variants, and features including validation and custom styling.</p>
+    </header>
+
+    <div class="doc-showcase">
+      <!-- Basic Usage -->
+      <div class="doc-demo">
+        <h3>Basic Usage</h3>
+        <div class="demo-row basic">
+          <slf-ui-textarea
+            [Label]="'Basic Textarea'"
+            [Placeholder]="'Enter your text here'"
+            [FormControl]="basicFormControl">
+          </slf-ui-textarea>
+        </div>
+        <div class="code-example">
+          <pre><code class="language-html">{{codeExamples.basic}}</code></pre>
+        </div>
+      </div>
+
+      <!-- With Validation -->
+      <div class="doc-demo">
+        <h3>Textarea with Validation</h3>
+        <div class="demo-row">
+          <slf-ui-textarea
+            [Label]="'Required Textarea'"
+            [Placeholder]="'This field is required'"
+            [FormControl]="validationFormControl"
+            [Error]="validationFormControl.errors?.['required'] && validationFormControl.touched ? 'This field is required' : undefined"
+            [Hint]="'Please enter some text'">
+          </slf-ui-textarea>
+        </div>
+        <div class="code-example">
+          <pre><code class="language-html">{{codeExamples.validation}}</code></pre>
+        </div>
+      </div>
+
+      <!-- Readonly Textarea -->
+      <div class="doc-demo">
+        <h3>Readonly Textarea</h3>
+        <div class="demo-row">
+          <slf-ui-textarea
+            [Label]="'Readonly Textarea'"
+            [FormControl]="readonlyFormControl"
+            [ReadOnly]="true">
+          </slf-ui-textarea>
+        </div>
+        <div class="code-example">
+          <pre><code class="language-html">{{codeExamples.readonly}}</code></pre>
+        </div>
+      </div>
+
+      <!-- Custom Styling -->
+      <div class="doc-demo">
+        <h3>Custom Styling</h3>
+        <div class="demo-row">
+          <slf-ui-textarea
+            [Label]="'Custom Styled Textarea'"
+            [FormControl]="basicFormControl"
+            [LabelStyles]="{'color': 'blue', 'font-weight': 'bold'}"
+            [InputStyles]="{'border-color': 'blue', 'background-color': '#f0f0f0', 'min-height': '100px'}">
+          </slf-ui-textarea>
+        </div>
+        <div class="code-example">
+          <pre><code class="language-html">{{codeExamples.customStyles}}</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Properties Table -->
+  <table-properties-name [Properties]="textareaProperties" [ComponentName]="'Textarea'"></table-properties-name>
+</div>
+

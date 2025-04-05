@@ -21,6 +21,14 @@ export const routes: Routes = [
     path: 'avatar',
     loadComponent: () => import('./pages/avatar/avatar.component').then(m => m.AvatarComponent)
   },
+  {
+    path: 'input',
+    loadComponent: () => import('./pages/input/input-documentation.component').then(m => m.InputDocumentationComponent)
+  },
+  {
+    path: 'textarea',
+    loadComponent: () => import('./pages/textarea/textarea-documentation.component').then(m => m.TextareaDocumentationComponent)
+  },
   // {
   //   path: 'typography',
   //   loadComponent: () => import('./pages/typography/typography.component').then(m => m.TypographyComponent)

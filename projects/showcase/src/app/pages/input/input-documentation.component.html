@@ -1,0 +1,156 @@
+<div class="doc-page">
+  <section class="doc-section">
+    <header class="section-header">
+      <h2>Input</h2>
+      <p>A versatile input component with different styles, variants, and features including icons, validation, and custom styling.</p>
+    </header>
+
+    <div class="doc-showcase">
+      <!-- Basic Usage -->
+      <div class="doc-demo">
+        <h3>Basic Usage</h3>
+        <div class="demo-row basic">
+          <slf-ui-input
+            [Label]="'Basic Input'"
+            [Placeholder]="'Enter text here'"
+            [FormControl]="basicFormControl">
+          </slf-ui-input>
+        </div>
+        <div class="code-example">
+          <pre><code class="language-html">{{codeExamples.basic}}</code></pre>
+        </div>
+      </div>
+
+      <!-- With Icons -->
+      <div class="doc-demo">
+        <h3>Input with Icons</h3>
+        <div class="demo-row">
+          <slf-ui-input
+            [Label]="'Input with Left Icon'"
+            [Placeholder]="'With left icon'"
+            [FormControl]="leftIconFormControl"
+            [iconPosition]="'left'">
+            <slf-ui-icon iconLeft [category]="'general'" [name]="'check-verified-01'" [size]="20"></slf-ui-icon>
+          </slf-ui-input>
+        </div>
+        <div class="demo-row">
+          <slf-ui-input
+            [Label]="'Input with Right Icon'"
+            [Placeholder]="'With right icon'"
+            [FormControl]="rightIconFormControl"
+            [iconPosition]="'right'">
+            <slf-ui-icon iconRight [category]="'general'" [name]="'eye'" [size]="20"></slf-ui-icon>
+          </slf-ui-input>
+        </div>
+        <div class="demo-row">
+          <slf-ui-input
+            [Label]="'Input with Double Icons'"
+            [Placeholder]="'With double icons'"
+            [FormControl]="doubleIconFormControl"
+            [iconPosition]="'double'">
+            <slf-ui-icon iconLeft [category]="'general'" [name]="'check-verified-01'" [size]="20"></slf-ui-icon>
+            <slf-ui-icon iconRight [category]="'general'" [name]="'eye'" [size]="20"></slf-ui-icon>
+          </slf-ui-input>
+        </div>
+        <div class="code-example">
+          <pre><code class="language-html">
+{{codeExamples.leftIcon}}
+
+{{codeExamples.rightIcon}}
+
+{{codeExamples.doubleIcon}}
+          </code></pre>
+        </div>
+      </div>
+
+      <!-- With Validation -->
+      <div class="doc-demo">
+        <h3>Input with Validation</h3>
+        <div class="demo-row">
+          <slf-ui-input
+            [Label]="'Required Input'"
+            [Placeholder]="'This field is required'"
+            [FormControl]="validationFormControl"
+            [Error]="validationFormControl.errors?.['required'] && validationFormControl.touched ? 'This field is required' : undefined"
+            [Hint]="'Please enter a value'">
+          </slf-ui-input>
+        </div>
+        <div class="code-example">
+          <pre><code class="language-html">{{codeExamples.validation}}</code></pre>
+        </div>
+      </div>
+
+      <!-- Different Types -->
+      <div class="doc-demo">
+        <h3>Input Types</h3>
+        <div class="demo-row">
+          <slf-ui-input
+            [Label]="'Password Input'"
+            [Type]="'password'"
+            [FormControl]="passwordFormControl">
+          </slf-ui-input>
+        </div>
+        <div class="demo-row">
+          <slf-ui-input
+            [Label]="'Email Input'"
+            [Type]="'email'"
+            [FormControl]="emailFormControl">
+          </slf-ui-input>
+        </div>
+        <div class="demo-row">
+          <slf-ui-input
+            [Label]="'Number Input'"
+            [Type]="'number'"
+            [FormControl]="numberFormControl">
+          </slf-ui-input>
+        </div>
+        <div class="code-example">
+          <pre><code class="language-html">
+{{codeExamples.password}}
+
+{{codeExamples.email}}
+
+{{codeExamples.number}}
+        </code></pre>
+        </div>
+      </div>
+
+      <!-- Readonly Input -->
+      <div class="doc-demo">
+        <h3>Readonly Input</h3>
+        <div class="demo-row">
+          <slf-ui-input
+            [Label]="'Readonly Input'"
+            [Placeholder]="'This input is readonly'"
+            [FormControl]="readonlyFormControl"
+            [ReadOnly]="true">
+          </slf-ui-input>
+        </div>
+        <div class="code-example">
+          <pre><code class="language-html">{{codeExamples.readonly}}</code></pre>
+        </div>
+      </div>
+
+      <!-- Custom Styling -->
+      <div class="doc-demo">
+        <h3>Custom Styling</h3>
+        <div class="demo-row">
+          <slf-ui-input
+            [Label]="'Custom Styled Input'"
+            [Placeholder]="'With custom styles'"
+            [FormControl]="basicFormControl"
+            [LabelStyles]="{'color': 'blue', 'font-weight': 'bold'}"
+            [InputStyles]="{'border-color': 'blue', 'background-color': '#f0f0f0'}">
+          </slf-ui-input>
+        </div>
+        <div class="code-example">
+          <pre><code class="language-html">{{codeExamples.customStyles}}</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Properties Table -->
+  <table-properties-name [Properties]="inputProperties" [ComponentName]="'Input'"></table-properties-name>
+</div>
+

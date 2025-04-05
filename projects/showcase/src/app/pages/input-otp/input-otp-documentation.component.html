@@ -1,0 +1,128 @@
+<div class="doc-page">
+  <section class="doc-section">
+    <header class="section-header">
+      <h2>Input OTP</h2>
+      <p>A versatile OTP (One-Time Password) input component with different sizes, validation, and custom styling options.</p>
+    </header>
+
+    <div class="doc-showcase">
+      <!-- Basic Usage -->
+      <div class="doc-demo">
+        <h3>Basic Usage</h3>
+        <div class="demo-row basic">
+          <slf-ui-otp [FormControl]="basicFormControl" [Id]="'basic-otp'"></slf-ui-otp>
+        </div>
+        <div class="code-example">
+          <pre><code class="language-html">{{codeExamples.basic}}</code></pre>
+        </div>
+      </div>
+
+      <!-- Different Sizes -->
+      <div class="doc-demo">
+        <h3>Different Sizes</h3>
+        <div class="demo-row sizes">
+          <div class="size-example">
+            <h4>Small (sm)</h4>
+            <slf-ui-otp [FormControl]="smFormControl" [Id]="'sm-otp'" [Size]="'sm'"></slf-ui-otp>
+          </div>
+          <div class="size-example">
+            <h4>Medium (md) - Default</h4>
+            <slf-ui-otp [FormControl]="mdFormControl" [Id]="'md-otp'" [Size]="'md'"></slf-ui-otp>
+          </div>
+          <div class="size-example">
+            <h4>Large (lg)</h4>
+            <slf-ui-otp [FormControl]="lgFormControl" [Id]="'lg-otp'" [Size]="'lg'"></slf-ui-otp>
+          </div>
+        </div>
+        <div class="code-example">
+          <pre><code class="language-html">{{codeExamples.sizes}}</code></pre>
+        </div>
+      </div>
+
+      <!-- With Label and Hint -->
+      <div class="doc-demo">
+        <h3>With Label and Hint</h3>
+        <div class="demo-row">
+          <slf-ui-otp
+            [FormControl]="labelFormControl"
+            [Id]="'label-otp'"
+            [Label]="'Verification Code'"
+            [Hint]="'Enter the 4-digit code sent to your email'"
+          ></slf-ui-otp>
+        </div>
+        <div class="code-example">
+          <pre><code class="language-html">{{codeExamples.label}}</code></pre>
+        </div>
+      </div>
+
+      <!-- With Validation -->
+      <div class="doc-demo">
+        <h3>With Validation</h3>
+        <div class="demo-row">
+          <slf-ui-otp
+            [FormControl]="validationFormControl"
+            [Label]="'Security Code'"
+            [Error]="validationFormControl.errors?.['required'] ? 'This field is required' : ''"
+            [Id]="'validation-otp'"
+          ></slf-ui-otp>
+        </div>
+        <div class="code-example">
+          <pre><code class="language-html">{{codeExamples.validation}}</code></pre>
+        </div>
+      </div>
+
+      <!-- Readonly State -->
+      <div class="doc-demo">
+        <h3>Readonly State</h3>
+        <div class="demo-row">
+          <slf-ui-otp
+            [FormControl]="readonlyFormControl"
+            [ReadOnly]="true"
+            [Label]="'Generated Code'"
+            [Id]="'readonly-otp'"
+          ></slf-ui-otp>
+        </div>
+        <div class="code-example">
+          <pre><code class="language-html">{{codeExamples.readonly}}</code></pre>
+        </div>
+      </div>
+
+      <!-- Custom Length -->
+      <div class="doc-demo">
+        <h3>Custom Length</h3>
+        <div class="demo-row">
+          <slf-ui-otp
+            [FormControl]="lengthFormControl"
+            [Length]="6"
+            [Label]="'6-Digit Code'"
+            [Id]="'length-otp'"
+          ></slf-ui-otp>
+        </div>
+        <div class="code-example">
+          <pre><code class="language-html">{{codeExamples.length}}</code></pre>
+        </div>
+      </div>
+
+      <!-- Custom Styling -->
+      <div class="doc-demo">
+        <h3>Custom Styling</h3>
+        <div class="demo-row">
+          <slf-ui-otp
+            [FormControl]="styledFormControl"
+            [Label]="'Custom Style'"
+            [LabelStyles]="{'color': 'var(--color-primary)'}"
+            [InputStyles]="{'border-color': 'var(--color-primary)', 'background-color': 'var(--color-gray-50)'}"
+            [Id]="'styled-otp'"
+          ></slf-ui-otp>
+        </div>
+        <div class="code-example">
+          <pre><code class="language-html">{{codeExamples.styled}}</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Properties Table -->
+  <table-properties-name [Properties]="otpProperties" [ComponentName]="'Input OTP'"></table-properties-name>
+</div>
+

@@ -32,6 +32,16 @@
       width: 100%;
       transition: color .4s ease, border-color .4s ease, box-shadow .4s ease;
 
+      &::-webkit-outer-spin-button,
+      &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+
+      &[type="number"] {
+        -moz-appearance: textfield;
+      }
+
       &::placeholder {
         color: var(--border-color-400);
       }
@@ -133,12 +143,15 @@
     0% {
       margin-left: 0rem;
     }
+
     25% {
       margin-left: 0.5rem;
     }
+
     75% {
       margin-left: -0.5rem;
     }
+
     100% {
       margin-left: 0rem;
     }

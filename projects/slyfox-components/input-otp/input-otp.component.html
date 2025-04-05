@@ -1,0 +1,49 @@
+@if (Label()) {
+  <label [ngStyle]="LabelStyles()">{{Label()}}</label>
+}
+
+<div [id]="Id()" class="slf-otp-container" [ngClass]="ClassList()" (paste)="handlePaste($event)">
+  @for (digit of otpArray(); track $index) {
+    <input
+      class="slf-otp__input"
+      type="text"
+      maxlength="1"
+      placeholder="0"
+      [value]="digit"
+      [readonly]="ReadOnly()"
+      [ngStyle]="InputStyles()"
+      (input)="handleInput($event, $index)"
+      (keydown)="handleKeyDown($event, $index)"
+      (keyup)="onKeyUp.emit($event)"
+      (focus)="onFocus.emit($event)"
+      (blur)="onBlur.emit($event)"
+    />
+    @if (separatorPosition() > 0 && ($index + 1) % separatorPosition() === 0 && $index < Length() - 1) {
+      <div class="slf-otp__separator"></div>
+    }
+  }
+  @for (i of [].constructor(Length() - otpArray().length); track $index) {
+    <input
+      class="slf-otp__input"
+      type="text"
+      maxlength="1"
+      placeholder="0"
+      [readonly]="ReadOnly()"
+      [ngStyle]="InputStyles()"
+      (input)="handleInput($event, otpArray().length + $index)"
+      (keydown)="handleKeyDown($event, otpArray().length + $index)"
+      (keyup)="onKeyUp.emit($event)"
+      (focus)="onFocus.emit($event)"
+      (blur)="onBlur.emit($event)"
+    />
+    @if (separatorPosition() > 0 && (otpArray().length + $index + 1) % separatorPosition() === 0 && (otpArray().length + $index) < Length() - 1) {
+      <div class="slf-otp__separator"></div>
+    }
+  }
+</div>
+
+@if (Error()) {
+  <p class="slf-otp__hint input-error" [ngStyle]="{'opacity': Error() ? '1' : '0'}">{{Error()}}</p>
+} @else if (Hint()) {
+  <p class="slf-otp__hint" [ngStyle]="{'opacity': Hint() ? '1' : '0'}">{{Hint()}}</p>
+}

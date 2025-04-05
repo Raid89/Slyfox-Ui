@@ -26,6 +26,10 @@ export const routes: Routes = [
     loadComponent: () => import('./pages/input/input-documentation.component').then(m => m.InputDocumentationComponent)
   },
   {
+    path: 'input-otp',
+    loadComponent: () => import('./pages/input-otp/input-otp-documentation.component').then(m => m.InputOtpDocumentationComponent)
+  },
+  {
     path: 'textarea',
     loadComponent: () => import('./pages/textarea/textarea-documentation.component').then(m => m.TextareaDocumentationComponent)
   },

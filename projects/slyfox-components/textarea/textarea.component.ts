@@ -2,7 +2,6 @@ import { Component, computed, input, output, signal } from '@angular/core';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 
-type IInputIconPosition = 'left' | 'right' | 'double'
 @Component({
   selector: 'slf-ui-textarea',
   imports: [CommonModule, ReactiveFormsModule],

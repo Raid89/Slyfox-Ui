@@ -33,6 +33,10 @@ export const routes: Routes = [
     path: 'textarea',
     loadComponent: () => import('./pages/textarea/textarea-documentation.component').then(m => m.TextareaDocumentationComponent)
   },
+  {
+    path: 'toggle',
+    loadComponent: () => import('./pages/toggle/toggle-documentation.component').then(m => m.ToggleDocumentationComponent)
+  },
   // {
   //   path: 'typography',
   //   loadComponent: () => import('./pages/typography/typography.component').then(m => m.TypographyComponent)

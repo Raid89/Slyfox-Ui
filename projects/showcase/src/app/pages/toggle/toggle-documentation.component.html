@@ -1,0 +1,26 @@
+<div class="doc-page">
+  <section class="doc-section">
+    <header class="section-header">
+      <h2>Toggle</h2>
+      <p>A versatile OTP (One-Time Password) input component with different sizes, validation, and custom styling options.</p>
+    </header>
+
+    <div class="doc-showcase">
+      <!-- Basic Usage -->
+      <div class="doc-demo">
+        <h3>Basic Usage</h3>
+        <div class="demo-row basic">
+          <slf-ui-toggle [FormControl]="basicFormControl"></slf-ui-toggle>
+          <slf-ui-toggle [FormControl]="basicFormControl" Label="Remember me" Hint="Save my login details for next time."></slf-ui-toggle>
+        </div>
+        <div class="code-example">
+          <pre><code class="language-html">{{codeExamples.basic}}</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Properties Table -->
+  <table-properties-name [Properties]="otpProperties" [ComponentName]="'Input OTP'"></table-properties-name>
+</div>
+

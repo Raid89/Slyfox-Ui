@@ -1,8 +1,8 @@
 import { Component, computed, effect, input, output, Signal, signal, WritableSignal } from '@angular/core';
 import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { SlyfoxUiIconComponent } from '../icons/icons.component';
 import { CommonModule } from '@angular/common';
 import { toSignal } from '@angular/core/rxjs-interop';
+import { SlyfoxUiIconComponent } from 'slyfox-components/icons';
 
 type ICheckboxTypes = 'squareCheck' | 'squareSymbol' | 'circleCheck' | 'circleSymbol';
 type ICheckboxSize = 'md' | 'sm';

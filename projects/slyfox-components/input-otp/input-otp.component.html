@@ -19,7 +19,7 @@
       (blur)="onBlur.emit($event)"
     />
     @if (separatorPosition() > 0 && ($index + 1) % separatorPosition() === 0 && $index < Length() - 1) {
-      <div class="slf-otp__separator"></div>
+      <div class="slf-otp__separator">-</div>
     }
   }
   @for (i of [].constructor(Length() - otpArray().length); track $index) {
@@ -37,7 +37,7 @@
       (blur)="onBlur.emit($event)"
     />
     @if (separatorPosition() > 0 && (otpArray().length + $index + 1) % separatorPosition() === 0 && (otpArray().length + $index) < Length() - 1) {
-      <div class="slf-otp__separator"></div>
+      <div class="slf-otp__separator">-</div>
     }
   }
 </div>

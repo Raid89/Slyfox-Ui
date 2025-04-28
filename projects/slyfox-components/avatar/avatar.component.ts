@@ -1,6 +1,6 @@
 import { Component, computed, input, OnInit, output, signal } from '@angular/core';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-import { SlyfoxUiIconComponent } from '../icons/icons.component';
+import { SlyfoxUiIconComponent } from 'slyfox-components/icons/icons.component';
 import { CommonModule } from '@angular/common';
 
 type IAvatarSizes = 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl';
@@ -10,7 +10,7 @@ interface ISizeConfig { small: IAvatarSizes, medium: IAvatarSizes, large: IAvata
 @Component({
   selector: 'slf-ui-avatar',
   imports: [SlyfoxUiIconComponent, CommonModule],
-  templateUrl: `./avatar.component.html`,
+ templateUrl: `./avatar.component.html`,
   styleUrl: `./avatar.component.scss`,
 })
 

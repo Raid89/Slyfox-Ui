@@ -1,5 +1,5 @@
 import { Component, computed, input, output } from '@angular/core';
-import { SlyfoxUiIconComponent } from 'slyfox-components/icons';
+import { SlyfoxUiIconComponent } from '../icons/icons.component';
 import { CommonModule } from '@angular/common';
 
 type IButtonTypes = 'default' | 'bordered' | 'outlined' | 'icon';

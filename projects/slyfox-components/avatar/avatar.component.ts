@@ -1,6 +1,6 @@
 import { Component, computed, input, OnInit, output, signal } from '@angular/core';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-import { SlyfoxUiIconComponent } from 'slyfox-components/icons/icons.component';
+import { SlyfoxUiIconComponent } from '../icons/icons.component';
 import { CommonModule } from '@angular/common';
 
 type IAvatarSizes = 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl';

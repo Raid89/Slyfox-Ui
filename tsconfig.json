@@ -16,7 +16,8 @@
     "moduleResolution": "bundler",
     "importHelpers": true,
     "paths": {
-      "slyfox-components/*": ["./dist/*"]
+      "slyfox-components/*": ["./dist/*"],
+      // "slyfox-components/icons": ["./dist/icons/public-api.d.ts"],
     },
     "target": "ES2022",
     "module": "ES2022"

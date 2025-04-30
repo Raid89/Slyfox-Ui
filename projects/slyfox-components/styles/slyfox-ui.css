@@ -1,5 +1,5 @@
-@import 'font-vars.css';
-@import 'color-vars.css';
+@import './font-vars.css';
+@import './color-vars.css';
 
 :root {
   font-size: var(--font-root-size);

@@ -19,6 +19,6 @@ export class SlyfoxUiIconComponent {
   public weight = input<number>(1);
 
   get iconPath(): string {
-    return `/${this.category()}.svg#${this.name()}`;
+    return `../${this.category()}.svg#${this.name()}`;
   }
 }

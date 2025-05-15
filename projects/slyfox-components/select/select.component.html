@@ -1,0 +1,78 @@
+@if (Label()) {
+  <label for="{{Id()}}" [ngStyle]="LabelStyles()">{{Label()}}</label>
+}
+
+<div class="slf-input-container" [ngClass]="ClassList()" (click)="toggleDropdown()" (document:click)="closeDropdown($event)">
+  @if (iconPosition() === 'left' || iconPosition() === 'double') {
+    <div class="slf-input__icon slf-input__icon--left">
+      <ng-content select="[iconLeft]"></ng-content>
+    </div>
+  }
+
+  <div class="slf-input slf-input-selected-items" [ngClass]="ClassList()">
+    @if (selectedItems().length === 0) {
+      <span class="slf-input-placeholder">{{Placeholder()}}</span>
+    } @else {
+      <div class="slf-selected-items">
+        @if (getSelectedDisplay().length === 1 || !IsMultiSelect()) {
+          <div class="slf-selected-item">
+            <span class="slf-selected-label">{{getSelectedDisplay()[0].label}}</span>
+            @if (IsMultiSelect()) {
+              <button class="slf-remove-item" (click)="toggleOption(getSelectedDisplay()[0]); $event.stopPropagation()">
+                <slf-ui-icon category="general" name="x-close" [size]="16"/>
+              </button>
+            }
+          </div>
+        } @else if (getSelectedDisplay().length > 1) {
+          <div class="slf-selected-item">
+            <span class="slf-selected-label">{{getSelectedDisplay()[0].label}}</span>
+            <button class="slf-remove-item" (click)="toggleOption(getSelectedDisplay()[0]); $event.stopPropagation()">
+              <slf-ui-icon category="general" name="x-close" [size]="16"/>
+            </button>
+          </div>
+          <div class="slf-more-items">
+            <span>+{{getSelectedDisplay().length - 1}}</span>
+          </div>
+        }
+      </div>
+    }
+  </div>
+
+  <input
+    style="display: none;"
+    [formControl]="FormControl()"
+    [readonly]="true"/>
+
+  <ul class="slf_input-options_container" *ngIf="isOpen()" @dropdownAnimation>
+    @for (item of SelectOptions(); track item.value) {
+      <li class="slf_input-option"
+          [class.selected]="isSelected(item)"
+          (click)="toggleOption(item); $event.stopPropagation()">
+        @if (optionTemplate) {
+          <ng-container *ngTemplateOutlet="optionTemplate; context: { $implicit: item }">
+          </ng-container>
+        } @else {
+          {{item.label}}
+        }
+
+        <div class="option-check">
+          <slf-ui-icon category="general" name="check" [weight]="1.5" [size]="16"/>
+        </div>
+      </li>
+    }
+  </ul>
+
+  <div class="slf-input__icon slf-input__icon--right">
+    <slf-ui-icon
+      category="arrows"
+      name="chevron-right"
+      [weight]="1.5"
+      [ngStyle]="{ 'transform': isOpen() ? 'rotate(-90deg)' : 'rotate(90deg)', 'transition': 'transform 0.2s ease' }"/>
+  </div>
+</div>
+
+@if (Error()) {
+  <p class="slf-input__hint input-error" [ngStyle]="{'opacity': Error() ? '1' : '0'}" >{{Error()}}</p>
+} @else if (Hint()) {
+  <p class="slf-input__hint" [ngStyle]="{'opacity': Hint() ? '1' : '0'}" >{{Hint()}}</p>
+}

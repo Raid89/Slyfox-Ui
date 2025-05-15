@@ -1,0 +1,96 @@
+<div class="doc-page">
+  <section class="doc-section">
+    <header class="section-header">
+      <h2>Select</h2>
+      <p>Un componente select personalizable que soporta tanto la selección simple como múltiple, con plantillas de opciones personalizables.</p>
+    </header>
+
+    <div class="doc-showcase">
+      <!-- Basic Usage -->
+      <div class="doc-demo">
+        <h3>Uso Básico</h3>
+        <div class="demo-row">
+          <slf-ui-select
+            [Label]="'Basic Select'"
+            [Placeholder]="'Select an option'"
+            [FormControl]="basicFormControl"
+            [SelectOptions]="basicOptions">
+          </slf-ui-select>
+        </div>
+        <div class="code-example">
+          <pre><code class="language-html">{{codeExamples.basic}}</code></pre>
+        </div>
+      </div>
+
+      <!-- Basic MultiSelect -->
+      <div class="doc-demo">
+        <h3>MultiSelect Básico</h3>
+        <div class="demo-row">
+          <slf-ui-select
+            [Label]="'Basic MultiSelect'"
+            [Placeholder]="'Select multiple options'"
+            [IsMultiSelect]="true"
+            [FormControl]="multiSelectFormControl"
+            [SelectOptions]="basicOptions">
+          </slf-ui-select>
+        </div>
+        <div class="code-example">
+          <pre><code class="language-html">{{codeExamples.basicMultiSelect}}</code></pre>
+        </div>
+      </div>
+
+      <!-- MultiSelect with Avatars -->
+      <div class="doc-demo">
+        <h3>MultiSelect con Avatares</h3>
+        <div class="demo-row">
+          <slf-ui-select
+            [Label]="'MultiSelect with Avatars'"
+            [Placeholder]="'Select team members'"
+            [IsMultiSelect]="true"
+            [FormControl]="usersMultiSelectFormControl"
+            [SelectOptions]="userOptions">
+            <ng-template #optionTemplate let-item>
+              <div style="display: flex; align-items: center; gap: 12px;">
+                <img [src]="item.data.avatar" style="width: 32px; height: 32px; border-radius: 50%;" />
+                <div style="display: flex; flex-direction: column;">
+                  <span>{{item.label}}</span>
+                  <small style="color: #666;">{{item.data.role}}</small>
+                </div>
+              </div>
+            </ng-template>
+          </slf-ui-select>
+        </div>
+        <div class="code-example">
+          <pre><code class="language-html">{{codeExamples.multiSelectWithAvatars}}</code></pre>
+        </div>
+      </div>
+
+      <!-- MultiSelect with Icons -->
+      <div class="doc-demo">
+        <h3>MultiSelect con Iconos</h3>
+        <div class="demo-row">
+          <slf-ui-select
+            [Label]="'MultiSelect with Icons'"
+            [Placeholder]="'Select features'"
+            [IsMultiSelect]="true"
+            [FormControl]="iconMultiSelectFormControl"
+            [SelectOptions]="iconOptions">
+            <ng-template #optionTemplate let-item>
+              <div style="display: flex; align-items: center; gap: 8px;">
+                <slf-ui-icon [category]="item.data.category" [name]="item.data.iconName" [size]="20"/>
+                <span>{{item.label}}</span>
+              </div>
+            </ng-template>
+          </slf-ui-select>
+        </div>
+        <div class="code-example">
+          <pre><code class="language-html">{{codeExamples.multiSelectWithIcons}}</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Properties Table -->
+  <table-properties-name [Properties]="inputProperties" [ComponentName]="'Select'"></table-properties-name>
+</div>
+

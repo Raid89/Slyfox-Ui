@@ -24,7 +24,15 @@
     (keydown)="onKeyDown.emit($event)"
     (focus)="onFocus.emit($event)"
     (blur)="onBlur.emit($event)" />
+
+     @if (iconPosition() === 'right' || iconPosition() === 'double') {
+    <div class="slf-input__icon slf-input__icon--right">
+      <ng-content select="[iconRight]"></ng-content>
+    </div>
+  }
 </div>
+
+
 
 @if (Error()) {
   <p class="slf-input__hint input-error" [ngStyle]="{'opacity': Error() ? '1' : '0'}" >{{Error()}}</p>

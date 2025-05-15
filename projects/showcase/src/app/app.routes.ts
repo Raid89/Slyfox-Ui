@@ -37,6 +37,10 @@ export const routes: Routes = [
     path: 'toggle',
     loadComponent: () => import('./pages/toggle/toggle-documentation.component').then(m => m.ToggleDocumentationComponent)
   },
+  {
+    path: 'select',
+    loadComponent: () => import('./pages/select/select-documentation.component').then(m => m.SelectDocumentationComponent)
+  },
   // {
   //   path: 'typography',
   //   loadComponent: () => import('./pages/typography/typography.component').then(m => m.TypographyComponent)

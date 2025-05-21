@@ -1,4 +1,4 @@
-<button class="slf-button" [ngClass]="buttonStyles()" [disabled]="IsDisabled()">
+<button class="slf-button" [ngClass]="buttonStyles()" [ngStyle]="Style()" [disabled]="IsDisabled()">
   @if (IconType() === 'left' || IconType() === 'double') {
     <slf-ui-icon [category]="IconCategory()" [name]="IconName()" [size]="20" [weight]="1.5"/>
   }

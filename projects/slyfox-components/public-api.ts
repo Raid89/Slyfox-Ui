@@ -5,6 +5,7 @@ export * from './icons/public-api';
 export * from './input/public-api';
 export * from './input-otp/public-api';
 export * from './textarea/public-api';
+export * from './select/public-api';
 export * from './toggle/public-api';
 export * from './toggle/public-api';
 export * from './typography/public-api';

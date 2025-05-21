@@ -25,6 +25,7 @@ export class SlyfoxUiButtonComponent {
   public IconName = input<string>('info');
   public Color = input<IButtonColor>('primary');
   public Text = input<string>('');
+  public Style = input<object>({});
 
   public Click = output<void>();
 

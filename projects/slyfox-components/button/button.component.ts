@@ -27,7 +27,7 @@ export class SlyfoxUiButtonComponent {
   public Text = input<string>('');
   public Style = input<object>({});
 
-  public Click = output<void>();
+  public Click = output<any>();
 
   protected buttonStyles = computed(() => {
     return {
@@ -43,9 +43,9 @@ export class SlyfoxUiButtonComponent {
     }
   })
 
-  handlerClick() {
+  handlerClick($event: any) {
     if (!this.IsDisabled() && !this.IsLoading()) {
-      this.Click.emit();
+      this.Click.emit($event);
     }
   }
 }

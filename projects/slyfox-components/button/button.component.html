@@ -1,13 +1,17 @@
-<button class="slf-button" [ngClass]="buttonStyles()" [ngStyle]="Style()" [disabled]="IsDisabled()">
-  @if (IconType() === 'left' || IconType() === 'double') {
+<button class="slf-button" [ngClass]="buttonStyles()" (click)="handlerClick()" [ngStyle]="Style()" [disabled]="IsDisabled()">
+  @if ((IconType() === 'left' || IconType() === 'double') && !IsLoading()) {
     <slf-ui-icon [category]="IconCategory()" [name]="IconName()" [size]="20" [weight]="1.5"/>
   }
 
-  @if (Size() !== 'sm') {
+  @if (Size() !== 'sm' && !IsLoading()) {
     {{ Text() }}
   }
 
-  @if (IconType() === 'right' || IconType() === 'double') {
+  @if (IsLoading()) {
+    <slf-ui-icon class="slf-button-loading-icon" [category]="'general'" [name]="'loading-02'" [size]="22" [weight]="2"  />
+  }
+
+  @if ((IconType() === 'right' || IconType() === 'double') && !IsLoading()) {
     <slf-ui-icon [category]="IconCategory()" [name]="IconName()" [size]="20" [weight]="1.5" />
   }
 </button>

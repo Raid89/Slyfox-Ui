@@ -42,4 +42,10 @@ export class SlyfoxUiButtonComponent {
       'slf-button--secondary': this.Color() === 'secondary',
     }
   })
+
+  handlerClick() {
+    if (!this.IsDisabled() && !this.IsLoading()) {
+      this.Click.emit();
+    }
+  }
 }

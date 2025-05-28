@@ -18,7 +18,7 @@ export class SlyfoxUiButtonComponent {
 
   public IsDisabled = input<boolean>(false);
   public IsLoading = input<boolean>(false);
-  public Type = input<IButtonTypes>('default');
+  public Type = input<string>('button');
   public Size = input<IButtonSizez>('lg');
   public IconType = input<IButtonIconType>('none');
   public IconCategory = input<string>('general');

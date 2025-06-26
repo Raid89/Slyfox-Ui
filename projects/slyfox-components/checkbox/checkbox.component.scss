@@ -20,50 +20,50 @@
   }
 
   &--md {
-    width: 20px;
-    height: 20px;
+    width: var(--checkbox-size-md);
+    height: var(--checkbox-size-md);
   }
 
   &--sm {
-    width: 16px;
-    height: 16px;
+    width: var(--checkbox-size-sm);
+    height: var(--checkbox-size-sm);
   }
 
   &--squareCheck, &--squareSymbol {
-    border-radius: 6px;
+    border-radius: var(--checkbox-border-radius);
     color: var(--primary-color-200);
-    border: 2px solid var(--border-color-500);
+    border: var(--checkbox-border);
   }
 
   &--squareCheck.slf-checkbox--checked, &--squareSymbol.slf-checkbox--checked {
-    border: 2px solid var(--primary-color-200);
+    border: var(--checkbox-checked-border);
   }
 
   &--circleCheck, &--circleSymbol {
     border-radius: 50%;
     color: var(--primary-color-200);
-    border: 2px solid var(--primary-color-200);
+    border: var(--checkbox-checked-border);
 
     & .checkbox-cicle {
-      width: 10px;
-      height: 10px;
+      width: var(--checkbox-circle-size);
+      height: var(--checkbox-circle-size);
       border-radius: 50%;
-      background-color: var(--primary-color-200);
+      background-color: var(--checkbox-circle-bg);
     }
   }
 
   &--circleCheck.slf-checkbox--checked  {
-    color: #FFF;
-    background-color: var(--primary-color-200);
+    color: var(--checkbox-checked-color);
+    background-color: var(--checkbox-checked-bg);
   }
 
   &--checked {
     box-shadow: 0px 0px 0px 0px #0000004a;
+
     & * {
       opacity: 1;
     }
   }
-
 }
 
 .origin-checkbox:disabled + .slf-checkbox {

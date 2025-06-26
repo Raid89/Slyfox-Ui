@@ -114,4 +114,43 @@
 
    <!-- Tabla de propiedades -->
    <table-properties-name [Properties]="buttonProperties" [ComponentName]="'Button'"></table-properties-name>
+
+  <!-- =============================
+       Personalización por CSS Variables
+       ============================= -->
+  <section class="doc-section">
+    <header class="section-header">
+      <h3>Personalización por CSS Variables</h3>
+      <p>Puedes personalizar el Button globalmente, por componente o por instancia usando las siguientes variables CSS:</p>
+    </header>
+    <div class="doc-demo">
+      <table class="css-vars-table">
+        <thead>
+          <tr>
+            <th>Variable</th>
+            <th>Valor por defecto</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>--button-bg</td><td>var(--primary-color-200)</td><td>Fondo principal</td></tr>
+          <tr><td>--button-bg-hover</td><td>var(--primary-color-300)</td><td>Fondo hover</td></tr>
+          <tr><td>--button-bg-disabled</td><td>var(--fill-color-75)</td><td>Fondo deshabilitado</td></tr>
+          <tr><td>--button-color</td><td>#fff</td><td>Color de texto</td></tr>
+          <tr><td>--button-color-disabled</td><td>var(--text-color-100)</td><td>Texto deshabilitado</td></tr>
+          <tr><td>--button-radius</td><td>8px</td><td>Radio del borde</td></tr>
+          <tr><td>--button-padding</td><td>1rem 2.4rem</td><td>Padding</td></tr>
+          <tr><td>--button-font-size</td><td>1.6rem</td><td>Tamaño de fuente</td></tr>
+          <tr><td>--button-font-weight</td><td>700</td><td>Peso fuente</td></tr>
+          <tr><td>--button-border</td><td>none</td><td>Borde</td></tr>
+          <tr><td>--button-shadow</td><td>none</td><td>Sombra</td></tr>
+          <tr><td>--button-outline</td><td>none</td><td>Outline</td></tr>
+        </tbody>
+      </table>
+      <div class="code-example" style="margin-top:1.5rem;">
+        <strong>Ejemplo de personalización por instancia:</strong>
+        <pre><code class="language-html">&lt;slf-ui-button style="--button-bg: #222; --button-radius: 16px;"&gt;&lt;/slf-ui-button&gt;</code></pre>
+      </div>
+    </div>
+  </section>
 </div>

@@ -6,10 +6,10 @@
   width: 100%;
 
   label {
-    font-size: 1.6rem;
-    font-weight: 700;
-    color: #36455D;
-    height: 3.6rem;
+    font-size: var(--input-label-font-size);
+    font-weight: var(--input-label-font-weight);
+    color: var(--input-label-color);
+    height: var(--input-label-height);
     display: flex;
     align-items: center;
   }
@@ -21,14 +21,14 @@
     width: 100%;
 
     .slf-input {
-      font-family: Satoshi;
+      font-family: var(--input-font-family);
       height: 4.4rem;
-      padding: 0 1rem;
-      border-radius: 8px;
-      border: 2px solid var(--border-color-400);
-      font-size: 1.6rem;
-      font-weight: 500;
-      color: var(--text-color-500);
+      padding: var(--input-padding);
+      border-radius: var(--input-border-radius);
+      border: var(--input-border);
+      font-size: var(--input-font-size);
+      font-weight: var(--input-font-weight);
+      color: var(--input-color);
       width: 100%;
       transition: color .4s ease, border-color .4s ease, box-shadow .4s ease;
 
@@ -43,26 +43,25 @@
       }
 
       &::placeholder {
-        color: var(--border-color-400);
+        color: var(--input-placeholder-color);
       }
 
       &:disabled {
-        background-color: var(--background-color-400) !important;
+        background-color: var(--input-disabled-bg) !important;
       }
-
       &:disabled,
       &[readonly] {
-        color: var(--text-color-400) !important;
+        color: var(--input-disabled-color) !important;
         box-shadow: none !important;
-        border: .5px solid var(--border-color-400) !important;
+        border: var(--input-disabled-border) !important;
       }
 
       // Focus
       &:focus {
         outline: none;
-        box-shadow: 2px 3px 6px 0px #0000005e;
-        border-color: var(--border-color-);
-        color: var(--text-color-500);
+        box-shadow: var(--input-focus-shadow);
+        border-color: var(--border-color-400);
+        color: var(--input-color);
 
         &::placeholder {
           color: var(--border-color-400);
@@ -71,11 +70,11 @@
 
       // Error
       &--error {
-        border-color: var(--error-color-200) !important;
-        color: var(--error-color-200) !important;
+        border-color: var(--input-error-color) !important;
+        color: var(--input-error-color) !important;
 
         &::placeholder {
-          color: var(--error-color-200) !important;
+          color: var(--input-error-color) !important;
         }
       }
     }

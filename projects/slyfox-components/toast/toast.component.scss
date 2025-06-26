@@ -1,0 +1,116 @@
+/*
+========================================
+ Slyfox Toast Component
+========================================
+
+This component displays notification toasts. All design tokens are exposed as CSS variables for easy theming.
+
+Customization:
+- Global: Override variables in :root or your main theme file.
+- Per Component: Override variables in a parent selector or component host.
+- Per Instance: Use inline style or a wrapper class.
+
+Available CSS Variables:
+| Variable                   | Default                        | Description                        |
+|----------------------------|--------------------------------|------------------------------------|
+| --toast-width              | 100vw                          | Toast width                        |
+| --toast-max-width          | 300px                          | Max width                          |
+| --toast-gap                | 4px                            | Gap between elements               |
+| --toast-padding            | 12px 16px                      | Padding inside toast                |
+| --toast-radius             | 4px                            | Border radius                      |
+| --toast-shadow             | var(--sly-shadow-md)           | Box shadow                         |
+| --toast-color              | #fff                           | Text color                         |
+| --toast-font-family        | var(--sly-font-family)         | Font family                        |
+| --toast-margin-bottom      | 10px                           | Margin for stacking                |
+| --toast-success-bg         | var(--success-color-100)       | Success background                 |
+| --toast-success-color      | var(--success-color-400)       | Success text color                 |
+| --toast-success-border     | var(--success-color-400)       | Success border color               |
+| --toast-error-bg           | var(--error-color-100)         | Error background                   |
+| --toast-error-color        | var(--error-color-400)         | Error text color                   |
+| --toast-error-border       | var(--error-color-400)         | Error border color                 |
+| --toast-warning-bg         | var(--warning-color-50)        | Warning background                 |
+| --toast-warning-color      | var(--warning-color-400)       | Warning text color                 |
+| --toast-warning-border     | var(--warning-color-400)       | Warning border color               |
+| --toast-info-bg            | var(--primary-color-50)        | Info background                    |
+| --toast-info-color         | var(--primary-color-400)       | Info text color                    |
+| --toast-info-border        | var(--primary-color-400)       | Info border color                  |
+| --toast-header-font-size   | 12px                           | Header font size                   |
+| --toast-title-font-weight  | 600                            | Title font weight                  |
+| --toast-title-font-size    | 12px                           | Title font size                    |
+| --toast-title-gap          | 6px                            | Gap in title                       |
+
+Example: Custom toast background
+--------------------------------
+<div class="my-toast" style="--toast-bg: #222; --toast-color: #fff;"></div>
+*/
+
+:host {
+  display: block;
+}
+
+.slf-toast {
+  display: flex;
+  flex-direction: column;
+  width: var(--toast-width, 100vw);
+  max-width: var(--toast-max-width, 300px);
+  gap: var(--toast-gap, 4px);
+  padding: var(--toast-padding, 12px 16px);
+  border-radius: var(--toast-radius, 4px);
+  box-shadow: var(--toast-shadow, var(--sly-shadow-md));
+  color: var(--toast-color, #fff);
+  font-family: var(--toast-font-family, var(--sly-font-family));
+  margin-bottom: var(--toast-margin-bottom, 10px);
+  overflow: hidden;
+
+  &--success {
+    background-color: var(--toast-success-bg, var(--success-color-100));
+    color: var(--toast-success-color, var(--success-color-400));
+    border: 1px solid var(--toast-success-border, var(--success-color-400));
+  }
+
+  &--error {
+    background-color: var(--toast-error-bg, var(--error-color-100));
+    color: var(--toast-error-color, var(--error-color-400));
+    border: 1px solid var(--toast-error-border, var(--error-color-400));
+  }
+
+  &--warning {
+    background-color: var(--toast-warning-bg, var(--warning-color-50));
+    color: var(--toast-warning-color, var(--warning-color-400));
+    border: 1px solid var(--toast-warning-border, var(--warning-color-400));
+  }
+
+  &--info {
+    background-color: var(--toast-info-bg, var(--primary-color-50));
+    color: var(--toast-info-color, var(--primary-color-400));
+    border: 1px solid var(--toast-info-border, var(--primary-color-400));
+  }
+}
+
+.slf_toast-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--toast-header-font-size, 12px);
+}
+
+.slf-toast-title {
+  display: flex;
+  align-items: center;
+  font-weight: var(--toast-title-font-weight, 600);
+  font-size: var(--toast-title-font-size, 12px);
+  gap: var(--toast-title-gap, 6px);
+}
+
+.slf-toast-close {
+  color: currentColor;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  height: 18px;
+}
+
+.slf-toast-message {
+  font-size: 12px;
+  color: var( --text-color-200);
+}

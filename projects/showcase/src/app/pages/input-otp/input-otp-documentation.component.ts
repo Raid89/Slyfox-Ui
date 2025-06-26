@@ -4,11 +4,12 @@ import { CommonModule } from '@angular/common';
 import { SlyfoxUiOtpComponent } from '../../../../../slyfox-components/input-otp/input-otp.component';
 import { PropertiesTableComponent } from '../properties-table/properties-table.component';
 import { IComponentProperty } from '../../interfaces/properties.interface';
+import { CssVarsTableComponent } from '../../shared/css-vars-table';
 
 @Component({
   selector: 'app-input-otp-documentation',
   standalone: true,
-  imports: [CommonModule, SlyfoxUiOtpComponent, PropertiesTableComponent],
+  imports: [CommonModule, SlyfoxUiOtpComponent, PropertiesTableComponent, CssVarsTableComponent],
   templateUrl: './input-otp-documentation.component.html',
   styleUrls: ['./input-otp-documentation.component.scss']
 })

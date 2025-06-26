@@ -5,11 +5,12 @@ import { SlyfoxUiOtpComponent } from '../../../../../slyfox-components/input-otp
 import { PropertiesTableComponent } from '../properties-table/properties-table.component';
 import { IComponentProperty } from '../../interfaces/properties.interface';
 import { SlyfoxUiToggleComponent } from '../../../../../slyfox-components/toggle/toggle.component';
+import { CssVarsTableComponent } from '../../shared/css-vars-table';
 
 @Component({
   selector: 'app-toggle-documentation',
   standalone: true,
-  imports: [CommonModule, SlyfoxUiToggleComponent, PropertiesTableComponent],
+  imports: [CommonModule, SlyfoxUiToggleComponent, PropertiesTableComponent, CssVarsTableComponent],
   templateUrl: './toggle-documentation.component.html',
   styleUrls: ['./toggle-documentation.component.scss']
 })

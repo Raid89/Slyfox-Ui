@@ -3,10 +3,11 @@ import { CommonModule } from '@angular/common';
 import { SlyfoxUiButtonComponent } from '../../../../../slyfox-components/button/button.component';
 import { IComponentProperty } from '../../interfaces/properties.interface';
 import { PropertiesTableComponent } from '../properties-table/properties-table.component';
+import { CssVarsTableComponent } from '../../shared/css-vars-table';
 @Component({
   selector: 'app-button',
   standalone: true,
-  imports: [CommonModule, SlyfoxUiButtonComponent, PropertiesTableComponent],
+  imports: [CommonModule, SlyfoxUiButtonComponent, PropertiesTableComponent, CssVarsTableComponent],
   templateUrl: './button.component.html',
   styleUrls: ['./button.component.scss']
 })

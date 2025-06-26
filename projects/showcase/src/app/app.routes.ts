@@ -41,12 +41,20 @@ export const routes: Routes = [
     path: 'select',
     loadComponent: () => import('./pages/select/select-documentation.component').then(m => m.SelectDocumentationComponent)
   },
+  {
+    path: 'toast',
+    loadComponent: () => import('./pages/toast/toast-documentation.component').then(m => m.ToastDocumentationComponent)
+  },
+  {
+    path: 'tooltip',
+    loadComponent: () => import('./pages/tooltip/tooltip-documentation.component').then(m => m.TooltipDocumentationComponent)
+  },
   // {
   //   path: 'typography',
   //   loadComponent: () => import('./pages/typography/typography.component').then(m => m.TypographyComponent)
   // },
-  // {
-  //   path: 'icons',
-  //   loadComponent: () => import('./pages/icons/icons.component').then(m => m.IconsComponent)
-  // }
+  {
+    path: 'icons',
+    loadComponent: () => import('./pages/icon-documentation/icon-documentation.component').then(m => m.IconDocumentationComponent)
+  }
 ];

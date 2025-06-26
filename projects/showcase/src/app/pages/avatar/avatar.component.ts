@@ -3,12 +3,13 @@ import { CommonModule } from '@angular/common';
 import { SlyfoxUiAvatarComponent } from '../../../../../slyfox-components/avatar/avatar.component';
 import { IComponentProperty } from '../../interfaces/properties.interface';
 import { PropertiesTableComponent } from '../properties-table/properties-table.component';
+import { CssVarsTableComponent } from '../../shared/css-vars-table';
 
 
 @Component({
   selector: 'app-avatar',
   standalone: true,
-  imports: [CommonModule, SlyfoxUiAvatarComponent, PropertiesTableComponent],
+  imports: [CommonModule, SlyfoxUiAvatarComponent, PropertiesTableComponent, CssVarsTableComponent],
   templateUrl: './avatar.component.html',
   styleUrls: ['./avatar.component.scss']
 })

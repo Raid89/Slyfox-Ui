@@ -1,0 +1,19 @@
+@if (isVisible()) {}
+<div [@toastAnimation]="animationState" class="slf-toast" [ngClass]="typeClass">
+  <div class="slf_toast-header">
+    <div class="slf-toast-title">
+      <slf-ui-icon [name]="toastIcons[type()].name" [category]="toastIcons[type()].category" [weight]="2" [size]="18"></slf-ui-icon>
+      {{title()}}
+    </div>
+
+    <button *ngIf="showCloseButton" class="slf-toast-close" (click)="onCloseClick()">
+      <slf-ui-icon category="general" name="x-close" [weight]="1.5" [size]="18"></slf-ui-icon>
+    </button>
+  </div>
+
+  <div class="slf-toast-message">
+    {{message()}}
+  </div>
+
+</div>
+

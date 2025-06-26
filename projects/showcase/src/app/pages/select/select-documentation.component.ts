@@ -5,6 +5,7 @@ import { SlyfoxUiSelectComponent } from '../../../../../slyfox-components/select
 import { SlyfoxUiIconComponent } from '../../../../../slyfox-components/icons/icons.component';
 import { PropertiesTableComponent } from '../properties-table/properties-table.component';
 import { IComponentProperty } from '../../interfaces/properties.interface';
+import { CssVarsTableComponent } from '../../shared/css-vars-table';
 
 @Component({
   selector: 'app-select-documentation',
@@ -13,7 +14,8 @@ import { IComponentProperty } from '../../interfaces/properties.interface';
     CommonModule,
     SlyfoxUiSelectComponent,
     SlyfoxUiIconComponent,
-    PropertiesTableComponent
+    PropertiesTableComponent,
+    CssVarsTableComponent
   ],
   templateUrl: './select-documentation.component.html',
   styleUrls: ['./select-documentation.component.scss']
@@ -336,5 +338,22 @@ export class SelectDocumentationComponent {
       values: 'true | false',
       default: 'false'
     }
+  ];
+
+  // CSS Variables for the documentation table
+  public selectCssVars = [
+    { name: '--select-bg', default: '#fff', description: 'Fondo del select' },
+    { name: '--select-border', default: '1px solid var(--border-color-75)', description: 'Borde' },
+    { name: '--select-radius', default: '8px', description: 'Radio del borde' },
+    { name: '--select-padding', default: '0 1rem', description: 'Padding interno' },
+    { name: '--select-font-size', default: '1.6rem', description: 'Tamaño de fuente' },
+    { name: '--select-label-color', default: '#36455D', description: 'Color del label' },
+    { name: '--select-label-font-size', default: '1.6rem', description: 'Tamaño fuente label' },
+    { name: '--select-label-font-weight', default: '700', description: 'Peso fuente label' },
+    { name: '--select-placeholder-color', default: 'var(--border-color-400)', description: 'Color placeholder' },
+    { name: '--select-disabled-bg', default: 'var(--fill-color-75)', description: 'Fondo deshabilitado' },
+    { name: '--select-disabled-color', default: 'var(--text-color-100)', description: 'Texto deshabilitado' },
+    { name: '--select-error-color', default: 'var(--error-color-200)', description: 'Color error' },
+    { name: '--select-success-color', default: 'var(--success-color-200)', description: 'Color éxito' }
   ];
 }

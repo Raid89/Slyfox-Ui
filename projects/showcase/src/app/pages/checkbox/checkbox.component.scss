@@ -68,4 +68,74 @@
       }
     }
   }
+
+  .css-vars-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 2rem 0 1.5rem 0;
+    background: #fff;
+    box-shadow: 0 2px 8px 0 rgba(60,60,60,0.06);
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 1rem;
+
+    th, td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid #ececec;
+    }
+
+    th {
+      background: #f7f7fa;
+      color: #36455D;
+      font-weight: 700;
+      font-size: 1.05em;
+      border-bottom: 2px solid #ececec;
+    }
+
+    td {
+      color: #222;
+      font-size: 0.98em;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    tr:hover td {
+      background: #f5f8ff;
+    }
+  }
+
+  .doc-section .code-example {
+    background: #23272e;
+    color: #f8f8f2;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px 0 rgba(60,60,60,0.06);
+    font-size: 0.98em;
+    border: 1px solid #23272e;
+    margin-top: 1.5rem;
+
+    pre, code {
+      background: transparent;
+      color: inherit;
+      font-family: 'Fira Mono', 'Consolas', monospace;
+      font-size: 1em;
+      white-space: pre-wrap;
+    }
+  }
+
+  .doc-section h3 {
+    margin-top: 2.5rem;
+    color: #36455D;
+    font-size: 1.25em;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+  }
+
+  .doc-section p {
+    color: #5e6a81;
+    font-size: 1.05em;
+    margin-bottom: 1.2rem;
+  }
 }

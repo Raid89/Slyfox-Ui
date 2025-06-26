@@ -1,6 +1,41 @@
+/*
+========================================
+ Slyfox Toggle Component
+========================================
+
+This component is a customizable toggle switch. All design tokens are exposed as CSS variables for easy theming.
+
+Customization:
+- Global: Override variables in :root or your main theme file.
+- Per Component: Override variables in a parent selector or component host.
+- Per Instance: Use inline style or a wrapper class.
+
+Available CSS Variables:
+| Variable                   | Default                        | Description                        |
+|----------------------------|--------------------------------|------------------------------------|
+| --toggle-track-width       | 44px                           | Width of the toggle track           |
+| --toggle-track-height      | 24px                           | Height of the toggle track          |
+| --toggle-radius            | 9999px                         | Border radius of the track          |
+| --toggle-padding           | 2px                            | Padding inside the track            |
+| --toggle-bg                | var(--secondary-color-75)      | Background color (inactive)         |
+| --toggle-active-bg         | var(--primary-color-200)       | Background color (active)           |
+| --toggle-disabled-bg       | var(--secondary-color-50)      | Background color (disabled)         |
+| --toggle-hover-shadow      | 0px 0px 1px 4px var(--primary-color-100) | Shadow on hover         |
+| --toggle-disabled-shadow   | 0px 0px 0px 0px var(--primary-color-100) | Shadow when disabled     |
+| --toggle-readonly-shadow   | 0px 0px 0px 0px var(--primary-color-100) | Shadow when readonly     |
+| --toggle-knob-bg           | #FFF                           | Knob color                         |
+| --toggle-knob-size         | 20px                           | Knob size                          |
+| --toggle-knob-radius       | 9999px                         | Knob border radius                  |
+| --toggle-label-font-size   | 14px                           | Label font size                     |
+
+Example: Override toggle color for a single instance
+---------------------------------------------------
+<div class="my-toggle" style="--toggle-active-bg: #00C853;"></div>
+*/
+
 :host {
   display: inline-grid;
-  grid-template-columns: 54px 1fr;
+  grid-template-columns: var(--toggle-track-width, 54px) 1fr;
   grid-template-rows: 1fr 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
@@ -11,31 +46,31 @@
   grid-area: 1 / 1 / 3 / 2;
   align-items: center;
   cursor: pointer;
-  width: 44px;
-  height: 24px;
-  border-radius: 9999px;
-  padding: 2px;
-  background-color: var(--secondary-color-75);
+  width: var(--toggle-track-width, 44px);
+  height: var(--toggle-track-height, 24px);
+  border-radius: var(--toggle-radius, 9999px);
+  padding: var(--toggle-padding, 2px);
+  background-color: var(--toggle-bg, var(--secondary-color-75));
   transition: background-color .3s, box-shadow .3s;
+  position: relative;
 
   &::after {
     content: "";
-    background-color: #FFF;
-    width: 20px;
-    height: 20px;
-    border-radius: 9999px;
+    background-color: var(--toggle-knob-bg, #FFF);
+    width: var(--toggle-knob-size, 20px);
+    height: var(--toggle-knob-size, 20px);
+    border-radius: var(--toggle-knob-radius, 9999px);
     position: absolute;
     transform: translate(0%);
     transition: transform .3s ease-out;
-
   }
 
   &:hover {
-    box-shadow: 0px 0px 1px 4px var(--primary-color-100);
+    box-shadow: var(--toggle-hover-shadow, 0px 0px 1px 4px var(--primary-color-100));
   }
 
   &.active {
-    background-color: var(--primary-color-200);
+    background-color: var(--toggle-active-bg, var(--primary-color-200));
 
     &::after {
       transform: translate(100%);
@@ -43,20 +78,20 @@
   }
 
   &.disabled {
-    background-color: var(--color-secondary-50);
-    box-shadow: 0px 0px 0px 0px var(--primary-color-100);
+    background-color: var(--toggle-disabled-bg, var(--secondary-color-50));
+    box-shadow: var(--toggle-disabled-shadow, 0px 0px 0px 0px var(--primary-color-100));
     cursor: no-drop;
   }
 
   &.readonly {
     cursor: no-drop;
-    box-shadow: 0px 0px 0px 0px var(--primary-color-100);
+    box-shadow: var(--toggle-readonly-shadow, 0px 0px 0px 0px var(--primary-color-100));
   }
 }
 
 .slf-toggle-label {
   grid-area: 1 / 2 / 2 / 3;
-  font-size: 14px;
+  font-size: var(--toggle-label-font-size, 14px);
   font-style: normal;
   font-weight: 500;
   color: var(--text-color-300);

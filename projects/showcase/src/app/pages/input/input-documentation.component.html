@@ -152,5 +152,21 @@
 
   <!-- Properties Table -->
   <table-properties-name [Properties]="inputProperties" [ComponentName]="'Input'"></table-properties-name>
+
+  <!-- =============================
+       Personalización por CSS Variables
+       ============================= -->
+  <section class="doc-section">
+    <header class="section-header">
+      <h3>Personalización por CSS Variables</h3>
+      <p>Puedes personalizar el Input globalmente, por componente o por instancia usando las siguientes variables CSS:</p>
+    </header>
+    <div class="doc-demo">
+      <css-vars-table
+        [variables]="inputCssVars"
+        example="&lt;slf-ui-input style=&quot;--input-bg: #f0f0f0; --input-radius: 16px;&quot;&gt;&lt;/slf-ui-input&gt;">
+      </css-vars-table>
+    </div>
+  </section>
 </div>
 

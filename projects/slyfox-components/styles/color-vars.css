@@ -68,8 +68,40 @@
   --text-color-400: #14171D;
   --text-color-500: #121419;
 
-  /* VARIABLES DE COLORES PARA BOTONES */
-  --button-font-color-primary: #FFF;
+  /* VARIABLES BASE REUTILIZABLES */
+  --sly-radius: 8px;
+  --sly-font-family: Satoshi, Arial, sans-serif;
+  --sly-font-weight-bold: 700;
+  --sly-font-weight-medium: 500;
+  --sly-font-size-base: 1.6rem;
+  --sly-bg-white: #fff;
+  --sly-bg-disabled: var(--fill-color-75);
+  --sly-border-base: 1px solid var(--border-color-75);
+  --sly-border-strong: 2px solid var(--border-color-400);
+  --sly-shadow-lg: 0px 12px 16px -4px rgba(10, 13, 18, 0.08), 0px 4px 6px -2px rgba(10, 13, 18, 0.03);
+  --sly-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.15);
+  --sly-gap: 10px;
+  --sly-padding-base: 1rem 2.4rem;
+  --sly-padding-sm: 0.8rem 1rem;
+  --sly-padding-lg: 0px 2.4rem;
+  --sly-padding-input: 0 1rem;
+  --sly-padding-textarea: 1rem 1.4rem;
+  --sly-label-color: #36455D;
+  --sly-label-font-size: 1.6rem;
+  --sly-label-font-weight: 700;
+  --sly-placeholder-color: var(--border-color-400);
+  --sly-disabled-color: var(--text-color-100);
+  --sly-disabled-bg: var(--fill-color-75);
+  --sly-checked-bg: var(--primary-color-200);
+  --sly-checked-color: #fff;
+  --sly-error-color: var(--error-color-200);
+  --sly-success-color: var(--success-color-200);
+  --sly-info-color: var(--primary-color-400);
+  --sly-warning-color: var(--warning-color-400);
+
+  /* VARIABLES ESPECÍFICAS DE COMPONENTES */
+  /* BUTTON */
+  --button-font-color-primary: var(--text-color-50);
   --button-bg-primary-disabled: var(--primary-color-100);
   --button-bg-primary-active: var(--primary-color-200);
   --button-bg-primary-hover: var(--primary-color-300);
@@ -79,6 +111,150 @@
   --button-bg-secondary-active: var(--secondary-color-600);
   --button-bg-secondary-hover: var(--secondary-color-200);
 
+  --button-radius: var(--sly-radius);
+  --button-gap: var(--sly-gap);
+  --button-font-family: var(--sly-font-family);
+  --button-lg-min-width: 14.5rem;
+  --button-lg-height: 4.4rem;
+  --button-lg-font-size: 1.8rem;
+  --button-lg-padding: var(--sly-padding-lg);
+  --button-lg-font-weight: var(--sly-font-weight-bold);
+  --button-md-min-width: 12.6rem;
+  --button-md-font-size: var(--sly-font-size-base);
+  --button-md-padding: var(--sly-padding-base);
+  --button-md-font-weight: var(--sly-font-weight-bold);
+  --button-sm-min-width: 4.8rem;
+  --button-sm-padding: var(--sly-padding-sm);
 
+  /* INPUT */
+  --input-font-family: var(--sly-font-family);
+  --input-label-font-size: var(--sly-label-font-size);
+  --input-label-font-weight: var(--sly-label-font-weight);
+  --input-label-color: var(--sly-label-color);
+  --input-label-height: 3.6rem;
+  --input-border-radius: var(--sly-radius);
+  --input-border: var(--sly-border-strong);
+  --input-font-size: var(--sly-font-size-base);
+  --input-font-weight: var(--sly-font-weight-medium);
+  --input-color: var(--text-color-500);
+  --input-bg: var(--sly-bg-white);
+  --input-padding: var(--sly-padding-input);
+  --input-placeholder-color: var(--sly-placeholder-color);
+  --input-disabled-bg: var(--sly-disabled-bg);
+  --input-disabled-color: var(--sly-disabled-color);
+  --input-disabled-border: var(--sly-border-base);
+  --input-focus-shadow: 2px 3px 6px 0px #0000005e;
+  --input-error-color: var(--sly-error-color);
 
+  /* CHECKBOX */
+  --checkbox-size-md: 20px;
+  --checkbox-size-sm: 16px;
+  --checkbox-border-radius: var(--sly-radius);
+  --checkbox-border: 2px solid var(--border-color-500);
+  --checkbox-checked-border: 2px solid var(--primary-color-200);
+  --checkbox-checked-bg: var(--primary-color-200);
+  --checkbox-checked-color: var(--sly-checked-color);
+  --checkbox-circle-size: 10px;
+  --checkbox-circle-bg: var(--primary-color-200);
+  --checkbox-disabled-border: 2px solid var(--fill-color-75);
+  --checkbox-disabled-bg: var(--border-color-50);
+  --checkbox-disabled-color: var(--fill-color-75);
+
+  /* SELECT */
+  --select-font-family: var(--sly-font-family);
+  --select-label-font-size: var(--sly-label-font-size);
+  --select-label-font-weight: var(--sly-label-font-weight);
+  --select-label-color: var(--sly-label-color);
+  --select-label-height: 3.6rem;
+  --select-border-radius: var(--sly-radius);
+  --select-border: var(--sly-border-strong);
+  --select-font-size: var(--sly-font-size-base);
+  --select-font-weight: var(--sly-font-weight-medium);
+  --select-color: var(--text-color-500);
+  --select-bg: var(--sly-bg-white);
+  --select-padding: 0.8rem 1rem;
+  --select-placeholder-color: var(--sly-placeholder-color);
+  --select-hint-font-size: 1.4rem;
+  --select-hint-color: var(--text-color-400);
+  --select-selected-bg: var(--fill-color-50);
+  --select-selected-color: var(--text-color-500);
+  --select-selected-radius: 6px;
+
+  /* TEXTAREA */
+  --textarea-font-family: var(--sly-font-family);
+  --textarea-label-font-size: var(--sly-label-font-size);
+  --textarea-label-font-weight: var(--sly-label-font-weight);
+  --textarea-label-color: var(--sly-label-color);
+  --textarea-border-radius: var(--sly-radius);
+  --textarea-border: var(--sly-border-base);
+  --textarea-font-size: var(--sly-font-size-base);
+  --textarea-font-weight: 400;
+  --textarea-color: var(--text-color-500);
+  --textarea-bg: var(--sly-bg-white);
+  --textarea-padding: var(--sly-padding-textarea);
+  --textarea-placeholder-color: var(--border-color-100);
+  --textarea-disabled-bg: var(--fill-color-50);
+  --textarea-disabled-color: var(--text-color-100);
+  --textarea-disabled-border: var(--sly-border-base);
+  --textarea-focus-border: 1.5px solid var(--border-color-200);
+  --textarea-error-border: var(--error-color-100);
+
+  /* TOGGLE */
+  --toggle-bg: var(--secondary-color-75);
+  --toggle-bg-active: var(--primary-color-200);
+  --toggle-radius: 9999px;
+  --toggle-thumb-bg: var(--sly-bg-white);
+  --toggle-width: 44px;
+  --toggle-height: 24px;
+  --toggle-thumb-size: 20px;
+
+  /* TOAST */
+  --toast-radius: 4px;
+  --toast-shadow: var(--sly-shadow-md);
+  --toast-font-family: var(--sly-font-family);
+  --toast-padding: 12px 16px;
+  --toast-gap: 4px;
+  --toast-title-font-weight: 600;
+  --toast-title-font-size: 12px;
+
+  /* AVATAR */
+  --avatar-radius: 9999px;
+  --avatar-border: 4px solid transparent;
+  --avatar-bg: var(--primary-color-50);
+  --avatar-size-xs: 32px;
+  --avatar-size-sm: 40px;
+  --avatar-size-md: 48px;
+  --avatar-size-lg: 56px;
+  --avatar-size-xl: 64px;
+  --avatar-size-xxl: 80px;
+
+  /* TOOLTIP */
+  --tooltip-bg-primary: var(--sly-bg-white);
+  --tooltip-bg-secondary: #788292;
+  --tooltip-title-color-default: #414651;
+  --tooltip-title-color-error: var(--error-color-200);
+  --tooltip-title-color-success: var(--success-color-200);
+  --tooltip-radius: var(--sly-radius);
+  --tooltip-font-size: 12px;
+  --tooltip-title-font-weight: 600;
+  --tooltip-shadow: var(--sly-shadow-lg);
+  --tooltip-padding: 1em 1.25em;
+
+  /* TYPOGRAPHY */
+  --font-title-size-sm: 1.25rem;
+  --font-title-line-sm: 1.5rem;
+  --font-title-size-md: 1.5rem;
+  --font-title-line-md: 1.75rem;
+  --font-title-size-lg: 2rem;
+  --font-title-line-lg: 2.25rem;
+  --font-title-size-xl: 2.5rem;
+  --font-title-line-xl: 2.75rem;
+  --font-subtitle-size-sm: 1.1rem;
+  --font-subtitle-line-sm: 1.3rem;
+  --font-subtitle-size-md: 1.25rem;
+  --font-subtitle-line-md: 1.5rem;
+  --font-subtitle-size-lg: 1.5rem;
+  --font-subtitle-line-lg: 1.75rem;
+  --font-subtitle-size-xl: 1.75rem;
+  --font-subtitle-line-xl: 2rem;
 }

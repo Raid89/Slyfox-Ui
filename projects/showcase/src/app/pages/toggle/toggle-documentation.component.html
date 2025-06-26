@@ -22,5 +22,46 @@
 
   <!-- Properties Table -->
   <table-properties-name [Properties]="otpProperties" [ComponentName]="'Input OTP'"></table-properties-name>
+
+  <!-- =============================
+       Personalización por CSS Variables
+       ============================= -->
+  <section class="doc-section">
+    <header class="section-header">
+      <h3>Personalización por CSS Variables</h3>
+      <p>Puedes personalizar el Toggle globalmente, por componente o por instancia usando las siguientes variables CSS:</p>
+    </header>
+    <div class="doc-demo">
+      <table class="css-vars-table">
+        <thead>
+          <tr>
+            <th>Variable</th>
+            <th>Valor por defecto</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>--toggle-track-width</td><td>44px</td><td>Ancho del track</td></tr>
+          <tr><td>--toggle-track-height</td><td>24px</td><td>Alto del track</td></tr>
+          <tr><td>--toggle-radius</td><td>9999px</td><td>Radio del track</td></tr>
+          <tr><td>--toggle-padding</td><td>2px</td><td>Padding interno</td></tr>
+          <tr><td>--toggle-bg</td><td>var(--secondary-color-75)</td><td>Fondo inactivo</td></tr>
+          <tr><td>--toggle-active-bg</td><td>var(--primary-color-200)</td><td>Fondo activo</td></tr>
+          <tr><td>--toggle-disabled-bg</td><td>var(--secondary-color-50)</td><td>Fondo deshabilitado</td></tr>
+          <tr><td>--toggle-hover-shadow</td><td>0px 0px 1px 4px var(--primary-color-100)</td><td>Sombra hover</td></tr>
+          <tr><td>--toggle-disabled-shadow</td><td>0px 0px 0px 0px var(--primary-color-100)</td><td>Sombra deshabilitado</td></tr>
+          <tr><td>--toggle-readonly-shadow</td><td>0px 0px 0px 0px var(--primary-color-100)</td><td>Sombra solo lectura</td></tr>
+          <tr><td>--toggle-knob-bg</td><td>#FFF</td><td>Color del knob</td></tr>
+          <tr><td>--toggle-knob-size</td><td>20px</td><td>Tamaño del knob</td></tr>
+          <tr><td>--toggle-knob-radius</td><td>9999px</td><td>Radio del knob</td></tr>
+          <tr><td>--toggle-label-font-size</td><td>14px</td><td>Tamaño fuente label</td></tr>
+        </tbody>
+      </table>
+      <div class="code-example" style="margin-top:1.5rem;">
+        <strong>Ejemplo de personalización por instancia:</strong>
+        <pre><code class="language-html">&lt;slf-ui-toggle style="--toggle-active-bg: #00C853; --toggle-knob-size: 28px;"&gt;&lt;/slf-ui-toggle&gt;</code></pre>
+      </div>
+    </div>
+  </section>
 </div>
 

@@ -1,0 +1,143 @@
+<div class="doc-page">
+  <section class="doc-section">
+    <header class="section-header">
+      <h2>Toast</h2>
+      <p>The Toast component provides a way to display brief, auto-expiring notifications to the user. It is managed via the <code>ToastService</code>.</p>
+    </header>
+
+    <div class="doc-showcase">
+      <!-- Live Demo -->
+      <div class="doc-demo">
+        <h3>Live Demo</h3>
+        <p>Configure and trigger a toast message using the controls below.</p>
+        <div class="demo-row controls-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-bottom: 1rem;">
+          <div>
+            <label for="toastMessage">Message:</label>
+            <input id="toastMessage" type="text" [(ngModel)]="toastMessage" placeholder="Enter toast message" style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;">
+          </div>
+          <div>
+            <label for="toastDuration">Duration (ms, 0 for persistent):</label>
+            <input id="toastDuration" type="number" [(ngModel)]="toastDuration" style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;">
+          </div>
+          <div>
+            <label for="toastType">Type:</label>
+            <select id="toastType" [(ngModel)]="selectedToastType" style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;">
+              <option *ngFor="let type of toastTypes" [value]="type">{{ type | titlecase }}</option>
+            </select>
+          </div>
+          <div style="display: flex; align-items: center;">
+            <input type="checkbox" id="showCloseButton" [(ngModel)]="showCloseButton" style="margin-right: 0.5rem;">
+            <label for="showCloseButton">Show Close Button</label>
+          </div>
+        </div>
+        <button (click)="showToast()" class="action-button" style="padding: 0.5rem 1rem; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer;">Show Configured Toast</button>
+      </div>
+
+      <!-- Quick Examples -->
+      <div class="doc-demo">
+        <h3>Quick Examples</h3>
+        <div class="demo-row quick-examples-buttons" style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
+          <button (click)="showSuccessToast()" class="action-button success" style="padding: 0.5rem 1rem; background-color: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer;">Show Success</button>
+          <button (click)="showErrorToast()" class="action-button error" style="padding: 0.5rem 1rem; background-color: #dc3545; color: white; border: none; border-radius: 4px; cursor: pointer;">Show Error (5s)</button>
+          <button (click)="showWarningToast()" class="action-button warning" style="padding: 0.5rem 1rem; background-color: #ffc107; color: black; border: none; border-radius: 4px; cursor: pointer;">Show Persistent Warning</button>
+          <button (click)="showInfoToast()" class="action-button info" style="padding: 0.5rem 1rem; background-color: #17a2b8; color: white; border: none; border-radius: 4px; cursor: pointer;">Show Info</button>
+        </div>
+        <h4>Code:</h4>
+        <div class="code-example">
+          <pre><code class="language-typescript">// Success
+{{codeExamples.successWithPosition}}
+
+// Error
+{{codeExamples.error}}
+
+// Warning (Persistent)
+{{codeExamples.warningPersistent}}
+
+// Info
+{{codeExamples.info}}</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="doc-section">
+    <header class="section-header">
+      <h2>Usage</h2>
+    </header>
+    <div class="doc-demo">
+      <h3>1. Import Animations</h3>
+      <p>Ensure <code>BrowserAnimationsModule</code> is imported in your root application module or <code>provideAnimations</code> (or <code>provideAnimationsAsync</code>) is included in your application config providers.</p>
+      <div class="code-example">
+        <pre><code class="language-typescript">{{codeExamples.provideAnimations}}</code></pre>
+      </div>
+    </div>
+    <div class="doc-demo">
+      <h3>2. Inject ToastService</h3>
+      <p>The <code>ToastContainerComponent</code> is automatically managed by the <code>ToastService</code>. You only need to inject and use the service.</p>
+      <div class="code-example">
+        <pre><code class="language-typescript">{{codeExamples.usage}}</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- Properties Table for ToastService -->
+  <table-properties-name [Properties]="toastServiceProperties" [ComponentName]="'ToastService Methods'"></table-properties-name>
+
+  <!-- Properties Table for SlyfoxUiToastComponent Inputs -->
+  <table-properties-name [Properties]="toastComponentInputs" [ComponentName]="'SlyfoxUiToastComponent Inputs (Managed by Service)'"></table-properties-name>
+
+  <!-- Properties Table for SlyfoxUiToastComponent Outputs -->
+  <table-properties-name [Properties]="toastComponentOutputs" [ComponentName]="'SlyfoxUiToastComponent Outputs (Managed by Service)'"></table-properties-name>
+
+  <!-- =============================
+       Personalización por CSS Variables
+       ============================= -->
+  <section class="doc-section">
+    <header class="section-header">
+      <h3>Personalización por CSS Variables</h3>
+      <p>Puedes personalizar el Toast globalmente, por componente o por instancia usando las siguientes variables CSS:</p>
+    </header>
+    <div class="doc-demo">
+      <table class="css-vars-table">
+        <thead>
+          <tr>
+            <th>Variable</th>
+            <th>Valor por defecto</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>--toast-width</td><td>100vw</td><td>Ancho del toast</td></tr>
+          <tr><td>--toast-max-width</td><td>300px</td><td>Ancho máximo</td></tr>
+          <tr><td>--toast-gap</td><td>4px</td><td>Espacio interno</td></tr>
+          <tr><td>--toast-padding</td><td>12px 16px</td><td>Padding interno</td></tr>
+          <tr><td>--toast-radius</td><td>4px</td><td>Radio del borde</td></tr>
+          <tr><td>--toast-shadow</td><td>var(--sly-shadow-md)</td><td>Sombra</td></tr>
+          <tr><td>--toast-color</td><td>#fff</td><td>Color de texto</td></tr>
+          <tr><td>--toast-font-family</td><td>var(--sly-font-family)</td><td>Fuente</td></tr>
+          <tr><td>--toast-margin-bottom</td><td>10px</td><td>Margen inferior</td></tr>
+          <tr><td>--toast-success-bg</td><td>var(--success-color-100)</td><td>Fondo éxito</td></tr>
+          <tr><td>--toast-success-color</td><td>var(--success-color-400)</td><td>Texto éxito</td></tr>
+          <tr><td>--toast-success-border</td><td>var(--success-color-400)</td><td>Borde éxito</td></tr>
+          <tr><td>--toast-error-bg</td><td>var(--error-color-100)</td><td>Fondo error</td></tr>
+          <tr><td>--toast-error-color</td><td>var(--error-color-400)</td><td>Texto error</td></tr>
+          <tr><td>--toast-error-border</td><td>var(--error-color-400)</td><td>Borde error</td></tr>
+          <tr><td>--toast-warning-bg</td><td>var(--warning-color-50)</td><td>Fondo advertencia</td></tr>
+          <tr><td>--toast-warning-color</td><td>var(--warning-color-400)</td><td>Texto advertencia</td></tr>
+          <tr><td>--toast-warning-border</td><td>var(--warning-color-400)</td><td>Borde advertencia</td></tr>
+          <tr><td>--toast-info-bg</td><td>var(--primary-color-50)</td><td>Fondo info</td></tr>
+          <tr><td>--toast-info-color</td><td>var(--primary-color-400)</td><td>Texto info</td></tr>
+          <tr><td>--toast-info-border</td><td>var(--primary-color-400)</td><td>Borde info</td></tr>
+          <tr><td>--toast-header-font-size</td><td>12px</td><td>Tamaño fuente header</td></tr>
+          <tr><td>--toast-title-font-weight</td><td>600</td><td>Peso fuente título</td></tr>
+          <tr><td>--toast-title-font-size</td><td>12px</td><td>Tamaño fuente título</td></tr>
+          <tr><td>--toast-title-gap</td><td>6px</td><td>Espacio en título</td></tr>
+        </tbody>
+      </table>
+      <div class="code-example" style="margin-top:1.5rem;">
+        <strong>Ejemplo de personalización por instancia:</strong>
+        <pre><code class="language-html">&lt;slf-ui-toast style="--toast-success-bg: #222; --toast-radius: 12px;"&gt;&lt;/slf-ui-toast&gt;</code></pre>
+      </div>
+    </div>
+  </section>
+</div>

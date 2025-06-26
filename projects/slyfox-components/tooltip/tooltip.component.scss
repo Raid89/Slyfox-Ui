@@ -1,0 +1,194 @@
+/*
+========================================
+ Slyfox Tooltip Component
+========================================
+
+This component displays a tooltip with customizable appearance. All design tokens are exposed as CSS variables for easy theming.
+
+Customization:
+- Global: Override variables in :root or your main theme file.
+- Per Component: Override variables in a parent selector or component host.
+- Per Instance: Use inline style or a wrapper class.
+
+Available CSS Variables:
+| Variable                          | Default                        | Description                        |
+|-----------------------------------|--------------------------------|------------------------------------|
+| --tooltip-max-width               | 320px                          | Maximum width                      |
+| --tooltip-bg-primary              | #fff                           | Primary background color           |
+| --tooltip-bg-secondary            | #788292                        | Secondary background color         |
+| --tooltip-color                   | #fff                           | Default text color                 |
+| --tooltip-color-primary           | #414651                        | Primary text color                 |
+| --tooltip-color-secondary         | #fff                           | Secondary text color               |
+| --tooltip-radius                  | 8px                            | Border radius                      |
+| --tooltip-padding                 | 1em 1.25em                     | Padding                            |
+| --tooltip-font-size               | 12px                           | Font size                          |
+| --tooltip-shadow                  | var(--sly-shadow-lg)           | Box shadow                         |
+| --tooltip-opacity                 | 0.98                           | Opacity                            |
+| --tooltip-z-index                 | 9999                           | Z-index                            |
+| --tooltip-title-color-default     | #414651                        | Title color                        |
+| --tooltip-title-font-size         | 12px                           | Title font size                    |
+| --tooltip-title-font-weight       | 600                            | Title font weight                  |
+| --tooltip-title-line-height       | 18px                           | Title line height                  |
+| --tooltip-title-margin-bottom     | 4px                            | Title margin bottom                |
+| --tooltip-text-font-size          | 12px                           | Text font size                     |
+| --tooltip-text-font-weight        | 400                            | Text font weight                   |
+| --tooltip-text-line-height        | 24px                           | Text line height                   |
+| --tooltip-gap                     | 10px                           | Gap for positioning                |
+
+Example: Custom tooltip background
+----------------------------------
+<div class="my-tooltip" style="--tooltip-bg-primary: #222; --tooltip-color: #fff;"></div>
+*/
+
+// Tooltip styles for all positions and arrow directions
+.slf-tooltip {
+  position: absolute;
+  max-width: var(--tooltip-max-width, 320px);
+  width: max-content;
+  background: var(--tooltip-bg-primary, #fff);
+  color: var(--tooltip-color, #fff);
+  border-radius: var(--tooltip-radius, 8px);
+  padding: var(--tooltip-padding, 1em 1.25em);
+  font-size: var(--tooltip-font-size, 12px);
+  box-shadow: var(--tooltip-shadow, var(--sly-shadow-lg));
+  pointer-events: none;
+  opacity: var(--tooltip-opacity, 0.98);
+  transition: opacity 0.2s;
+  z-index: var(--tooltip-z-index, 9999);
+  display: flex;
+  flex-direction: column;
+}
+.slf-tooltip-title {
+  color: var(--tooltip-title-color-default, #414651);
+  font-size: var(--tooltip-title-font-size, 12px);
+  font-weight: var(--tooltip-title-font-weight, 600);
+  line-height: var(--tooltip-title-line-height, 18px);
+  margin-bottom: var(--tooltip-title-margin-bottom, 4px);
+}
+.slf-tooltip-text {
+  font-size: var(--tooltip-text-font-size, 12px);
+  font-style: normal;
+  font-weight: var(--tooltip-text-font-weight, 400);
+  line-height: var(--tooltip-text-line-height, 24px);
+}
+.slf-tooltip-arrow {
+  width: 0;
+  height: 0;
+  position: absolute;
+  /* Elimina cualquier fondo o borde por defecto */
+  background: transparent;
+  border: none;
+}
+// Variants for primary and secondary tooltips
+.slf-tooltip--primary {
+  background: var(--tooltip-bg-primary, #fff);
+  color: var(--tooltip-color-primary, #414651);
+}
+.slf-tooltip--secondary {
+  background: var(--tooltip-bg-secondary, #788292);
+  color: var(--tooltip-color-secondary, #fff);
+}
+// Positioning logic for tooltip and arrow
+// Top positions
+.slf-tooltip.top-start    { bottom: 100%; left: 0;    margin-bottom: var(--tooltip-gap, 10px); }
+.slf-tooltip.top-center   { bottom: 100%; left: 50%; transform: translateX(-50%); margin-bottom: var(--tooltip-gap, 10px); }
+.slf-tooltip.top-end      { bottom: 100%; right: 0;   margin-bottom: var(--tooltip-gap, 10px); }
+// Bottom positions
+.slf-tooltip.bottom-start { top: 100%; left: 0;    margin-top: var(--tooltip-gap, 10px); }
+.slf-tooltip.bottom-center{ top: 100%; left: 50%; transform: translateX(-50%); margin-top: var(--tooltip-gap, 10px); }
+.slf-tooltip.bottom-end   { top: 100%; right: 0;   margin-top: var(--tooltip-gap, 10px); }
+// Left positions
+.slf-tooltip.left-start   { right: 100%; top: 0;    margin-right: var(--tooltip-gap, 10px); }
+.slf-tooltip.left-center  { right: 100%; top: 50%; transform: translateY(-50%); margin-right: var(--tooltip-gap, 10px); }
+.slf-tooltip.left-end     { right: 100%; bottom: 0; margin-right: var(--tooltip-gap, 10px); }
+// Right positions
+.slf-tooltip.right-start  { left: 100%; top: 0;    margin-left: var(--tooltip-gap, 10px); }
+.slf-tooltip.right-center { left: 100%; top: 50%; transform: translateY(-50%); margin-left: var(--tooltip-gap, 10px); }
+.slf-tooltip.right-end    { left: 100%; bottom: 0; margin-left: var(--tooltip-gap, 10px); }
+// Arrow for each position
+.slf-tooltip-arrow.top-start, .slf-tooltip-arrow.top-center, .slf-tooltip-arrow.top-end {
+  left: 24px;
+  bottom: -8px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #222;
+}
+.slf-tooltip--primary .slf-tooltip-arrow.top-start,
+.slf-tooltip--primary .slf-tooltip-arrow.top-center,
+.slf-tooltip--primary .slf-tooltip-arrow.top-end {
+  border-top-color: #fff;
+}
+.slf-tooltip--secondary .slf-tooltip-arrow.top-start,
+.slf-tooltip--secondary .slf-tooltip-arrow.top-center,
+.slf-tooltip--secondary .slf-tooltip-arrow.top-end {
+  border-top-color: #788292;
+}
+.slf-tooltip-arrow.top-center { left: 50%; transform: translateX(-50%); }
+.slf-tooltip-arrow.top-end { left: auto; right: 24px; }
+.slf-tooltip-arrow.bottom-start, .slf-tooltip-arrow.bottom-center, .slf-tooltip-arrow.bottom-end {
+  left: 24px;
+  top: -8px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #222;
+}
+.slf-tooltip--primary .slf-tooltip-arrow.bottom-start,
+.slf-tooltip--primary .slf-tooltip-arrow.bottom-center,
+.slf-tooltip--primary .slf-tooltip-arrow.bottom-end {
+  border-bottom-color: #fff;
+}
+.slf-tooltip--secondary .slf-tooltip-arrow.bottom-start,
+.slf-tooltip--secondary .slf-tooltip-arrow.bottom-center,
+.slf-tooltip--secondary .slf-tooltip-arrow.bottom-end {
+  border-bottom-color: #788292;
+}
+.slf-tooltip-arrow.bottom-center { left: 50%; transform: translateX(-50%); }
+.slf-tooltip-arrow.bottom-end { left: auto; right: 24px; }
+.slf-tooltip-arrow.left-start, .slf-tooltip-arrow.left-center, .slf-tooltip-arrow.left-end {
+  top: 24px;
+  right: -8px;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid #222;
+}
+.slf-tooltip--primary .slf-tooltip-arrow.left-start,
+.slf-tooltip--primary .slf-tooltip-arrow.left-center,
+.slf-tooltip--primary .slf-tooltip-arrow.left-end {
+  border-left-color: #fff;
+}
+.slf-tooltip--secondary .slf-tooltip-arrow.left-start,
+.slf-tooltip--secondary .slf-tooltip-arrow.left-center,
+.slf-tooltip--secondary .slf-tooltip-arrow.left-end {
+  border-left-color: #788292;
+}
+.slf-tooltip-arrow.left-center { top: 50%; transform: translateY(-50%); }
+.slf-tooltip-arrow.left-end { top: auto; bottom: 24px; }
+.slf-tooltip-arrow.right-start, .slf-tooltip-arrow.right-center, .slf-tooltip-arrow.right-end {
+  top: 24px;
+  left: -8px;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #222;
+}
+.slf-tooltip--primary .slf-tooltip-arrow.right-start,
+.slf-tooltip--primary .slf-tooltip-arrow.right-center,
+.slf-tooltip--primary .slf-tooltip-arrow.right-end {
+  border-right-color: #fff;
+}
+.slf-tooltip--secondary .slf-tooltip-arrow.right-start,
+.slf-tooltip--secondary .slf-tooltip-arrow.right-center,
+.slf-tooltip--secondary .slf-tooltip-arrow.right-end {
+  border-right-color: #788292;
+}
+.slf-tooltip-arrow.right-center { top: 50%; transform: translateY(-50%); }
+.slf-tooltip-arrow.right-end { top: auto; bottom: 24px; }
+// Text color variants
+.slf-tooltip-textcolor--default {
+  color: inherit;
+}
+.slf-tooltip-textcolor--error {
+  color: var(--error-color-200);
+}
+.slf-tooltip-textcolor--success {
+  color: var(--success-color-200);
+}

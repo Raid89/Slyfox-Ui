@@ -4,11 +4,12 @@ import { FormBuilder, FormControl, FormGroup, ReactiveFormsModule } from '@angul
 import { SlyfoxUiCheckboxComponent } from '../../../../../slyfox-components/checkbox/checkbox.component';
 import { IComponentProperty } from '../../interfaces/properties.interface';
 import { PropertiesTableComponent } from '../properties-table/properties-table.component';
+import { CssVarsTableComponent } from '../../shared/css-vars-table';
 
 @Component({
   selector: 'app-checkbox',
   standalone: true,
-  imports: [CommonModule, ReactiveFormsModule, SlyfoxUiCheckboxComponent, PropertiesTableComponent],
+  imports: [CommonModule, ReactiveFormsModule, SlyfoxUiCheckboxComponent, PropertiesTableComponent, CssVarsTableComponent],
   templateUrl: './checkbox.component.html',
   styleUrls: ['./checkbox.component.scss']
 })

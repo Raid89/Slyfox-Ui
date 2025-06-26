@@ -1,0 +1,4714 @@
+[
+  {
+    "category": "alert",
+    "name": "alert-circle"
+  },
+  {
+    "category": "alert",
+    "name": "alert-hexagon"
+  },
+  {
+    "category": "alert",
+    "name": "alert-octagon"
+  },
+  {
+    "category": "alert",
+    "name": "alert-square"
+  },
+  {
+    "category": "alert",
+    "name": "announcement-01"
+  },
+  {
+    "category": "alert",
+    "name": "announcement-02"
+  },
+  {
+    "category": "alert",
+    "name": "announcement-03"
+  },
+  {
+    "category": "alert",
+    "name": "alert-triangle"
+  },
+  {
+    "category": "alert",
+    "name": "bell-01"
+  },
+  {
+    "category": "alert",
+    "name": "bell-02"
+  },
+  {
+    "category": "alert",
+    "name": "bell-03"
+  },
+  {
+    "category": "alert",
+    "name": "bell-04"
+  },
+  {
+    "category": "alert",
+    "name": "bell-minus"
+  },
+  {
+    "category": "alert",
+    "name": "bell-off-01"
+  },
+  {
+    "category": "alert",
+    "name": "bell-off-02"
+  },
+  {
+    "category": "alert",
+    "name": "bell-off-03"
+  },
+  {
+    "category": "alert",
+    "name": "bell-plus"
+  },
+  {
+    "category": "alert",
+    "name": "bell-ringing-01"
+  },
+  {
+    "category": "alert",
+    "name": "bell-ringing-02"
+  },
+  {
+    "category": "alert",
+    "name": "bell-ringing-03"
+  },
+  {
+    "category": "alert",
+    "name": "bell-ringing-04"
+  },
+  {
+    "category": "alert",
+    "name": "notification-box"
+  },
+  {
+    "category": "alert",
+    "name": "notification-message"
+  },
+  {
+    "category": "alert",
+    "name": "notification-text"
+  },
+  {
+    "category": "alert",
+    "name": "thumbs-down"
+  },
+  {
+    "category": "alert",
+    "name": "thumbs-up"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-block-down"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-block-left"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-block-right"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-block-up"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-circle-broken-down-left"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-circle-broken-down-right"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-circle-broken-down"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-circle-broken-left"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-circle-broken-right"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-circle-broken-up-left"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-circle-broken-up-right"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-circle-broken-up"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-circle-down-left"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-circle-down-right"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-circle-down"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-circle-left"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-circle-right"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-circle-up-left"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-circle-up-right"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-circle-up"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-down-left"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-down-right"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-down"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-left"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-narrow-down-left"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-narrow-down-right"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-narrow-down"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-narrow-left"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-narrow-right"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-narrow-up-left"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-narrow-up-right"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-narrow-up"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-right"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-square-down-left"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-square-down-right"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-square-down"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-square-left"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-square-right"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-square-up-left"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-square-up-right"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-square-up"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-up-left"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-up-right"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow-up"
+  },
+  {
+    "category": "arrows",
+    "name": "arrow"
+  },
+  {
+    "category": "arrows",
+    "name": "arrows-down"
+  },
+  {
+    "category": "arrows",
+    "name": "arrows-left"
+  },
+  {
+    "category": "arrows",
+    "name": "arrows-right"
+  },
+  {
+    "category": "arrows",
+    "name": "arrows-triangle"
+  },
+  {
+    "category": "arrows",
+    "name": "arrows-up"
+  },
+  {
+    "category": "arrows",
+    "name": "chevron-down-double"
+  },
+  {
+    "category": "arrows",
+    "name": "chevron-left-double"
+  },
+  {
+    "category": "arrows",
+    "name": "chevron-left"
+  },
+  {
+    "category": "arrows",
+    "name": "chevron-right-double"
+  },
+  {
+    "category": "arrows",
+    "name": "chevron-right"
+  },
+  {
+    "category": "arrows",
+    "name": "chevron-selector-horizontal"
+  },
+  {
+    "category": "arrows",
+    "name": "chevron-selector-vertical"
+  },
+  {
+    "category": "arrows",
+    "name": "chevron-up-double"
+  },
+  {
+    "category": "arrows",
+    "name": "chevron-up"
+  },
+  {
+    "category": "arrows",
+    "name": "corner-down-left"
+  },
+  {
+    "category": "arrows",
+    "name": "corner-down-right"
+  },
+  {
+    "category": "arrows",
+    "name": "corner-left-down"
+  },
+  {
+    "category": "arrows",
+    "name": "corner-left-up"
+  },
+  {
+    "category": "arrows",
+    "name": "corner-right-down"
+  },
+  {
+    "category": "arrows",
+    "name": "corner-right-up"
+  },
+  {
+    "category": "arrows",
+    "name": "corner-up-left"
+  },
+  {
+    "category": "arrows",
+    "name": "corner-up-right"
+  },
+  {
+    "category": "arrows",
+    "name": "expand-01"
+  },
+  {
+    "category": "arrows",
+    "name": "expand-02"
+  },
+  {
+    "category": "arrows",
+    "name": "expand-03"
+  },
+  {
+    "category": "arrows",
+    "name": "expand-04"
+  },
+  {
+    "category": "arrows",
+    "name": "expand-05"
+  },
+  {
+    "category": "arrows",
+    "name": "expand-06"
+  },
+  {
+    "category": "arrows",
+    "name": "flip-backward"
+  },
+  {
+    "category": "arrows",
+    "name": "flip-forward"
+  },
+  {
+    "category": "arrows",
+    "name": "infinity"
+  },
+  {
+    "category": "arrows",
+    "name": "refresh-ccw-01"
+  },
+  {
+    "category": "arrows",
+    "name": "refresh-ccw-02"
+  },
+  {
+    "category": "arrows",
+    "name": "refresh-ccw-03"
+  },
+  {
+    "category": "arrows",
+    "name": "refresh-ccw-04"
+  },
+  {
+    "category": "arrows",
+    "name": "refresh-ccw-05"
+  },
+  {
+    "category": "arrows",
+    "name": "refresh-cw-01"
+  },
+  {
+    "category": "arrows",
+    "name": "refresh-cw-02"
+  },
+  {
+    "category": "arrows",
+    "name": "refresh-cw-03"
+  },
+  {
+    "category": "arrows",
+    "name": "refresh-cw-04"
+  },
+  {
+    "category": "arrows",
+    "name": "refresh-cw-05"
+  },
+  {
+    "category": "arrows",
+    "name": "reverse-left"
+  },
+  {
+    "category": "arrows",
+    "name": "reverse-right"
+  },
+  {
+    "category": "arrows",
+    "name": "switch-horizontal-01"
+  },
+  {
+    "category": "arrows",
+    "name": "switch-horizontal-02"
+  },
+  {
+    "category": "arrows",
+    "name": "switch-vertical-01"
+  },
+  {
+    "category": "arrows",
+    "name": "switch-vertical-02"
+  },
+  {
+    "category": "charts",
+    "name": "bar-chart-01"
+  },
+  {
+    "category": "charts",
+    "name": "bar-chart-02"
+  },
+  {
+    "category": "charts",
+    "name": "bar-chart-03"
+  },
+  {
+    "category": "charts",
+    "name": "bar-chart-04"
+  },
+  {
+    "category": "charts",
+    "name": "bar-chart-05"
+  },
+  {
+    "category": "charts",
+    "name": "bar-chart-06"
+  },
+  {
+    "category": "charts",
+    "name": "bar-chart-07"
+  },
+  {
+    "category": "charts",
+    "name": "bar-chart-08"
+  },
+  {
+    "category": "charts",
+    "name": "bar-chart-09"
+  },
+  {
+    "category": "charts",
+    "name": "bar-chart-10"
+  },
+  {
+    "category": "charts",
+    "name": "bar-chart-11"
+  },
+  {
+    "category": "charts",
+    "name": "bar-chart-12"
+  },
+  {
+    "category": "charts",
+    "name": "bar-chart-circle-01"
+  },
+  {
+    "category": "charts",
+    "name": "bar-chart-circle-02"
+  },
+  {
+    "category": "charts",
+    "name": "bar-chart-circle-03"
+  },
+  {
+    "category": "charts",
+    "name": "bar-chart-square-01"
+  },
+  {
+    "category": "charts",
+    "name": "bar-chart-square-02"
+  },
+  {
+    "category": "charts",
+    "name": "bar-chart-square-03"
+  },
+  {
+    "category": "charts",
+    "name": "bar-chart-square-down"
+  },
+  {
+    "category": "charts",
+    "name": "bar-chart-square-minus"
+  },
+  {
+    "category": "charts",
+    "name": "bar-chart-square-plus"
+  },
+  {
+    "category": "charts",
+    "name": "bar-chart-square-up"
+  },
+  {
+    "category": "charts",
+    "name": "bar-line-chart"
+  },
+  {
+    "category": "charts",
+    "name": "chart-breakout-circle"
+  },
+  {
+    "category": "charts",
+    "name": "chart-breakout-square"
+  },
+  {
+    "category": "charts",
+    "name": "horizontal-bar-chart-01"
+  },
+  {
+    "category": "charts",
+    "name": "horizontal-bar-chart-02"
+  },
+  {
+    "category": "charts",
+    "name": "horizontal-bar-chart-03"
+  },
+  {
+    "category": "charts",
+    "name": "line-chart-down-01"
+  },
+  {
+    "category": "charts",
+    "name": "line-chart-down-02"
+  },
+  {
+    "category": "charts",
+    "name": "line-chart-down-03"
+  },
+  {
+    "category": "charts",
+    "name": "line-chart-down-04"
+  },
+  {
+    "category": "charts",
+    "name": "line-chart-down-05"
+  },
+  {
+    "category": "charts",
+    "name": "line-chart-up-01"
+  },
+  {
+    "category": "charts",
+    "name": "line-chart-up-02"
+  },
+  {
+    "category": "charts",
+    "name": "line-chart-up-03"
+  },
+  {
+    "category": "charts",
+    "name": "line-chart-up-04"
+  },
+  {
+    "category": "charts",
+    "name": "line-chart-up-05"
+  },
+  {
+    "category": "charts",
+    "name": "pie-chart-01"
+  },
+  {
+    "category": "charts",
+    "name": "pie-chart-02"
+  },
+  {
+    "category": "charts",
+    "name": "pie-chart-03"
+  },
+  {
+    "category": "charts",
+    "name": "pie-chart-04"
+  },
+  {
+    "category": "charts",
+    "name": "presentation-chart-01"
+  },
+  {
+    "category": "charts",
+    "name": "presentation-chart-02"
+  },
+  {
+    "category": "charts",
+    "name": "presentation-chart-03"
+  },
+  {
+    "category": "charts",
+    "name": "trend-down-01"
+  },
+  {
+    "category": "charts",
+    "name": "trend-down-02"
+  },
+  {
+    "category": "charts",
+    "name": "trend-up-01"
+  },
+  {
+    "category": "charts",
+    "name": "trend-up-02"
+  },
+  {
+    "category": "communication",
+    "name": "annotation-alert"
+  },
+  {
+    "category": "communication",
+    "name": "annotation-check"
+  },
+  {
+    "category": "communication",
+    "name": "annotation-dots"
+  },
+  {
+    "category": "communication",
+    "name": "annotation-heart"
+  },
+  {
+    "category": "communication",
+    "name": "annotation-info"
+  },
+  {
+    "category": "communication",
+    "name": "annotation-plus"
+  },
+  {
+    "category": "communication",
+    "name": "annotation-question"
+  },
+  {
+    "category": "communication",
+    "name": "annotation-x"
+  },
+  {
+    "category": "communication",
+    "name": "annotation"
+  },
+  {
+    "category": "communication",
+    "name": "inbox-01"
+  },
+  {
+    "category": "communication",
+    "name": "inbox-02"
+  },
+  {
+    "category": "communication",
+    "name": "mail-01"
+  },
+  {
+    "category": "communication",
+    "name": "mail-02"
+  },
+  {
+    "category": "communication",
+    "name": "mail-03"
+  },
+  {
+    "category": "communication",
+    "name": "mail-04"
+  },
+  {
+    "category": "communication",
+    "name": "mail-05"
+  },
+  {
+    "category": "communication",
+    "name": "message-alert-circle"
+  },
+  {
+    "category": "communication",
+    "name": "message-alert-square"
+  },
+  {
+    "category": "communication",
+    "name": "message-chat-circle"
+  },
+  {
+    "category": "communication",
+    "name": "message-chat-square"
+  },
+  {
+    "category": "communication",
+    "name": "message-check-circle"
+  },
+  {
+    "category": "communication",
+    "name": "message-check-square"
+  },
+  {
+    "category": "communication",
+    "name": "message-circle-01"
+  },
+  {
+    "category": "communication",
+    "name": "message-circle-02"
+  },
+  {
+    "category": "communication",
+    "name": "message-dots-circle"
+  },
+  {
+    "category": "communication",
+    "name": "message-dots-square"
+  },
+  {
+    "category": "communication",
+    "name": "message-heart-circle"
+  },
+  {
+    "category": "communication",
+    "name": "message-heart-square"
+  },
+  {
+    "category": "communication",
+    "name": "message-notification-circle"
+  },
+  {
+    "category": "communication",
+    "name": "message-notification-square"
+  },
+  {
+    "category": "communication",
+    "name": "message-plus-circle"
+  },
+  {
+    "category": "communication",
+    "name": "message-plus-square"
+  },
+  {
+    "category": "communication",
+    "name": "message-question-circle"
+  },
+  {
+    "category": "communication",
+    "name": "message-question-square"
+  },
+  {
+    "category": "communication",
+    "name": "message-smile-circle"
+  },
+  {
+    "category": "communication",
+    "name": "message-smile-square"
+  },
+  {
+    "category": "communication",
+    "name": "message-square-01"
+  },
+  {
+    "category": "communication",
+    "name": "message-square-02"
+  },
+  {
+    "category": "communication",
+    "name": "message-text-circle-01"
+  },
+  {
+    "category": "communication",
+    "name": "message-text-circle-02"
+  },
+  {
+    "category": "communication",
+    "name": "message-text-square-01"
+  },
+  {
+    "category": "communication",
+    "name": "message-text-square-02"
+  },
+  {
+    "category": "communication",
+    "name": "message-x-circle"
+  },
+  {
+    "category": "communication",
+    "name": "message-x-square"
+  },
+  {
+    "category": "communication",
+    "name": "phone-call-01"
+  },
+  {
+    "category": "communication",
+    "name": "phone-call-02"
+  },
+  {
+    "category": "communication",
+    "name": "phone-hang-up"
+  },
+  {
+    "category": "communication",
+    "name": "phone-incoming-01"
+  },
+  {
+    "category": "communication",
+    "name": "phone-incoming-02"
+  },
+  {
+    "category": "communication",
+    "name": "phone-outgoing-01"
+  },
+  {
+    "category": "communication",
+    "name": "phone-outgoing-02"
+  },
+  {
+    "category": "communication",
+    "name": "phone-pause"
+  },
+  {
+    "category": "communication",
+    "name": "phone-plus"
+  },
+  {
+    "category": "communication",
+    "name": "phone-x"
+  },
+  {
+    "category": "communication",
+    "name": "phone"
+  },
+  {
+    "category": "communication",
+    "name": "send-01"
+  },
+  {
+    "category": "communication",
+    "name": "send-02"
+  },
+  {
+    "category": "communication",
+    "name": "send-03"
+  },
+  {
+    "category": "development",
+    "name": "dataflow-01"
+  },
+  {
+    "category": "development",
+    "name": "dataflow-02"
+  },
+  {
+    "category": "development",
+    "name": "dataflow-03"
+  },
+  {
+    "category": "development",
+    "name": "dataflow-04"
+  },
+  {
+    "category": "development",
+    "name": "brackets-check"
+  },
+  {
+    "category": "development",
+    "name": "brackets-ellipses"
+  },
+  {
+    "category": "development",
+    "name": "brackets-minus"
+  },
+  {
+    "category": "development",
+    "name": "brackets-plus"
+  },
+  {
+    "category": "development",
+    "name": "brackets-slash"
+  },
+  {
+    "category": "development",
+    "name": "brackets-x"
+  },
+  {
+    "category": "development",
+    "name": "brackets"
+  },
+  {
+    "category": "development",
+    "name": "browser"
+  },
+  {
+    "category": "development",
+    "name": "code-01"
+  },
+  {
+    "category": "development",
+    "name": "code-02"
+  },
+  {
+    "category": "development",
+    "name": "code-browser"
+  },
+  {
+    "category": "development",
+    "name": "code-circle-01"
+  },
+  {
+    "category": "development",
+    "name": "code-circle-02"
+  },
+  {
+    "category": "development",
+    "name": "code-circle-03"
+  },
+  {
+    "category": "development",
+    "name": "code-square-01"
+  },
+  {
+    "category": "development",
+    "name": "code-square-02"
+  },
+  {
+    "category": "development",
+    "name": "codepen"
+  },
+  {
+    "category": "development",
+    "name": "container"
+  },
+  {
+    "category": "development",
+    "name": "cpu-chip-01"
+  },
+  {
+    "category": "development",
+    "name": "cpu-chip-02"
+  },
+  {
+    "category": "development",
+    "name": "data"
+  },
+  {
+    "category": "development",
+    "name": "database-01"
+  },
+  {
+    "category": "development",
+    "name": "database-02"
+  },
+  {
+    "category": "development",
+    "name": "database-03"
+  },
+  {
+    "category": "development",
+    "name": "file-code-01"
+  },
+  {
+    "category": "development",
+    "name": "file-code-02"
+  },
+  {
+    "category": "development",
+    "name": "folder-code"
+  },
+  {
+    "category": "development",
+    "name": "git-branch-01"
+  },
+  {
+    "category": "development",
+    "name": "git-branch-02"
+  },
+  {
+    "category": "development",
+    "name": "git-commit"
+  },
+  {
+    "category": "development",
+    "name": "git-merge"
+  },
+  {
+    "category": "development",
+    "name": "git-pull-request"
+  },
+  {
+    "category": "development",
+    "name": "package-check"
+  },
+  {
+    "category": "development",
+    "name": "package-minus"
+  },
+  {
+    "category": "development",
+    "name": "package-plus"
+  },
+  {
+    "category": "development",
+    "name": "package-search"
+  },
+  {
+    "category": "development",
+    "name": "package-x"
+  },
+  {
+    "category": "development",
+    "name": "package"
+  },
+  {
+    "category": "development",
+    "name": "puzzle-piece-01"
+  },
+  {
+    "category": "development",
+    "name": "puzzle-piece-02"
+  },
+  {
+    "category": "development",
+    "name": "qr-code-01"
+  },
+  {
+    "category": "development",
+    "name": "qr-code-02"
+  },
+  {
+    "category": "development",
+    "name": "server-01"
+  },
+  {
+    "category": "development",
+    "name": "server-02"
+  },
+  {
+    "category": "development",
+    "name": "server-03"
+  },
+  {
+    "category": "development",
+    "name": "server-04"
+  },
+  {
+    "category": "development",
+    "name": "server-05"
+  },
+  {
+    "category": "development",
+    "name": "server-06"
+  },
+  {
+    "category": "development",
+    "name": "terminal-browser"
+  },
+  {
+    "category": "development",
+    "name": "terminal-circle"
+  },
+  {
+    "category": "development",
+    "name": "terminal-square"
+  },
+  {
+    "category": "development",
+    "name": "terminal"
+  },
+  {
+    "category": "development",
+    "name": "variable"
+  },
+  {
+    "category": "editor",
+    "name": "align-center"
+  },
+  {
+    "category": "editor",
+    "name": "align-justify"
+  },
+  {
+    "category": "editor",
+    "name": "align-left"
+  },
+  {
+    "category": "editor",
+    "name": "align-right"
+  },
+  {
+    "category": "editor",
+    "name": "attachment-01"
+  },
+  {
+    "category": "editor",
+    "name": "attachment-02"
+  },
+  {
+    "category": "editor",
+    "name": "bezier-curve-01"
+  },
+  {
+    "category": "editor",
+    "name": "bezier-curve-02"
+  },
+  {
+    "category": "editor",
+    "name": "bezier-curve-03"
+  },
+  {
+    "category": "editor",
+    "name": "bold-01"
+  },
+  {
+    "category": "editor",
+    "name": "bold-02"
+  },
+  {
+    "category": "editor",
+    "name": "bold-square"
+  },
+  {
+    "category": "editor",
+    "name": "brush-01"
+  },
+  {
+    "category": "editor",
+    "name": "brush-02"
+  },
+  {
+    "category": "editor",
+    "name": "brush-03"
+  },
+  {
+    "category": "editor",
+    "name": "circle-cut"
+  },
+  {
+    "category": "editor",
+    "name": "code-snippet-01"
+  },
+  {
+    "category": "editor",
+    "name": "code-snippet-02"
+  },
+  {
+    "category": "editor",
+    "name": "colors"
+  },
+  {
+    "category": "editor",
+    "name": "command"
+  },
+  {
+    "category": "editor",
+    "name": "contrast-01"
+  },
+  {
+    "category": "editor",
+    "name": "contrast-02"
+  },
+  {
+    "category": "editor",
+    "name": "contrast-03"
+  },
+  {
+    "category": "editor",
+    "name": "crop-01"
+  },
+  {
+    "category": "editor",
+    "name": "crop-02"
+  },
+  {
+    "category": "editor",
+    "name": "cursor-01"
+  },
+  {
+    "category": "editor",
+    "name": "cursor-02"
+  },
+  {
+    "category": "editor",
+    "name": "cursor-03"
+  },
+  {
+    "category": "editor",
+    "name": "cursor-04"
+  },
+  {
+    "category": "editor",
+    "name": "cursor-box"
+  },
+  {
+    "category": "editor",
+    "name": "cursor-click-01"
+  },
+  {
+    "category": "editor",
+    "name": "cursor-click-02"
+  },
+  {
+    "category": "editor",
+    "name": "delete"
+  },
+  {
+    "category": "editor",
+    "name": "dotpoints-01"
+  },
+  {
+    "category": "editor",
+    "name": "dotpoints-02"
+  },
+  {
+    "category": "editor",
+    "name": "drop"
+  },
+  {
+    "category": "editor",
+    "name": "dropper"
+  },
+  {
+    "category": "editor",
+    "name": "eraser"
+  },
+  {
+    "category": "editor",
+    "name": "feather"
+  },
+  {
+    "category": "editor",
+    "name": "figma"
+  },
+  {
+    "category": "editor",
+    "name": "framer"
+  },
+  {
+    "category": "editor",
+    "name": "hand"
+  },
+  {
+    "category": "editor",
+    "name": "heading-01"
+  },
+  {
+    "category": "editor",
+    "name": "heading-02"
+  },
+  {
+    "category": "editor",
+    "name": "heading-square"
+  },
+  {
+    "category": "editor",
+    "name": "image-indent-left"
+  },
+  {
+    "category": "editor",
+    "name": "image-indent-right"
+  },
+  {
+    "category": "editor",
+    "name": "italic-01"
+  },
+  {
+    "category": "editor",
+    "name": "italic-02"
+  },
+  {
+    "category": "editor",
+    "name": "italic-square"
+  },
+  {
+    "category": "editor",
+    "name": "left-indent-01"
+  },
+  {
+    "category": "editor",
+    "name": "left-indent-02"
+  },
+  {
+    "category": "editor",
+    "name": "letter-spacing-01"
+  },
+  {
+    "category": "editor",
+    "name": "letter-spacing-02"
+  },
+  {
+    "category": "editor",
+    "name": "line-height"
+  },
+  {
+    "category": "editor",
+    "name": "magic-wand-01"
+  },
+  {
+    "category": "editor",
+    "name": "magic-wand-02"
+  },
+  {
+    "category": "editor",
+    "name": "move"
+  },
+  {
+    "category": "editor",
+    "name": "paint-pour"
+  },
+  {
+    "category": "editor",
+    "name": "paint"
+  },
+  {
+    "category": "editor",
+    "name": "palette"
+  },
+  {
+    "category": "editor",
+    "name": "paragraph-spacing"
+  },
+  {
+    "category": "editor",
+    "name": "paragraph-wrap"
+  },
+  {
+    "category": "editor",
+    "name": "pen-tool-01"
+  },
+  {
+    "category": "editor",
+    "name": "pen-tool-02"
+  },
+  {
+    "category": "editor",
+    "name": "pen-tool-minus"
+  },
+  {
+    "category": "editor",
+    "name": "pen-tool-plus"
+  },
+  {
+    "category": "editor",
+    "name": "pencil-01"
+  },
+  {
+    "category": "editor",
+    "name": "pencil-02"
+  },
+  {
+    "category": "editor",
+    "name": "pencil-line"
+  },
+  {
+    "category": "editor",
+    "name": "perspective-01"
+  },
+  {
+    "category": "editor",
+    "name": "perspective-02"
+  },
+  {
+    "category": "editor",
+    "name": "pilcrow-01"
+  },
+  {
+    "category": "editor",
+    "name": "pilcrow-02"
+  },
+  {
+    "category": "editor",
+    "name": "pilcrow-square"
+  },
+  {
+    "category": "editor",
+    "name": "reflect-01"
+  },
+  {
+    "category": "editor",
+    "name": "reflect-02"
+  },
+  {
+    "category": "editor",
+    "name": "right-indent-01"
+  },
+  {
+    "category": "editor",
+    "name": "right-indent-02"
+  },
+  {
+    "category": "editor",
+    "name": "roller-brush"
+  },
+  {
+    "category": "editor",
+    "name": "scale-01"
+  },
+  {
+    "category": "editor",
+    "name": "scale-02"
+  },
+  {
+    "category": "editor",
+    "name": "scale-03"
+  },
+  {
+    "category": "editor",
+    "name": "scissors-01"
+  },
+  {
+    "category": "editor",
+    "name": "scissors-02"
+  },
+  {
+    "category": "editor",
+    "name": "scissors-cut-01"
+  },
+  {
+    "category": "editor",
+    "name": "scissors-cut-02"
+  },
+  {
+    "category": "editor",
+    "name": "skew"
+  },
+  {
+    "category": "editor",
+    "name": "strikethrough-01"
+  },
+  {
+    "category": "editor",
+    "name": "strikethrough-02"
+  },
+  {
+    "category": "editor",
+    "name": "strikethrough-square"
+  },
+  {
+    "category": "editor",
+    "name": "subscript"
+  },
+  {
+    "category": "editor",
+    "name": "text-input"
+  },
+  {
+    "category": "editor",
+    "name": "transform"
+  },
+  {
+    "category": "editor",
+    "name": "type-01"
+  },
+  {
+    "category": "editor",
+    "name": "type-02"
+  },
+  {
+    "category": "editor",
+    "name": "type-square"
+  },
+  {
+    "category": "editor",
+    "name": "type-strikethrough-01"
+  },
+  {
+    "category": "editor",
+    "name": "type-strikethrough-02"
+  },
+  {
+    "category": "editor",
+    "name": "underline-01"
+  },
+  {
+    "category": "editor",
+    "name": "underline-02"
+  },
+  {
+    "category": "editor",
+    "name": "underline-square"
+  },
+  {
+    "category": "editor",
+    "name": "zoom-in"
+  },
+  {
+    "category": "editor",
+    "name": "zoom-out"
+  },
+  {
+    "category": "education",
+    "name": "atom-01"
+  },
+  {
+    "category": "education",
+    "name": "atom-02"
+  },
+  {
+    "category": "education",
+    "name": "award-01"
+  },
+  {
+    "category": "education",
+    "name": "award-02"
+  },
+  {
+    "category": "education",
+    "name": "award-03"
+  },
+  {
+    "category": "education",
+    "name": "award-04"
+  },
+  {
+    "category": "education",
+    "name": "award-05"
+  },
+  {
+    "category": "education",
+    "name": "backpack"
+  },
+  {
+    "category": "education",
+    "name": "beaker-01"
+  },
+  {
+    "category": "education",
+    "name": "beaker-02"
+  },
+  {
+    "category": "education",
+    "name": "book-closed"
+  },
+  {
+    "category": "education",
+    "name": "book-open-01"
+  },
+  {
+    "category": "education",
+    "name": "book-open-02"
+  },
+  {
+    "category": "education",
+    "name": "briefcase-01"
+  },
+  {
+    "category": "education",
+    "name": "briefcase-02"
+  },
+  {
+    "category": "education",
+    "name": "calculator"
+  },
+  {
+    "category": "education",
+    "name": "certificate-01"
+  },
+  {
+    "category": "education",
+    "name": "certificate-02"
+  },
+  {
+    "category": "education",
+    "name": "compass"
+  },
+  {
+    "category": "education",
+    "name": "glasses-01"
+  },
+  {
+    "category": "education",
+    "name": "glasses-02"
+  },
+  {
+    "category": "education",
+    "name": "globe-slated-01"
+  },
+  {
+    "category": "education",
+    "name": "globe-slated-02"
+  },
+  {
+    "category": "education",
+    "name": "graduation-hat-01"
+  },
+  {
+    "category": "education",
+    "name": "graduation-hat-02"
+  },
+  {
+    "category": "education",
+    "name": "microscope"
+  },
+  {
+    "category": "education",
+    "name": "ruler"
+  },
+  {
+    "category": "education",
+    "name": "stand"
+  },
+  {
+    "category": "education",
+    "name": "telescope"
+  },
+  {
+    "category": "education",
+    "name": "trophy-01"
+  },
+  {
+    "category": "education",
+    "name": "trophy-02"
+  },
+  {
+    "category": "files",
+    "name": "box"
+  },
+  {
+    "category": "files",
+    "name": "clipboard-attachment"
+  },
+  {
+    "category": "files",
+    "name": "clipboard-check"
+  },
+  {
+    "category": "files",
+    "name": "clipboard-download"
+  },
+  {
+    "category": "files",
+    "name": "clipboard-minus"
+  },
+  {
+    "category": "files",
+    "name": "clipboard-plus"
+  },
+  {
+    "category": "files",
+    "name": "clipboard-x"
+  },
+  {
+    "category": "files",
+    "name": "clipboard"
+  },
+  {
+    "category": "files",
+    "name": "file-01"
+  },
+  {
+    "category": "files",
+    "name": "file-02"
+  },
+  {
+    "category": "files",
+    "name": "file-03"
+  },
+  {
+    "category": "files",
+    "name": "file-04"
+  },
+  {
+    "category": "files",
+    "name": "file-05"
+  },
+  {
+    "category": "files",
+    "name": "file-06"
+  },
+  {
+    "category": "files",
+    "name": "file-07"
+  },
+  {
+    "category": "files",
+    "name": "file-attachment-01"
+  },
+  {
+    "category": "files",
+    "name": "file-attachment-02"
+  },
+  {
+    "category": "files",
+    "name": "file-attachment-03"
+  },
+  {
+    "category": "files",
+    "name": "file-attachment-04"
+  },
+  {
+    "category": "files",
+    "name": "file-attachment-05"
+  },
+  {
+    "category": "files",
+    "name": "file-check-01"
+  },
+  {
+    "category": "files",
+    "name": "file-check-02"
+  },
+  {
+    "category": "files",
+    "name": "file-check-03"
+  },
+  {
+    "category": "files",
+    "name": "file-download-01"
+  },
+  {
+    "category": "files",
+    "name": "file-download-02"
+  },
+  {
+    "category": "files",
+    "name": "file-download-03"
+  },
+  {
+    "category": "files",
+    "name": "file-heart-01"
+  },
+  {
+    "category": "files",
+    "name": "file-heart-02"
+  },
+  {
+    "category": "files",
+    "name": "file-heart-03"
+  },
+  {
+    "category": "files",
+    "name": "file-minus-01"
+  },
+  {
+    "category": "files",
+    "name": "file-minus-02"
+  },
+  {
+    "category": "files",
+    "name": "file-minus-03"
+  },
+  {
+    "category": "files",
+    "name": "file-plus-01"
+  },
+  {
+    "category": "files",
+    "name": "file-plus-02"
+  },
+  {
+    "category": "files",
+    "name": "file-plus-03"
+  },
+  {
+    "category": "files",
+    "name": "file-question-01"
+  },
+  {
+    "category": "files",
+    "name": "file-question-02"
+  },
+  {
+    "category": "files",
+    "name": "file-question-03"
+  },
+  {
+    "category": "files",
+    "name": "file-search-01"
+  },
+  {
+    "category": "files",
+    "name": "file-search-02"
+  },
+  {
+    "category": "files",
+    "name": "file-search-03"
+  },
+  {
+    "category": "files",
+    "name": "file-x-01"
+  },
+  {
+    "category": "files",
+    "name": "file-x-02"
+  },
+  {
+    "category": "files",
+    "name": "file-x-03"
+  },
+  {
+    "category": "files",
+    "name": "folder-check"
+  },
+  {
+    "category": "files",
+    "name": "folder-closed"
+  },
+  {
+    "category": "files",
+    "name": "folder-download"
+  },
+  {
+    "category": "files",
+    "name": "folder-lock"
+  },
+  {
+    "category": "files",
+    "name": "folder-minus"
+  },
+  {
+    "category": "files",
+    "name": "folder-plus"
+  },
+  {
+    "category": "files",
+    "name": "folder-question"
+  },
+  {
+    "category": "files",
+    "name": "folder-search"
+  },
+  {
+    "category": "files",
+    "name": "folder-x"
+  },
+  {
+    "category": "files",
+    "name": "folder"
+  },
+  {
+    "category": "files",
+    "name": "paperclip"
+  },
+  {
+    "category": "files",
+    "name": "sticker-circle"
+  },
+  {
+    "category": "files",
+    "name": "sticker-square"
+  },
+  {
+    "category": "finance",
+    "name": "Icon"
+  },
+  {
+    "category": "finance",
+    "name": "bank-note-01"
+  },
+  {
+    "category": "finance",
+    "name": "bank-note-02"
+  },
+  {
+    "category": "finance",
+    "name": "bank-note-03"
+  },
+  {
+    "category": "finance",
+    "name": "bank"
+  },
+  {
+    "category": "finance",
+    "name": "coins-01"
+  },
+  {
+    "category": "finance",
+    "name": "coins-02"
+  },
+  {
+    "category": "finance",
+    "name": "coins-03"
+  },
+  {
+    "category": "finance",
+    "name": "coins-04"
+  },
+  {
+    "category": "finance",
+    "name": "coins-hand"
+  },
+  {
+    "category": "finance",
+    "name": "coins-stacked-01"
+  },
+  {
+    "category": "finance",
+    "name": "coins-stacked-02"
+  },
+  {
+    "category": "finance",
+    "name": "coins-stacked-03"
+  },
+  {
+    "category": "finance",
+    "name": "coins-stacked-04"
+  },
+  {
+    "category": "finance",
+    "name": "coins-swap-01"
+  },
+  {
+    "category": "finance",
+    "name": "coins-swap-02"
+  },
+  {
+    "category": "finance",
+    "name": "credit-card-01"
+  },
+  {
+    "category": "finance",
+    "name": "credit-card-02"
+  },
+  {
+    "category": "finance",
+    "name": "credit-card-check"
+  },
+  {
+    "category": "finance",
+    "name": "credit-card-down"
+  },
+  {
+    "category": "finance",
+    "name": "credit-card-download"
+  },
+  {
+    "category": "finance",
+    "name": "credit-card-edit"
+  },
+  {
+    "category": "finance",
+    "name": "credit-card-lock"
+  },
+  {
+    "category": "finance",
+    "name": "credit-card-minus"
+  },
+  {
+    "category": "finance",
+    "name": "credit-card-plus"
+  },
+  {
+    "category": "finance",
+    "name": "credit-card-refresh"
+  },
+  {
+    "category": "finance",
+    "name": "credit-card-search"
+  },
+  {
+    "category": "finance",
+    "name": "credit-card-shield"
+  },
+  {
+    "category": "finance",
+    "name": "credit-card-up"
+  },
+  {
+    "category": "finance",
+    "name": "credit-card-upload"
+  },
+  {
+    "category": "finance",
+    "name": "credit-card-x"
+  },
+  {
+    "category": "finance",
+    "name": "cryptocurrency-01"
+  },
+  {
+    "category": "finance",
+    "name": "cryptocurrency-02"
+  },
+  {
+    "category": "finance",
+    "name": "cryptocurrency-03"
+  },
+  {
+    "category": "finance",
+    "name": "cryptocurrency-04"
+  },
+  {
+    "category": "finance",
+    "name": "currency-bitcoin-circle"
+  },
+  {
+    "category": "finance",
+    "name": "currency-bitcoin"
+  },
+  {
+    "category": "finance",
+    "name": "currency-dollar-circle"
+  },
+  {
+    "category": "finance",
+    "name": "currency-dollar"
+  },
+  {
+    "category": "finance",
+    "name": "currency-ethereum-circle"
+  },
+  {
+    "category": "finance",
+    "name": "currency-ethereum"
+  },
+  {
+    "category": "finance",
+    "name": "currency-euro-circle"
+  },
+  {
+    "category": "finance",
+    "name": "currency-euro"
+  },
+  {
+    "category": "finance",
+    "name": "currency-pound-circle"
+  },
+  {
+    "category": "finance",
+    "name": "currency-pound"
+  },
+  {
+    "category": "finance",
+    "name": "currency-ruble-circle"
+  },
+  {
+    "category": "finance",
+    "name": "currency-ruble"
+  },
+  {
+    "category": "finance",
+    "name": "currency-rupee-circle"
+  },
+  {
+    "category": "finance",
+    "name": "currency-rupee"
+  },
+  {
+    "category": "finance",
+    "name": "currency-yen-circle"
+  },
+  {
+    "category": "finance",
+    "name": "currency-yen"
+  },
+  {
+    "category": "finance",
+    "name": "diamond-01"
+  },
+  {
+    "category": "finance",
+    "name": "diamond-02"
+  },
+  {
+    "category": "finance",
+    "name": "estrcutura contable"
+  },
+  {
+    "category": "finance",
+    "name": "gift-01"
+  },
+  {
+    "category": "finance",
+    "name": "gift-02"
+  },
+  {
+    "category": "finance",
+    "name": "piggy-bank-01"
+  },
+  {
+    "category": "finance",
+    "name": "piggy-bank-02"
+  },
+  {
+    "category": "finance",
+    "name": "receipt-check"
+  },
+  {
+    "category": "finance",
+    "name": "receipt"
+  },
+  {
+    "category": "finance",
+    "name": "safe"
+  },
+  {
+    "category": "finance",
+    "name": "sale-01"
+  },
+  {
+    "category": "finance",
+    "name": "sale-02"
+  },
+  {
+    "category": "finance",
+    "name": "sale-03"
+  },
+  {
+    "category": "finance",
+    "name": "sale-04"
+  },
+  {
+    "category": "finance",
+    "name": "scales-01"
+  },
+  {
+    "category": "finance",
+    "name": "scales-02"
+  },
+  {
+    "category": "finance",
+    "name": "shopping-bag-01"
+  },
+  {
+    "category": "finance",
+    "name": "shopping-bag-02"
+  },
+  {
+    "category": "finance",
+    "name": "shopping-bag-03"
+  },
+  {
+    "category": "finance",
+    "name": "shopping-cart-01"
+  },
+  {
+    "category": "finance",
+    "name": "shopping-cart-02"
+  },
+  {
+    "category": "finance",
+    "name": "shopping-cart-03"
+  },
+  {
+    "category": "finance",
+    "name": "tag-01"
+  },
+  {
+    "category": "finance",
+    "name": "tag-02"
+  },
+  {
+    "category": "finance",
+    "name": "tag-03"
+  },
+  {
+    "category": "finance",
+    "name": "wallet-01"
+  },
+  {
+    "category": "finance",
+    "name": "wallet-02"
+  },
+  {
+    "category": "finance",
+    "name": "wallet-03"
+  },
+  {
+    "category": "finance",
+    "name": "wallet-04"
+  },
+  {
+    "category": "finance",
+    "name": "wallet-05"
+  },
+  {
+    "category": "general",
+    "name": "activity-heart"
+  },
+  {
+    "category": "general",
+    "name": "activity"
+  },
+  {
+    "category": "general",
+    "name": "anchor"
+  },
+  {
+    "category": "general",
+    "name": "archive"
+  },
+  {
+    "category": "general",
+    "name": "asterisk-01"
+  },
+  {
+    "category": "general",
+    "name": "asterisk-02"
+  },
+  {
+    "category": "general",
+    "name": "at-sign"
+  },
+  {
+    "category": "general",
+    "name": "bookmark-add"
+  },
+  {
+    "category": "general",
+    "name": "bookmark-check"
+  },
+  {
+    "category": "general",
+    "name": "bookmark-minus"
+  },
+  {
+    "category": "general",
+    "name": "bookmark-x"
+  },
+  {
+    "category": "general",
+    "name": "bookmark"
+  },
+  {
+    "category": "general",
+    "name": "building-01"
+  },
+  {
+    "category": "general",
+    "name": "building-02"
+  },
+  {
+    "category": "general",
+    "name": "building-03"
+  },
+  {
+    "category": "general",
+    "name": "building-04"
+  },
+  {
+    "category": "general",
+    "name": "building-05"
+  },
+  {
+    "category": "general",
+    "name": "building-06"
+  },
+  {
+    "category": "general",
+    "name": "building-07"
+  },
+  {
+    "category": "general",
+    "name": "building-08"
+  },
+  {
+    "category": "general",
+    "name": "check-check"
+  },
+  {
+    "category": "general",
+    "name": "check-circle-broken"
+  },
+  {
+    "category": "general",
+    "name": "check-circle"
+  },
+  {
+    "category": "general",
+    "name": "check-done-01"
+  },
+  {
+    "category": "general",
+    "name": "check-done-02"
+  },
+  {
+    "category": "general",
+    "name": "check-heart"
+  },
+  {
+    "category": "general",
+    "name": "check-square-broken"
+  },
+  {
+    "category": "general",
+    "name": "check-square"
+  },
+  {
+    "category": "general",
+    "name": "check-verified-01"
+  },
+  {
+    "category": "general",
+    "name": "check-verified-02"
+  },
+  {
+    "category": "general",
+    "name": "check-verified-03"
+  },
+  {
+    "category": "general",
+    "name": "check"
+  },
+  {
+    "category": "general",
+    "name": "cloud-blank-01"
+  },
+  {
+    "category": "general",
+    "name": "cloud-blank-02"
+  },
+  {
+    "category": "general",
+    "name": "copy-01"
+  },
+  {
+    "category": "general",
+    "name": "copy-02"
+  },
+  {
+    "category": "general",
+    "name": "copy-03"
+  },
+  {
+    "category": "general",
+    "name": "copy-04"
+  },
+  {
+    "category": "general",
+    "name": "copy-05"
+  },
+  {
+    "category": "general",
+    "name": "copy-06"
+  },
+  {
+    "category": "general",
+    "name": "copy-07"
+  },
+  {
+    "category": "general",
+    "name": "divide-01"
+  },
+  {
+    "category": "general",
+    "name": "divide-02"
+  },
+  {
+    "category": "general",
+    "name": "divide-03"
+  },
+  {
+    "category": "general",
+    "name": "dots-grid"
+  },
+  {
+    "category": "general",
+    "name": "dots-horizontal"
+  },
+  {
+    "category": "general",
+    "name": "dots-vertical"
+  },
+  {
+    "category": "general",
+    "name": "download-01"
+  },
+  {
+    "category": "general",
+    "name": "download-02"
+  },
+  {
+    "category": "general",
+    "name": "download-03"
+  },
+  {
+    "category": "general",
+    "name": "download-04"
+  },
+  {
+    "category": "general",
+    "name": "download-cloud-01"
+  },
+  {
+    "category": "general",
+    "name": "download-cloud-02"
+  },
+  {
+    "category": "general",
+    "name": "edit-01"
+  },
+  {
+    "category": "general",
+    "name": "edit-02"
+  },
+  {
+    "category": "general",
+    "name": "edit-03"
+  },
+  {
+    "category": "general",
+    "name": "edit-04"
+  },
+  {
+    "category": "general",
+    "name": "edit-05"
+  },
+  {
+    "category": "general",
+    "name": "equal-not"
+  },
+  {
+    "category": "general",
+    "name": "equal"
+  },
+  {
+    "category": "general",
+    "name": "eye-off"
+  },
+  {
+    "category": "general",
+    "name": "eye"
+  },
+  {
+    "category": "general",
+    "name": "filter-funnel-01"
+  },
+  {
+    "category": "general",
+    "name": "filter-funnel-02"
+  },
+  {
+    "category": "general",
+    "name": "filter-lines"
+  },
+  {
+    "category": "general",
+    "name": "google-chrome"
+  },
+  {
+    "category": "general",
+    "name": "hash-01"
+  },
+  {
+    "category": "general",
+    "name": "hash-02"
+  },
+  {
+    "category": "general",
+    "name": "heart-circle"
+  },
+  {
+    "category": "general",
+    "name": "heart-hand"
+  },
+  {
+    "category": "general",
+    "name": "heart-hexagon"
+  },
+  {
+    "category": "general",
+    "name": "heart-octagon"
+  },
+  {
+    "category": "general",
+    "name": "heart-rounded"
+  },
+  {
+    "category": "general",
+    "name": "heart-square"
+  },
+  {
+    "category": "general",
+    "name": "heart"
+  },
+  {
+    "category": "general",
+    "name": "hearts"
+  },
+  {
+    "category": "general",
+    "name": "help-circle"
+  },
+  {
+    "category": "general",
+    "name": "help-hexagon"
+  },
+  {
+    "category": "general",
+    "name": "help-octagon"
+  },
+  {
+    "category": "general",
+    "name": "help-square"
+  },
+  {
+    "category": "general",
+    "name": "home-01"
+  },
+  {
+    "category": "general",
+    "name": "home-02"
+  },
+  {
+    "category": "general",
+    "name": "home-03"
+  },
+  {
+    "category": "general",
+    "name": "home-04"
+  },
+  {
+    "category": "general",
+    "name": "home-05"
+  },
+  {
+    "category": "general",
+    "name": "home-line"
+  },
+  {
+    "category": "general",
+    "name": "home-smile"
+  },
+  {
+    "category": "general",
+    "name": "info-circle"
+  },
+  {
+    "category": "general",
+    "name": "info-hexagon"
+  },
+  {
+    "category": "general",
+    "name": "info-octagon"
+  },
+  {
+    "category": "general",
+    "name": "info-square"
+  },
+  {
+    "category": "general",
+    "name": "life-buoy-01"
+  },
+  {
+    "category": "general",
+    "name": "life-buoy-02"
+  },
+  {
+    "category": "general",
+    "name": "link-01"
+  },
+  {
+    "category": "general",
+    "name": "link-02"
+  },
+  {
+    "category": "general",
+    "name": "link-03"
+  },
+  {
+    "category": "general",
+    "name": "link-04"
+  },
+  {
+    "category": "general",
+    "name": "link-05"
+  },
+  {
+    "category": "general",
+    "name": "link-broken-01"
+  },
+  {
+    "category": "general",
+    "name": "link-broken-02"
+  },
+  {
+    "category": "general",
+    "name": "link-external-01"
+  },
+  {
+    "category": "general",
+    "name": "link-external-02"
+  },
+  {
+    "category": "general",
+    "name": "loading-01"
+  },
+  {
+    "category": "general",
+    "name": "loading-02"
+  },
+  {
+    "category": "general",
+    "name": "loading-03"
+  },
+  {
+    "category": "general",
+    "name": "log-in-01"
+  },
+  {
+    "category": "general",
+    "name": "log-in-02"
+  },
+  {
+    "category": "general",
+    "name": "log-in-03"
+  },
+  {
+    "category": "general",
+    "name": "log-in-04"
+  },
+  {
+    "category": "general",
+    "name": "log-out-01"
+  },
+  {
+    "category": "general",
+    "name": "log-out-02"
+  },
+  {
+    "category": "general",
+    "name": "log-out-03"
+  },
+  {
+    "category": "general",
+    "name": "log-out-04"
+  },
+  {
+    "category": "general",
+    "name": "medical-circle"
+  },
+  {
+    "category": "general",
+    "name": "medical-cross"
+  },
+  {
+    "category": "general",
+    "name": "medical-square"
+  },
+  {
+    "category": "general",
+    "name": "menu-01"
+  },
+  {
+    "category": "general",
+    "name": "menu-02"
+  },
+  {
+    "category": "general",
+    "name": "menu-03"
+  },
+  {
+    "category": "general",
+    "name": "menu-04"
+  },
+  {
+    "category": "general",
+    "name": "menu-05"
+  },
+  {
+    "category": "general",
+    "name": "menu-vertical"
+  },
+  {
+    "category": "general",
+    "name": "minus-circle"
+  },
+  {
+    "category": "general",
+    "name": "minus-square"
+  },
+  {
+    "category": "general",
+    "name": "minus"
+  },
+  {
+    "category": "general",
+    "name": "move-03"
+  },
+  {
+    "category": "general",
+    "name": "percent-01"
+  },
+  {
+    "category": "general",
+    "name": "percent-02"
+  },
+  {
+    "category": "general",
+    "name": "percent-03"
+  },
+  {
+    "category": "general",
+    "name": "pin-01"
+  },
+  {
+    "category": "general",
+    "name": "pin-02"
+  },
+  {
+    "category": "general",
+    "name": "placeholder"
+  },
+  {
+    "category": "general",
+    "name": "plus-circle"
+  },
+  {
+    "category": "general",
+    "name": "plus-square"
+  },
+  {
+    "category": "general",
+    "name": "plus"
+  },
+  {
+    "category": "general",
+    "name": "save-01"
+  },
+  {
+    "category": "general",
+    "name": "save-02"
+  },
+  {
+    "category": "general",
+    "name": "save-03"
+  },
+  {
+    "category": "general",
+    "name": "search-lg"
+  },
+  {
+    "category": "general",
+    "name": "search-md"
+  },
+  {
+    "category": "general",
+    "name": "search-refraction"
+  },
+  {
+    "category": "general",
+    "name": "search-sm"
+  },
+  {
+    "category": "general",
+    "name": "settings-01"
+  },
+  {
+    "category": "general",
+    "name": "settings-02"
+  },
+  {
+    "category": "general",
+    "name": "settings-03"
+  },
+  {
+    "category": "general",
+    "name": "settings-04"
+  },
+  {
+    "category": "general",
+    "name": "share-01"
+  },
+  {
+    "category": "general",
+    "name": "share-02"
+  },
+  {
+    "category": "general",
+    "name": "share-03"
+  },
+  {
+    "category": "general",
+    "name": "share-04"
+  },
+  {
+    "category": "general",
+    "name": "share-05"
+  },
+  {
+    "category": "general",
+    "name": "share-06"
+  },
+  {
+    "category": "general",
+    "name": "share-07"
+  },
+  {
+    "category": "general",
+    "name": "slash-circle-01"
+  },
+  {
+    "category": "general",
+    "name": "slash-circle-02"
+  },
+  {
+    "category": "general",
+    "name": "slash-divider"
+  },
+  {
+    "category": "general",
+    "name": "slash-octagon"
+  },
+  {
+    "category": "general",
+    "name": "speedometer-01"
+  },
+  {
+    "category": "general",
+    "name": "speedometer-02"
+  },
+  {
+    "category": "general",
+    "name": "speedometer-03"
+  },
+  {
+    "category": "general",
+    "name": "speedometer-04"
+  },
+  {
+    "category": "general",
+    "name": "target-01"
+  },
+  {
+    "category": "general",
+    "name": "target-02"
+  },
+  {
+    "category": "general",
+    "name": "target-03"
+  },
+  {
+    "category": "general",
+    "name": "target-04"
+  },
+  {
+    "category": "general",
+    "name": "target-05"
+  },
+  {
+    "category": "general",
+    "name": "toggle-01-left"
+  },
+  {
+    "category": "general",
+    "name": "toggle-01-right"
+  },
+  {
+    "category": "general",
+    "name": "toggle-02-left"
+  },
+  {
+    "category": "general",
+    "name": "toggle-02-right"
+  },
+  {
+    "category": "general",
+    "name": "toggle-03-left"
+  },
+  {
+    "category": "general",
+    "name": "toggle-03-right"
+  },
+  {
+    "category": "general",
+    "name": "tool-01"
+  },
+  {
+    "category": "general",
+    "name": "tool-02"
+  },
+  {
+    "category": "general",
+    "name": "translate-01"
+  },
+  {
+    "category": "general",
+    "name": "translate-02"
+  },
+  {
+    "category": "general",
+    "name": "trash-01"
+  },
+  {
+    "category": "general",
+    "name": "trash-02"
+  },
+  {
+    "category": "general",
+    "name": "trash-03"
+  },
+  {
+    "category": "general",
+    "name": "trash-04"
+  },
+  {
+    "category": "general",
+    "name": "upload-01"
+  },
+  {
+    "category": "general",
+    "name": "upload-02"
+  },
+  {
+    "category": "general",
+    "name": "upload-03"
+  },
+  {
+    "category": "general",
+    "name": "upload-04"
+  },
+  {
+    "category": "general",
+    "name": "upload-cloud-01"
+  },
+  {
+    "category": "general",
+    "name": "upload-cloud-02"
+  },
+  {
+    "category": "general",
+    "name": "virus"
+  },
+  {
+    "category": "general",
+    "name": "x-circle"
+  },
+  {
+    "category": "general",
+    "name": "x-close"
+  },
+  {
+    "category": "general",
+    "name": "x-square"
+  },
+  {
+    "category": "general",
+    "name": "x"
+  },
+  {
+    "category": "general",
+    "name": "zap-circle"
+  },
+  {
+    "category": "general",
+    "name": "zap-fast"
+  },
+  {
+    "category": "general",
+    "name": "zap-off"
+  },
+  {
+    "category": "general",
+    "name": "zap-square"
+  },
+  {
+    "category": "general",
+    "name": "zap"
+  },
+  {
+    "category": "images",
+    "name": "camera-01"
+  },
+  {
+    "category": "images",
+    "name": "camera-02"
+  },
+  {
+    "category": "images",
+    "name": "camera-03"
+  },
+  {
+    "category": "images",
+    "name": "camera-lens"
+  },
+  {
+    "category": "images",
+    "name": "camera-off"
+  },
+  {
+    "category": "images",
+    "name": "camera-plus"
+  },
+  {
+    "category": "images",
+    "name": "colors"
+  },
+  {
+    "category": "images",
+    "name": "flash-off"
+  },
+  {
+    "category": "images",
+    "name": "flash"
+  },
+  {
+    "category": "images",
+    "name": "image-01"
+  },
+  {
+    "category": "images",
+    "name": "image-02"
+  },
+  {
+    "category": "images",
+    "name": "image-03"
+  },
+  {
+    "category": "images",
+    "name": "image-04"
+  },
+  {
+    "category": "images",
+    "name": "image-05"
+  },
+  {
+    "category": "images",
+    "name": "image-check"
+  },
+  {
+    "category": "images",
+    "name": "image-down"
+  },
+  {
+    "category": "images",
+    "name": "image-left"
+  },
+  {
+    "category": "images",
+    "name": "image-plus"
+  },
+  {
+    "category": "images",
+    "name": "image-right"
+  },
+  {
+    "category": "images",
+    "name": "image-up"
+  },
+  {
+    "category": "images",
+    "name": "image-user-check"
+  },
+  {
+    "category": "images",
+    "name": "image-user-down"
+  },
+  {
+    "category": "images",
+    "name": "image-user-left"
+  },
+  {
+    "category": "images",
+    "name": "image-user-plus"
+  },
+  {
+    "category": "images",
+    "name": "image-user-right"
+  },
+  {
+    "category": "images",
+    "name": "image-user-up"
+  },
+  {
+    "category": "images",
+    "name": "image-user-x"
+  },
+  {
+    "category": "images",
+    "name": "image-user"
+  },
+  {
+    "category": "images",
+    "name": "image-x"
+  },
+  {
+    "category": "layout",
+    "name": "align-bottom-01"
+  },
+  {
+    "category": "layout",
+    "name": "align-bottom-02"
+  },
+  {
+    "category": "layout",
+    "name": "align-horizontal-centre-01"
+  },
+  {
+    "category": "layout",
+    "name": "align-horizontal-centre-02"
+  },
+  {
+    "category": "layout",
+    "name": "align-left-01"
+  },
+  {
+    "category": "layout",
+    "name": "align-left-02"
+  },
+  {
+    "category": "layout",
+    "name": "align-right-01"
+  },
+  {
+    "category": "layout",
+    "name": "align-right-02"
+  },
+  {
+    "category": "layout",
+    "name": "align-top-01"
+  },
+  {
+    "category": "layout",
+    "name": "align-top-02"
+  },
+  {
+    "category": "layout",
+    "name": "align-vertical-center-01"
+  },
+  {
+    "category": "layout",
+    "name": "align-vertical-center-02"
+  },
+  {
+    "category": "layout",
+    "name": "columns-01"
+  },
+  {
+    "category": "layout",
+    "name": "columns-02"
+  },
+  {
+    "category": "layout",
+    "name": "columns-03"
+  },
+  {
+    "category": "layout",
+    "name": "distribute-spacing-horizontal"
+  },
+  {
+    "category": "layout",
+    "name": "distribute-spacing-vertical"
+  },
+  {
+    "category": "layout",
+    "name": "divider"
+  },
+  {
+    "category": "layout",
+    "name": "flex-align-bottom"
+  },
+  {
+    "category": "layout",
+    "name": "flex-align-left"
+  },
+  {
+    "category": "layout",
+    "name": "flex-align-right"
+  },
+  {
+    "category": "layout",
+    "name": "flex-align-top"
+  },
+  {
+    "category": "layout",
+    "name": "grid-01"
+  },
+  {
+    "category": "layout",
+    "name": "grid-02"
+  },
+  {
+    "category": "layout",
+    "name": "grid-03"
+  },
+  {
+    "category": "layout",
+    "name": "grid-dots-blank"
+  },
+  {
+    "category": "layout",
+    "name": "grid-dots-bottom"
+  },
+  {
+    "category": "layout",
+    "name": "grid-dots-horizontal-center"
+  },
+  {
+    "category": "layout",
+    "name": "grid-dots-left"
+  },
+  {
+    "category": "layout",
+    "name": "grid-dots-outer"
+  },
+  {
+    "category": "layout",
+    "name": "grid-dots-right"
+  },
+  {
+    "category": "layout",
+    "name": "grid-dots-top"
+  },
+  {
+    "category": "layout",
+    "name": "grid-dots-vertical-center"
+  },
+  {
+    "category": "layout",
+    "name": "intersect-circle"
+  },
+  {
+    "category": "layout",
+    "name": "intersect-square"
+  },
+  {
+    "category": "layout",
+    "name": "layer-single"
+  },
+  {
+    "category": "layout",
+    "name": "layers-three-01"
+  },
+  {
+    "category": "layout",
+    "name": "layers-three-02"
+  },
+  {
+    "category": "layout",
+    "name": "layers-two-01"
+  },
+  {
+    "category": "layout",
+    "name": "layers-two-02"
+  },
+  {
+    "category": "layout",
+    "name": "layout-alt-01"
+  },
+  {
+    "category": "layout",
+    "name": "layout-alt-02"
+  },
+  {
+    "category": "layout",
+    "name": "layout-alt-03"
+  },
+  {
+    "category": "layout",
+    "name": "layout-alt-04"
+  },
+  {
+    "category": "layout",
+    "name": "layout-bottom"
+  },
+  {
+    "category": "layout",
+    "name": "layout-grid-01"
+  },
+  {
+    "category": "layout",
+    "name": "layout-grid-02"
+  },
+  {
+    "category": "layout",
+    "name": "layout-left"
+  },
+  {
+    "category": "layout",
+    "name": "layout-right"
+  },
+  {
+    "category": "layout",
+    "name": "layout-top"
+  },
+  {
+    "category": "layout",
+    "name": "libraries-1"
+  },
+  {
+    "category": "layout",
+    "name": "list"
+  },
+  {
+    "category": "layout",
+    "name": "maximize-01"
+  },
+  {
+    "category": "layout",
+    "name": "maximize-02"
+  },
+  {
+    "category": "layout",
+    "name": "minimize-01"
+  },
+  {
+    "category": "layout",
+    "name": "minimize-02"
+  },
+  {
+    "category": "layout",
+    "name": "rows-01"
+  },
+  {
+    "category": "layout",
+    "name": "rows-02"
+  },
+  {
+    "category": "layout",
+    "name": "rows-03"
+  },
+  {
+    "category": "layout",
+    "name": "spacing-height-01"
+  },
+  {
+    "category": "layout",
+    "name": "spacing-height-02"
+  },
+  {
+    "category": "layout",
+    "name": "spacing-width-01"
+  },
+  {
+    "category": "layout",
+    "name": "spacing-width-02"
+  },
+  {
+    "category": "layout",
+    "name": "table"
+  },
+  {
+    "category": "map",
+    "name": "bus"
+  },
+  {
+    "category": "map",
+    "name": "car-01"
+  },
+  {
+    "category": "map",
+    "name": "car-02"
+  },
+  {
+    "category": "map",
+    "name": "compass-01"
+  },
+  {
+    "category": "map",
+    "name": "compass-02"
+  },
+  {
+    "category": "map",
+    "name": "compass-03"
+  },
+  {
+    "category": "map",
+    "name": "flag-01"
+  },
+  {
+    "category": "map",
+    "name": "flag-02"
+  },
+  {
+    "category": "map",
+    "name": "flag-03"
+  },
+  {
+    "category": "map",
+    "name": "flag-04"
+  },
+  {
+    "category": "map",
+    "name": "flag-05"
+  },
+  {
+    "category": "map",
+    "name": "flag-06"
+  },
+  {
+    "category": "map",
+    "name": "globe-01"
+  },
+  {
+    "category": "map",
+    "name": "globe-02"
+  },
+  {
+    "category": "map",
+    "name": "globe-03"
+  },
+  {
+    "category": "map",
+    "name": "globe-04"
+  },
+  {
+    "category": "map",
+    "name": "globe-05"
+  },
+  {
+    "category": "map",
+    "name": "globe-06"
+  },
+  {
+    "category": "map",
+    "name": "luggage-01"
+  },
+  {
+    "category": "map",
+    "name": "luggage-02"
+  },
+  {
+    "category": "map",
+    "name": "luggage-03"
+  },
+  {
+    "category": "map",
+    "name": "map-01"
+  },
+  {
+    "category": "map",
+    "name": "map-02"
+  },
+  {
+    "category": "map",
+    "name": "mark"
+  },
+  {
+    "category": "map",
+    "name": "marker-pin-01"
+  },
+  {
+    "category": "map",
+    "name": "marker-pin-02"
+  },
+  {
+    "category": "map",
+    "name": "marker-pin-03"
+  },
+  {
+    "category": "map",
+    "name": "marker-pin-04"
+  },
+  {
+    "category": "map",
+    "name": "marker-pin-05"
+  },
+  {
+    "category": "map",
+    "name": "marker-pin-06"
+  },
+  {
+    "category": "map",
+    "name": "navigation-pointer-01"
+  },
+  {
+    "category": "map",
+    "name": "navigation-pointer-02"
+  },
+  {
+    "category": "map",
+    "name": "navigation-pointer-off-01"
+  },
+  {
+    "category": "map",
+    "name": "navigation-pointer-off-02"
+  },
+  {
+    "category": "map",
+    "name": "passport"
+  },
+  {
+    "category": "map",
+    "name": "plane"
+  },
+  {
+    "category": "map",
+    "name": "rocket-01"
+  },
+  {
+    "category": "map",
+    "name": "rocket-02"
+  },
+  {
+    "category": "map",
+    "name": "route"
+  },
+  {
+    "category": "map",
+    "name": "ticket-01"
+  },
+  {
+    "category": "map",
+    "name": "ticket-02"
+  },
+  {
+    "category": "map",
+    "name": "train"
+  },
+  {
+    "category": "map",
+    "name": "tram"
+  },
+  {
+    "category": "map",
+    "name": "truck-01"
+  },
+  {
+    "category": "map",
+    "name": "truck-02"
+  },
+  {
+    "category": "media",
+    "name": "airplay"
+  },
+  {
+    "category": "media",
+    "name": "airpods"
+  },
+  {
+    "category": "media",
+    "name": "battery-charging-01"
+  },
+  {
+    "category": "media",
+    "name": "battery-charging-02"
+  },
+  {
+    "category": "media",
+    "name": "battery-empty"
+  },
+  {
+    "category": "media",
+    "name": "battery-full"
+  },
+  {
+    "category": "media",
+    "name": "battery-low"
+  },
+  {
+    "category": "media",
+    "name": "battery-mid"
+  },
+  {
+    "category": "media",
+    "name": "bluetooth-connect"
+  },
+  {
+    "category": "media",
+    "name": "bluetooth-off"
+  },
+  {
+    "category": "media",
+    "name": "bluetooth-on"
+  },
+  {
+    "category": "media",
+    "name": "bluetooth-signal"
+  },
+  {
+    "category": "media",
+    "name": "chrome-cast"
+  },
+  {
+    "category": "media",
+    "name": "clapperboard"
+  },
+  {
+    "category": "media",
+    "name": "disc-01"
+  },
+  {
+    "category": "media",
+    "name": "disc-02"
+  },
+  {
+    "category": "media",
+    "name": "fast-backward"
+  },
+  {
+    "category": "media",
+    "name": "fast-forward"
+  },
+  {
+    "category": "media",
+    "name": "film-01"
+  },
+  {
+    "category": "media",
+    "name": "film-02"
+  },
+  {
+    "category": "media",
+    "name": "film-03"
+  },
+  {
+    "category": "media",
+    "name": "gaming-pad-01"
+  },
+  {
+    "category": "media",
+    "name": "gaming-pad-02"
+  },
+  {
+    "category": "media",
+    "name": "hard-drive"
+  },
+  {
+    "category": "media",
+    "name": "headphones-01"
+  },
+  {
+    "category": "media",
+    "name": "headphones-02"
+  },
+  {
+    "category": "media",
+    "name": "keyboard-01"
+  },
+  {
+    "category": "media",
+    "name": "keyboard-02"
+  },
+  {
+    "category": "media",
+    "name": "laptop-01"
+  },
+  {
+    "category": "media",
+    "name": "laptop-02"
+  },
+  {
+    "category": "media",
+    "name": "lightbulb-01"
+  },
+  {
+    "category": "media",
+    "name": "lightbulb-02"
+  },
+  {
+    "category": "media",
+    "name": "lightbulb-03"
+  },
+  {
+    "category": "media",
+    "name": "lightbulb-04"
+  },
+  {
+    "category": "media",
+    "name": "lightbulb-05"
+  },
+  {
+    "category": "media",
+    "name": "microphone-01"
+  },
+  {
+    "category": "media",
+    "name": "microphone-02"
+  },
+  {
+    "category": "media",
+    "name": "microphone-off-01"
+  },
+  {
+    "category": "media",
+    "name": "microphone-off-02"
+  },
+  {
+    "category": "media",
+    "name": "modem-01"
+  },
+  {
+    "category": "media",
+    "name": "modem-02"
+  },
+  {
+    "category": "media",
+    "name": "monitor-01"
+  },
+  {
+    "category": "media",
+    "name": "monitor-02"
+  },
+  {
+    "category": "media",
+    "name": "monitor-03"
+  },
+  {
+    "category": "media",
+    "name": "monitor-04"
+  },
+  {
+    "category": "media",
+    "name": "monitor-05"
+  },
+  {
+    "category": "media",
+    "name": "mouse"
+  },
+  {
+    "category": "media",
+    "name": "music-note-01"
+  },
+  {
+    "category": "media",
+    "name": "music-note-02"
+  },
+  {
+    "category": "media",
+    "name": "music-note-plus"
+  },
+  {
+    "category": "media",
+    "name": "pause-circle"
+  },
+  {
+    "category": "media",
+    "name": "pause-square"
+  },
+  {
+    "category": "media",
+    "name": "phone-01"
+  },
+  {
+    "category": "media",
+    "name": "phone-02"
+  },
+  {
+    "category": "media",
+    "name": "play-circle"
+  },
+  {
+    "category": "media",
+    "name": "play-square"
+  },
+  {
+    "category": "media",
+    "name": "play"
+  },
+  {
+    "category": "media",
+    "name": "podcast"
+  },
+  {
+    "category": "media",
+    "name": "power-01"
+  },
+  {
+    "category": "media",
+    "name": "power-02"
+  },
+  {
+    "category": "media",
+    "name": "power-03"
+  },
+  {
+    "category": "media",
+    "name": "printer"
+  },
+  {
+    "category": "media",
+    "name": "recording-01"
+  },
+  {
+    "category": "media",
+    "name": "recording-02"
+  },
+  {
+    "category": "media",
+    "name": "recording-03"
+  },
+  {
+    "category": "media",
+    "name": "repeat-01"
+  },
+  {
+    "category": "media",
+    "name": "repeat-02"
+  },
+  {
+    "category": "media",
+    "name": "repeat-03"
+  },
+  {
+    "category": "media",
+    "name": "repeat-04"
+  },
+  {
+    "category": "media",
+    "name": "rss-01"
+  },
+  {
+    "category": "media",
+    "name": "rss-02"
+  },
+  {
+    "category": "media",
+    "name": "shuffle-01"
+  },
+  {
+    "category": "media",
+    "name": "shuffle-02"
+  },
+  {
+    "category": "media",
+    "name": "signal-01"
+  },
+  {
+    "category": "media",
+    "name": "signal-02"
+  },
+  {
+    "category": "media",
+    "name": "signal-03"
+  },
+  {
+    "category": "media",
+    "name": "simcard"
+  },
+  {
+    "category": "media",
+    "name": "skip-back"
+  },
+  {
+    "category": "media",
+    "name": "skip-forward"
+  },
+  {
+    "category": "media",
+    "name": "sliders-01"
+  },
+  {
+    "category": "media",
+    "name": "sliders-02"
+  },
+  {
+    "category": "media",
+    "name": "sliders-03"
+  },
+  {
+    "category": "media",
+    "name": "sliders-04"
+  },
+  {
+    "category": "media",
+    "name": "speaker-01"
+  },
+  {
+    "category": "media",
+    "name": "speaker-02"
+  },
+  {
+    "category": "media",
+    "name": "speaker-03"
+  },
+  {
+    "category": "media",
+    "name": "stop-circle"
+  },
+  {
+    "category": "media",
+    "name": "stop-square"
+  },
+  {
+    "category": "media",
+    "name": "stop"
+  },
+  {
+    "category": "media",
+    "name": "tablet-01"
+  },
+  {
+    "category": "media",
+    "name": "tablet-02"
+  },
+  {
+    "category": "media",
+    "name": "tv-01"
+  },
+  {
+    "category": "media",
+    "name": "tv-02"
+  },
+  {
+    "category": "media",
+    "name": "tv-03"
+  },
+  {
+    "category": "media",
+    "name": "usb-flash-drive"
+  },
+  {
+    "category": "media",
+    "name": "video-recorder-off"
+  },
+  {
+    "category": "media",
+    "name": "video-recorder"
+  },
+  {
+    "category": "media",
+    "name": "voicemail"
+  },
+  {
+    "category": "media",
+    "name": "volume-max"
+  },
+  {
+    "category": "media",
+    "name": "volume-min"
+  },
+  {
+    "category": "media",
+    "name": "volume-minus"
+  },
+  {
+    "category": "media",
+    "name": "volume-plus"
+  },
+  {
+    "category": "media",
+    "name": "volume-x"
+  },
+  {
+    "category": "media",
+    "name": "webcam-01"
+  },
+  {
+    "category": "media",
+    "name": "webcam-02"
+  },
+  {
+    "category": "media",
+    "name": "wifi-off"
+  },
+  {
+    "category": "media",
+    "name": "wifi"
+  },
+  {
+    "category": "media",
+    "name": "youtube"
+  },
+  {
+    "category": "security",
+    "name": "arbol_control"
+  },
+  {
+    "category": "security",
+    "name": "face-id-square"
+  },
+  {
+    "category": "security",
+    "name": "face-id"
+  },
+  {
+    "category": "security",
+    "name": "file-lock-01"
+  },
+  {
+    "category": "security",
+    "name": "file-lock-02"
+  },
+  {
+    "category": "security",
+    "name": "file-lock-03"
+  },
+  {
+    "category": "security",
+    "name": "file-shield-01"
+  },
+  {
+    "category": "security",
+    "name": "file-shield-02"
+  },
+  {
+    "category": "security",
+    "name": "file-shield-03"
+  },
+  {
+    "category": "security",
+    "name": "fingerprint-01"
+  },
+  {
+    "category": "security",
+    "name": "fingerprint-02"
+  },
+  {
+    "category": "security",
+    "name": "fingerprint-03"
+  },
+  {
+    "category": "security",
+    "name": "fingerprint-04"
+  },
+  {
+    "category": "security",
+    "name": "folder-shield"
+  },
+  {
+    "category": "security",
+    "name": "key-01"
+  },
+  {
+    "category": "security",
+    "name": "key-02"
+  },
+  {
+    "category": "security",
+    "name": "lock-01"
+  },
+  {
+    "category": "security",
+    "name": "lock-02"
+  },
+  {
+    "category": "security",
+    "name": "lock-03"
+  },
+  {
+    "category": "security",
+    "name": "lock-04"
+  },
+  {
+    "category": "security",
+    "name": "lock-keyhole-circle"
+  },
+  {
+    "category": "security",
+    "name": "lock-keyhole-square"
+  },
+  {
+    "category": "security",
+    "name": "lock-unlocked-01"
+  },
+  {
+    "category": "security",
+    "name": "lock-unlocked-02"
+  },
+  {
+    "category": "security",
+    "name": "lock-unlocked-03"
+  },
+  {
+    "category": "security",
+    "name": "lock-unlocked-04"
+  },
+  {
+    "category": "security",
+    "name": "passcode-lock"
+  },
+  {
+    "category": "security",
+    "name": "passcode"
+  },
+  {
+    "category": "security",
+    "name": "scan"
+  },
+  {
+    "category": "security",
+    "name": "shield-01"
+  },
+  {
+    "category": "security",
+    "name": "shield-02"
+  },
+  {
+    "category": "security",
+    "name": "shield-03"
+  },
+  {
+    "category": "security",
+    "name": "shield-dollar"
+  },
+  {
+    "category": "security",
+    "name": "shield-off"
+  },
+  {
+    "category": "security",
+    "name": "shield-tick"
+  },
+  {
+    "category": "security",
+    "name": "shield-zap"
+  },
+  {
+    "category": "shapes",
+    "name": "circle"
+  },
+  {
+    "category": "shapes",
+    "name": "cube-01"
+  },
+  {
+    "category": "shapes",
+    "name": "cube-02"
+  },
+  {
+    "category": "shapes",
+    "name": "cube-03"
+  },
+  {
+    "category": "shapes",
+    "name": "cube-04"
+  },
+  {
+    "category": "shapes",
+    "name": "cube-outline"
+  },
+  {
+    "category": "shapes",
+    "name": "dice-1"
+  },
+  {
+    "category": "shapes",
+    "name": "dice-2"
+  },
+  {
+    "category": "shapes",
+    "name": "dice-3"
+  },
+  {
+    "category": "shapes",
+    "name": "dice-4"
+  },
+  {
+    "category": "shapes",
+    "name": "dice-5"
+  },
+  {
+    "category": "shapes",
+    "name": "dice-6"
+  },
+  {
+    "category": "shapes",
+    "name": "hexagon-01"
+  },
+  {
+    "category": "shapes",
+    "name": "hexagon-02"
+  },
+  {
+    "category": "shapes",
+    "name": "octagon"
+  },
+  {
+    "category": "shapes",
+    "name": "pentagon"
+  },
+  {
+    "category": "shapes",
+    "name": "square"
+  },
+  {
+    "category": "shapes",
+    "name": "star-01"
+  },
+  {
+    "category": "shapes",
+    "name": "star-02"
+  },
+  {
+    "category": "shapes",
+    "name": "star-03"
+  },
+  {
+    "category": "shapes",
+    "name": "star-04"
+  },
+  {
+    "category": "shapes",
+    "name": "star-05"
+  },
+  {
+    "category": "shapes",
+    "name": "star-06"
+  },
+  {
+    "category": "shapes",
+    "name": "star-07"
+  },
+  {
+    "category": "shapes",
+    "name": "triangle"
+  },
+  {
+    "category": "time",
+    "name": "alarm-clock-check"
+  },
+  {
+    "category": "time",
+    "name": "alarm-clock-minus"
+  },
+  {
+    "category": "time",
+    "name": "alarm-clock-off"
+  },
+  {
+    "category": "time",
+    "name": "alarm-clock-plus"
+  },
+  {
+    "category": "time",
+    "name": "alarm-clock"
+  },
+  {
+    "category": "time",
+    "name": "back"
+  },
+  {
+    "category": "time",
+    "name": "calendar-check-01"
+  },
+  {
+    "category": "time",
+    "name": "calendar-check-02"
+  },
+  {
+    "category": "time",
+    "name": "calendar-date"
+  },
+  {
+    "category": "time",
+    "name": "calendar-heart-01"
+  },
+  {
+    "category": "time",
+    "name": "calendar-heart-02"
+  },
+  {
+    "category": "time",
+    "name": "calendar-minus-01"
+  },
+  {
+    "category": "time",
+    "name": "calendar-minus-02"
+  },
+  {
+    "category": "time",
+    "name": "calendar-plus-01"
+  },
+  {
+    "category": "time",
+    "name": "calendar-plus-02"
+  },
+  {
+    "category": "time",
+    "name": "calendar"
+  },
+  {
+    "category": "time",
+    "name": "clock-check"
+  },
+  {
+    "category": "time",
+    "name": "clock-plus"
+  },
+  {
+    "category": "time",
+    "name": "clock-refresh"
+  },
+  {
+    "category": "time",
+    "name": "clock-rewind"
+  },
+  {
+    "category": "time",
+    "name": "clock-snooze"
+  },
+  {
+    "category": "time",
+    "name": "clock-stopwatch"
+  },
+  {
+    "category": "time",
+    "name": "clock"
+  },
+  {
+    "category": "time",
+    "name": "hourglass-01"
+  },
+  {
+    "category": "time",
+    "name": "hourglass-02"
+  },
+  {
+    "category": "time",
+    "name": "hourglass-03"
+  },
+  {
+    "category": "time",
+    "name": "watch-circle"
+  },
+  {
+    "category": "time",
+    "name": "watch-square"
+  },
+  {
+    "category": "users",
+    "name": "assign_user"
+  },
+  {
+    "category": "users",
+    "name": "face-content"
+  },
+  {
+    "category": "users",
+    "name": "face-frown"
+  },
+  {
+    "category": "users",
+    "name": "face-happy"
+  },
+  {
+    "category": "users",
+    "name": "face-neutral"
+  },
+  {
+    "category": "users",
+    "name": "face-sad"
+  },
+  {
+    "category": "users",
+    "name": "face-smile"
+  },
+  {
+    "category": "users",
+    "name": "face-wink"
+  },
+  {
+    "category": "users",
+    "name": "user-02"
+  },
+  {
+    "category": "users",
+    "name": "user-03"
+  },
+  {
+    "category": "users",
+    "name": "user-check-01"
+  },
+  {
+    "category": "users",
+    "name": "user-check-02"
+  },
+  {
+    "category": "users",
+    "name": "user-circle"
+  },
+  {
+    "category": "users",
+    "name": "user-down-01"
+  },
+  {
+    "category": "users",
+    "name": "user-down-02"
+  },
+  {
+    "category": "users",
+    "name": "user-edit"
+  },
+  {
+    "category": "users",
+    "name": "user-left-01"
+  },
+  {
+    "category": "users",
+    "name": "user-left-02"
+  },
+  {
+    "category": "users",
+    "name": "user-minus-01"
+  },
+  {
+    "category": "users",
+    "name": "user-minus-02"
+  },
+  {
+    "category": "users",
+    "name": "user-plus-02"
+  },
+  {
+    "category": "users",
+    "name": "user-right-01"
+  },
+  {
+    "category": "users",
+    "name": "user-right-02"
+  },
+  {
+    "category": "users",
+    "name": "user-square"
+  },
+  {
+    "category": "users",
+    "name": "user-up-01"
+  },
+  {
+    "category": "users",
+    "name": "user-up-02"
+  },
+  {
+    "category": "users",
+    "name": "user-x-01"
+  },
+  {
+    "category": "users",
+    "name": "user-x-02"
+  },
+  {
+    "category": "users",
+    "name": "users-01"
+  },
+  {
+    "category": "users",
+    "name": "users-02"
+  },
+  {
+    "category": "users",
+    "name": "users-03"
+  },
+  {
+    "category": "users",
+    "name": "users-check"
+  },
+  {
+    "category": "users",
+    "name": "users-down"
+  },
+  {
+    "category": "users",
+    "name": "users-edit"
+  },
+  {
+    "category": "users",
+    "name": "users-left"
+  },
+  {
+    "category": "users",
+    "name": "users-minus"
+  },
+  {
+    "category": "users",
+    "name": "users-plus"
+  },
+  {
+    "category": "users",
+    "name": "users-right"
+  },
+  {
+    "category": "users",
+    "name": "users-up"
+  },
+  {
+    "category": "users",
+    "name": "users-x"
+  },
+  {
+    "category": "weather",
+    "name": "cloud-01"
+  },
+  {
+    "category": "weather",
+    "name": "cloud-02"
+  },
+  {
+    "category": "weather",
+    "name": "cloud-03"
+  },
+  {
+    "category": "weather",
+    "name": "cloud-lightning"
+  },
+  {
+    "category": "weather",
+    "name": "cloud-moon"
+  },
+  {
+    "category": "weather",
+    "name": "cloud-off"
+  },
+  {
+    "category": "weather",
+    "name": "cloud-raining-01"
+  },
+  {
+    "category": "weather",
+    "name": "cloud-raining-02"
+  },
+  {
+    "category": "weather",
+    "name": "cloud-raining-03"
+  },
+  {
+    "category": "weather",
+    "name": "cloud-raining-04"
+  },
+  {
+    "category": "weather",
+    "name": "cloud-raining-05"
+  },
+  {
+    "category": "weather",
+    "name": "cloud-raining-06"
+  },
+  {
+    "category": "weather",
+    "name": "cloud-snowing-01"
+  },
+  {
+    "category": "weather",
+    "name": "cloud-snowing-02"
+  },
+  {
+    "category": "weather",
+    "name": "cloud-sun-01"
+  },
+  {
+    "category": "weather",
+    "name": "cloud-sun-02"
+  },
+  {
+    "category": "weather",
+    "name": "cloud-sun-03"
+  },
+  {
+    "category": "weather",
+    "name": "droplets-01"
+  },
+  {
+    "category": "weather",
+    "name": "droplets-02"
+  },
+  {
+    "category": "weather",
+    "name": "droplets-03"
+  },
+  {
+    "category": "weather",
+    "name": "hurricane-01"
+  },
+  {
+    "category": "weather",
+    "name": "hurricane-02"
+  },
+  {
+    "category": "weather",
+    "name": "hurricane-03"
+  },
+  {
+    "category": "weather",
+    "name": "lightning-01"
+  },
+  {
+    "category": "weather",
+    "name": "lightning-02"
+  },
+  {
+    "category": "weather",
+    "name": "moon-01"
+  },
+  {
+    "category": "weather",
+    "name": "moon-02"
+  },
+  {
+    "category": "weather",
+    "name": "moon-eclipse"
+  },
+  {
+    "category": "weather",
+    "name": "moon-star"
+  },
+  {
+    "category": "weather",
+    "name": "snowflake-01"
+  },
+  {
+    "category": "weather",
+    "name": "snowflake-02"
+  },
+  {
+    "category": "weather",
+    "name": "stars-01"
+  },
+  {
+    "category": "weather",
+    "name": "stars-02"
+  },
+  {
+    "category": "weather",
+    "name": "stars-03"
+  },
+  {
+    "category": "weather",
+    "name": "sun-setting-01"
+  },
+  {
+    "category": "weather",
+    "name": "sun-setting-02"
+  },
+  {
+    "category": "weather",
+    "name": "sun-setting-03"
+  },
+  {
+    "category": "weather",
+    "name": "sun"
+  },
+  {
+    "category": "weather",
+    "name": "sunrise"
+  },
+  {
+    "category": "weather",
+    "name": "sunset"
+  },
+  {
+    "category": "weather",
+    "name": "thermometer-01"
+  },
+  {
+    "category": "weather",
+    "name": "thermometer-02"
+  },
+  {
+    "category": "weather",
+    "name": "thermometer-03"
+  },
+  {
+    "category": "weather",
+    "name": "thermometer-cold"
+  },
+  {
+    "category": "weather",
+    "name": "thermometer-warm"
+  },
+  {
+    "category": "weather",
+    "name": "umbrella-01"
+  },
+  {
+    "category": "weather",
+    "name": "umbrella-02"
+  },
+  {
+    "category": "weather",
+    "name": "umbrella-03"
+  },
+  {
+    "category": "weather",
+    "name": "waves"
+  },
+  {
+    "category": "weather",
+    "name": "wind-01"
+  },
+  {
+    "category": "weather",
+    "name": "wind-02"
+  },
+  {
+    "category": "weather",
+    "name": "wind-03"
+  }
+]

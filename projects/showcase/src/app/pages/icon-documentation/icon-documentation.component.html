@@ -1,0 +1,40 @@
+<div class="doc-page">
+  <section class="doc-section">
+    <header class="section-header">
+      <h2>Documentación de Iconos</h2>
+      <p>Utiliza el componente <code>&lt;slf-ui-icon&gt;</code> para mostrar iconos en la UI. Puedes personalizar el <b>nombre</b>, <b>categoría</b>, <b>tamaño</b> y otros atributos.</p>
+    </header>
+    <div class="doc-demo">
+      <h3>Ejemplo básico</h3>
+      <pre><code class="language-html">{{example}}</code></pre>
+      <div style="margin: 1rem 0;">
+        <slf-ui-icon category="general" name="check-verified-01" [size]="32"></slf-ui-icon>
+        <slf-ui-icon category="general" name="eye" [size]="32"></slf-ui-icon>
+        <slf-ui-icon category="general" name="x-close" [size]="32"></slf-ui-icon>
+      </div>
+    </div>
+    <h3>Listado de iconos disponibles</h3>
+    <div style="margin-bottom: 1.5rem; max-width: 320px;">
+      <input type="text" [(ngModel)]="search" placeholder="Buscar icono..." style="width:100%;padding:0.5em 1em;border-radius:5px;border:1px solid #ddd;">
+    </div>
+    <div class="icon-grid">
+      <div class="icon-item" *ngFor="let icon of filteredIcons" (click)="copyIcon(icon)" [class.copied]="copiedIcon === (icon.category + '/' + icon.name)">
+        <slf-ui-icon [category]="icon.category" [name]="icon.name" [size]="32"></slf-ui-icon>
+        <div class="icon-meta">
+          <span class="icon-category">{{icon.category}}</span>
+          <span class="icon-name">{{icon.name}}</span>
+        </div>
+        <div class="icon-copied" *ngIf="copiedIcon === (icon.category + '/' + icon.name)">¡Copiado!</div>
+      </div>
+    </div>
+    <div class="icon-paginator-fixed" *ngIf="totalPages > 1">
+      <button (click)="goToPage(page-1)" [disabled]="page === 1">&lt;</button>
+      <ng-container *ngFor="let p of paginatorPages">
+        <button *ngIf="p" (click)="goToPage(p)" [class.active]="page === p">{{p}}</button>
+        <span *ngIf="!p" class="paginator-ellipsis">...</span>
+      </ng-container>
+      <button (click)="goToPage(page+1)" [disabled]="page === totalPages">&gt;</button>
+      <span class="paginator-info">Página {{page}} de {{totalPages}}</span>
+    </div>
+  </section>
+</div>

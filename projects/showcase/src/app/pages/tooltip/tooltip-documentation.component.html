@@ -1,0 +1,77 @@
+<div class="doc-page">
+  <section class="doc-section">
+    <header class="section-header">
+      <h2>Tooltip</h2>
+      <p>El componente <code>sly-tooltip</code> permite mostrar información adicional al pasar el mouse o enfocar cualquier elemento. Puedes personalizar el título, el texto y la posición de la flecha.</p>
+    </header>
+    <div class="doc-demo">
+      <h3>Demo en Vivo</h3>
+      <div class="demo-row controls-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-bottom: 1rem;">
+        <slf-ui-input
+          [Label]="'Título:'"
+          [Placeholder]="'Título opcional'"
+          [FormControl]="tooltipTitleControl">
+        </slf-ui-input>
+        <slf-ui-input
+          [Label]="'Texto:'"
+          [Placeholder]="'Texto del tooltip'"
+          [FormControl]="tooltipTextControl">
+        </slf-ui-input>
+        <slf-ui-select
+          [Label]="'Posición:'"
+          [FormControl]="tooltipPositionControl"
+          [SelectOptions]="tooltipPositionOptions">
+        </slf-ui-select>
+        <slf-ui-select
+          [Label]="'Tipo:'"
+          [FormControl]="tooltipTypeControl"
+          [SelectOptions]="tooltipTypeOptions">
+        </slf-ui-select>
+        <slf-ui-select
+          [Label]="'Color de texto:'"
+          [FormControl]="tooltipTextColorControl"
+          [SelectOptions]="tooltipTextColorOptions">
+        </slf-ui-select>
+      </div>
+      <div style="margin-top: 2rem; display: flex; justify-content: center;">
+        <sly-tooltip [title]="tooltipTitle" [text]="tooltipText" [position]="tooltipPosition" [type]="tooltipType" [textColor]="tooltipTextColor">
+          <button style="padding: 0.75em 2em; font-size: 1.1em;">Pasa el mouse aquí</button>
+        </sly-tooltip>
+      </div>
+    </div>
+    <h4>Uso básico:</h4>
+    <pre><code>&lt;sly-tooltip [title]="'Título'" [text]="'Texto del tooltip'" [position]="'top-center'"&gt;
+  &lt;button&gt;Elemento con tooltip&lt;/button&gt;
+&lt;/sly-tooltip&gt;
+</code></pre>
+     <!-- =============================
+       Propiedades del Componente
+       ============================= -->
+  <section class="doc-section">
+    <header class="section-header">
+      <h3>Propiedades del Componente</h3>
+    </header>
+    <div class="doc-demo">
+      <table-properties-name [Properties]="tooltipProperties" [ComponentName]="'Tooltip'"></table-properties-name>
+    </div>
+  </section>
+  </section>
+
+  <!-- =============================
+       Personalización por CSS Variables
+       ============================= -->
+  <section class="doc-section">
+    <header class="section-header">
+      <h3>Personalización por CSS Variables</h3>
+      <p>Puedes personalizar el Tooltip globalmente, por componente o por instancia usando las siguientes variables CSS:</p>
+    </header>
+    <div class="doc-demo">
+      <css-vars-table
+        [variables]="tooltipCssVars"
+        example="&lt;sly-tooltip style=&quot;--tooltip-bg-primary: #222; --tooltip-radius: 16px;&quot;&gt;...&lt;/sly-tooltip&gt;">
+      </css-vars-table>
+    </div>
+  </section>
+
+
+</div>

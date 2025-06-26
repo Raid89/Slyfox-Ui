@@ -144,4 +144,50 @@
 
   <!-- Tabla de propiedades -->
   <table-properties-name [Properties]="avatarProperties" [ComponentName]="'Avatar'"></table-properties-name>
+
+  <!-- =============================
+       Personalización por CSS Variables
+       ============================= -->
+  <section class="doc-section">
+    <header class="section-header">
+      <h3>Personalización por CSS Variables</h3>
+      <p>Puedes personalizar el Avatar globalmente, por componente o por instancia usando las siguientes variables CSS:</p>
+    </header>
+    <div class="doc-demo">
+      <table class="css-vars-table">
+        <thead>
+          <tr>
+            <th>Variable</th>
+            <th>Valor por defecto</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>--avatar-radius</td><td>9999px</td><td>Radio del borde</td></tr>
+          <tr><td>--avatar-border-width</td><td>4px</td><td>Ancho del borde</td></tr>
+          <tr><td>--avatar-border-color</td><td>transparent</td><td>Color del borde (por defecto)</td></tr>
+          <tr><td>--avatar-border-primary</td><td>var(--primary-color-200)</td><td>Borde primario</td></tr>
+          <tr><td>--avatar-border-secondary</td><td>var(--secondary-color-200)</td><td>Borde secundario</td></tr>
+          <tr><td>--avatar-bg-primary</td><td>var(--primary-color-50)</td><td>Fondo primario</td></tr>
+          <tr><td>--avatar-bg-secondary</td><td>var(--border-color-50)</td><td>Fondo secundario</td></tr>
+          <tr><td>--avatar-size-xs</td><td>32px</td><td>Tamaño XS</td></tr>
+          <tr><td>--avatar-size-sm</td><td>40px</td><td>Tamaño SM</td></tr>
+          <tr><td>--avatar-size-md</td><td>48px</td><td>Tamaño MD</td></tr>
+          <tr><td>--avatar-size-lg</td><td>56px</td><td>Tamaño LG</td></tr>
+          <tr><td>--avatar-size-xl</td><td>64px</td><td>Tamaño XL</td></tr>
+          <tr><td>--avatar-size-xxl</td><td>80px</td><td>Tamaño XXL</td></tr>
+          <tr><td>--avatar-font-size-xs</td><td>12px</td><td>Fuente XS</td></tr>
+          <tr><td>--avatar-font-size-sm</td><td>14px</td><td>Fuente SM</td></tr>
+          <tr><td>--avatar-font-size-md</td><td>16px</td><td>Fuente MD</td></tr>
+          <tr><td>--avatar-font-size-lg</td><td>18px</td><td>Fuente LG</td></tr>
+          <tr><td>--avatar-font-size-xl</td><td>20px</td><td>Fuente XL</td></tr>
+          <tr><td>--avatar-font-size-xxl</td><td>24px</td><td>Fuente XXL</td></tr>
+        </tbody>
+      </table>
+      <div class="code-example" style="margin-top:1.5rem;">
+        <strong>Ejemplo de personalización por instancia:</strong>
+        <pre><code class="language-html">&lt;slf-ui-avatar [Src]="imageExample" Size="md" style="--avatar-border-color: #00C853; --avatar-size-md: 60px;"&gt;&lt;/slf-ui-avatar&gt;</code></pre>
+      </div>
+    </div>
+  </section>
 </div>

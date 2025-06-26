@@ -1,137 +1,220 @@
+/*
+========================================
+ Slyfox Typography Component
+========================================
+
+This component provides heading and subtitle styles. All design tokens are exposed as CSS variables for easy theming.
+
+Customization:
+- Global: Override variables in :root or your main theme file.
+- Per Component: Override variables in a parent selector or component host.
+- Per Instance: Use inline style or a wrapper class.
+
+Available CSS Variables (examples):
+| Variable                                 | Default                        | Description                        |
+|------------------------------------------|--------------------------------|------------------------------------|
+| --typography-heading-sm-size             | var(--font-title-size-sm)      | Small heading font size            |
+| --typography-heading-sm-line             | var(--font-title-line-sm)      | Small heading line height          |
+| --typography-heading-sm-weight           | bold                           | Small heading font weight          |
+| --typography-heading-md-size             | var(--font-title-size-md)      | Medium heading font size           |
+| --typography-heading-md-line             | var(--font-title-line-md)      | Medium heading line height         |
+| --typography-heading-md-weight           | bold                           | Medium heading font weight         |
+| --typography-heading-lg-size             | var(--font-title-size-lg)      | Large heading font size            |
+| --typography-heading-lg-line             | var(--font-title-line-lg)      | Large heading line height          |
+| --typography-heading-lg-weight           | bold                           | Large heading font weight          |
+| --typography-heading-xl-size             | var(--font-title-size-xl)      | Extra large heading font size      |
+| --typography-heading-xl-line             | var(--font-title-line-xl)      | Extra large heading line height    |
+| --typography-heading-xl-weight           | bold                           | Extra large heading font weight    |
+| --typography-subtitle-bold-sm-size       | var(--font-subtitle-size-sm)   | Small bold subtitle font size      |
+| --typography-subtitle-bold-sm-line       | var(--font-subtitle-line-sm)   | Small bold subtitle line height    |
+| --typography-subtitle-bold-sm-weight     | bold                           | Small bold subtitle font weight    |
+| --typography-subtitle-bold-md-size       | var(--font-subtitle-size-md)   | Medium bold subtitle font size     |
+| --typography-subtitle-bold-md-line       | var(--font-subtitle-line-md)   | Medium bold subtitle line height   |
+| --typography-subtitle-bold-md-weight     | bold                           | Medium bold subtitle font weight   |
+| --typography-subtitle-bold-lg-size       | var(--font-subtitle-size-lg)   | Large bold subtitle font size      |
+| --typography-subtitle-bold-lg-line       | var(--font-subtitle-line-lg)   | Large bold subtitle line height    |
+| --typography-subtitle-bold-lg-weight     | bold                           | Large bold subtitle font weight    |
+| --typography-subtitle-bold-xl-size       | var(--font-subtitle-size-xl)   | Extra large bold subtitle font size|
+| --typography-subtitle-bold-xl-line       | var(--font-subtitle-line-xl)   | Extra large bold subtitle line height|
+| --typography-subtitle-bold-xl-weight     | bold                           | Extra large bold subtitle font weight|
+| --typography-subtitle-medium-sm-size     | var(--font-subtitle-size-sm)   | Small medium subtitle font size    |
+| --typography-subtitle-medium-sm-line     | var(--font-subtitle-line-sm)   | Small medium subtitle line height  |
+| --typography-subtitle-medium-sm-weight   | 500                            | Small medium subtitle font weight  |
+| --typography-subtitle-medium-md-size     | var(--font-subtitle-size-md)   | Medium medium subtitle font size   |
+| --typography-subtitle-medium-md-line     | var(--font-subtitle-line-md)   | Medium medium subtitle line height |
+| --typography-subtitle-medium-md-weight   | 500                            | Medium medium subtitle font weight |
+| --typography-subtitle-medium-lg-size     | var(--font-subtitle-size-lg)   | Large medium subtitle font size    |
+| --typography-subtitle-medium-lg-line     | var(--font-subtitle-line-lg)   | Large medium subtitle line height  |
+| --typography-subtitle-medium-lg-weight   | 500                            | Large medium subtitle font weight  |
+| --typography-subtitle-medium-xl-size     | var(--font-subtitle-size-xl)   | Extra large medium subtitle font size|
+| --typography-subtitle-medium-xl-line     | var(--font-subtitle-line-xl)   | Extra large medium subtitle line height|
+| --typography-subtitle-medium-xl-weight   | 500                            | Extra large medium subtitle font weight|
+| --typography-subtitle-regular-sm-size    | var(--font-subtitle-size-sm)   | Small regular subtitle font size   |
+| --typography-subtitle-regular-sm-line    | var(--font-subtitle-line-sm)   | Small regular subtitle line height |
+| --typography-subtitle-regular-sm-weight  | 400                            | Small regular subtitle font weight |
+| --typography-subtitle-regular-md-size    | var(--font-subtitle-size-md)   | Medium regular subtitle font size  |
+| --typography-subtitle-regular-md-line    | var(--font-subtitle-line-md)   | Medium regular subtitle line height|
+| --typography-subtitle-regular-md-weight  | 400                            | Medium regular subtitle font weight|
+| --typography-subtitle-regular-lg-size    | var(--font-subtitle-size-lg)   | Large regular subtitle font size   |
+| --typography-subtitle-regular-lg-line    | var(--font-subtitle-line-lg)   | Large regular subtitle line height |
+| --typography-subtitle-regular-lg-weight  | 400                            | Large regular subtitle font weight |
+| --typography-subtitle-regular-xl-size    | var(--font-subtitle-size-xl)   | Extra large regular subtitle font size|
+| --typography-subtitle-regular-xl-line    | var(--font-subtitle-line-xl)   | Extra large regular subtitle line height|
+| --typography-subtitle-regular-xl-weight  | 400                            | Extra large regular subtitle font weight|
+| --typography-paragraph-medium-sm-size    | var(--font-paragraph-size-sm)  | Small paragraph font size          |
+| --typography-paragraph-medium-sm-line    | var(--font-paragraph-line-sm)  | Small paragraph line height        |
+| --typography-paragraph-medium-sm-weight  | 500                            | Small paragraph font weight        |
+| --typography-paragraph-medium-md-size    | var(--font-paragraph-size-md)  | Medium paragraph font size         |
+| --typography-paragraph-medium-md-line    | var(--font-paragraph-line-md)  | Medium paragraph line height       |
+| --typography-paragraph-medium-md-weight  | 500                            | Medium paragraph font weight       |
+| --typography-paragraph-medium-lg-size    | var(--font-paragraph-size-lg)  | Large paragraph font size          |
+| --typography-paragraph-medium-lg-line    | var(--font-paragraph-line-lg)  | Large paragraph line height        |
+| --typography-paragraph-medium-lg-weight  | 500                            | Large paragraph font weight        |
+| --typography-paragraph-regular-sm-size   | var(--font-paragraph-size-sm)  | Small regular paragraph font size  |
+| --typography-paragraph-regular-sm-line   | var(--font-paragraph-line-sm)  | Small regular paragraph line height|
+| --typography-paragraph-regular-sm-weight | 400                            | Small regular paragraph font weight|
+| --typography-paragraph-regular-md-size   | var(--font-paragraph-size-md)  | Medium regular paragraph font size |
+| --typography-paragraph-regular-md-line   | var(--font-paragraph-line-md)  | Medium regular paragraph line height|
+| --typography-paragraph-regular-md-weight | 400                            | Medium regular paragraph font weight|
+| --typography-paragraph-regular-lg-size   | var(--font-paragraph-size-lg)  | Large regular paragraph font size  |
+| --typography-paragraph-regular-lg-line   | var(--font-paragraph-line-lg)  | Large regular paragraph line height|
+| --typography-paragraph-regular-lg-weight | 400                            | Large regular paragraph font weight|
+*/
+
 /* TÍTULOS (HEADINGS) */
 .heading-sm {
-  font-size: var(--font-title-size-sm);
-  line-height: var(--font-title-line-sm);
-  font-weight: bold;
+  font-size: var(--typography-heading-sm-size, var(--font-title-size-sm));
+  line-height: var(--typography-heading-sm-line, var(--font-title-line-sm));
+  font-weight: var(--typography-heading-sm-weight, bold);
 }
 
 .heading-md {
-  font-size: var(--font-title-size-md);
-  line-height: var(--font-title-line-md);
-  font-weight: bold;
+  font-size: var(--typography-heading-md-size, var(--font-title-size-md));
+  line-height: var(--typography-heading-md-line, var(--font-title-line-md));
+  font-weight: var(--typography-heading-md-weight, bold);
 }
 
 .heading-lg {
-  font-size: var(--font-title-size-lg);
-  line-height: var(--font-title-line-lg);
-  font-weight: bold;
+  font-size: var(--typography-heading-lg-size, var(--font-title-size-lg));
+  line-height: var(--typography-heading-lg-line, var(--font-title-line-lg));
+  font-weight: var(--typography-heading-lg-weight, bold);
 }
 
 .heading-xl {
-  font-size: var(--font-title-size-xl);
-  line-height: var(--font-title-line-xl);
-  font-weight: bold;
+  font-size: var(--typography-heading-xl-size, var(--font-title-size-xl));
+  line-height: var(--typography-heading-xl-line, var(--font-title-line-xl));
+  font-weight: var(--typography-heading-xl-weight, bold);
 }
 
 /* SUBTÍTULOS (SUBTITLES) */
 .subtitle-bold-sm {
-  font-size: var(--font-subtitle-size-sm);
-  line-height: var(--font-subtitle-line-sm);
-  font-weight: bold;
+  font-size: var(--typography-subtitle-bold-sm-size, var(--font-subtitle-size-sm));
+  line-height: var(--typography-subtitle-bold-sm-line, var(--font-subtitle-line-sm));
+  font-weight: var(--typography-subtitle-bold-sm-weight, bold);
 }
 
 .subtitle-bold-md {
-  font-size: var(--font-subtitle-size-md);
-  line-height: var(--font-subtitle-line-md);
-  font-weight: bold;
+  font-size: var(--typography-subtitle-bold-md-size, var(--font-subtitle-size-md));
+  line-height: var(--typography-subtitle-bold-md-line, var(--font-subtitle-line-md));
+  font-weight: var(--typography-subtitle-bold-md-weight, bold);
 }
 
 .subtitle-bold-lg {
-  font-size: var(--font-subtitle-size-lg);
-  line-height: var(--font-subtitle-line-lg);
-  font-weight: bold;
+  font-size: var(--typography-subtitle-bold-lg-size, var(--font-subtitle-size-lg));
+  line-height: var(--typography-subtitle-bold-lg-line, var(--font-subtitle-line-lg));
+  font-weight: var(--typography-subtitle-bold-lg-weight, bold);
 }
 
 .subtitle-bold-xl {
-  font-size: var(--font-subtitle-size-xl);
-  line-height: var(--font-subtitle-line-xl);
-  font-weight: bold;
+  font-size: var(--typography-subtitle-bold-xl-size, var(--font-subtitle-size-xl));
+  line-height: var(--typography-subtitle-bold-xl-line, var(--font-subtitle-line-xl));
+  font-weight: var(--typography-subtitle-bold-xl-weight, bold);
 }
 
 /* MEDIUM SUBTÍTULOS */
 .subtitle-medium-sm {
-  font-size: var(--font-subtitle-size-sm);
-  line-height: var(--font-subtitle-line-sm);
-  font-weight: 500;
+  font-size: var(--typography-subtitle-medium-sm-size, var(--font-subtitle-size-sm));
+  line-height: var(--typography-subtitle-medium-sm-line, var(--font-subtitle-line-sm));
+  font-weight: var(--typography-subtitle-medium-sm-weight, 500);
 }
 
 .subtitle-medium-md {
-  font-size: var(--font-subtitle-size-md);
-  line-height: var(--font-subtitle-line-md);
-  font-weight: 500;
+  font-size: var(--typography-subtitle-medium-md-size, var(--font-subtitle-size-md));
+  line-height: var(--typography-subtitle-medium-md-line, var(--font-subtitle-line-md));
+  font-weight: var(--typography-subtitle-medium-md-weight, 500);
 }
 
 .subtitle-medium-lg {
-  font-size: var(--font-subtitle-size-lg);
-  line-height: var(--font-subtitle-line-lg);
-  font-weight: 500;
+  font-size: var(--typography-subtitle-medium-lg-size, var(--font-subtitle-size-lg));
+  line-height: var(--typography-subtitle-medium-lg-line, var(--font-subtitle-line-lg));
+  font-weight: var(--typography-subtitle-medium-lg-weight, 500);
 }
 
 .subtitle-medium-xl {
-  font-size: var(--font-subtitle-size-xl);
-  line-height: var(--font-subtitle-line-xl);
-  font-weight: 500;
+  font-size: var(--typography-subtitle-medium-xl-size, var(--font-subtitle-size-xl));
+  line-height: var(--typography-subtitle-medium-xl-line, var(--font-subtitle-line-xl));
+  font-weight: var(--typography-subtitle-medium-xl-weight, 500);
 }
 
 /* REGULAR SUBTÍTULOS */
 .subtitle-regular-sm {
-  font-size: var(--font-subtitle-size-sm);
-  line-height: var(--font-subtitle-line-sm);
-  font-weight: 400;
+  font-size: var(--typography-subtitle-regular-sm-size, var(--font-subtitle-size-sm));
+  line-height: var(--typography-subtitle-regular-sm-line, var(--font-subtitle-line-sm));
+  font-weight: var(--typography-subtitle-regular-sm-weight, 400);
 }
 
 .subtitle-regular-md {
-  font-size: var(--font-subtitle-size-md);
-  line-height: var(--font-subtitle-line-md);
-  font-weight: 400;
+  font-size: var(--typography-subtitle-regular-md-size, var(--font-subtitle-size-md));
+  line-height: var(--typography-subtitle-regular-md-line, var(--font-subtitle-line-md));
+  font-weight: var(--typography-subtitle-regular-md-weight, 400);
 }
 
 .subtitle-regular-lg {
-  font-size: var(--font-subtitle-size-lg);
-  line-height: var(--font-subtitle-line-lg);
-  font-weight: 400;
+  font-size: var(--typography-subtitle-regular-lg-size, var(--font-subtitle-size-lg));
+  line-height: var(--typography-subtitle-regular-lg-line, var(--font-subtitle-line-lg));
+  font-weight: var(--typography-subtitle-regular-lg-weight, 400);
 }
 
 .subtitle-regular-xl {
-  font-size: var(--font-subtitle-size-xl);
-  line-height: var(--font-subtitle-line-xl);
-  font-weight: 400;
+  font-size: var(--typography-subtitle-regular-xl-size, var(--font-subtitle-size-xl));
+  line-height: var(--typography-subtitle-regular-xl-line, var(--font-subtitle-line-xl));
+  font-weight: var(--typography-subtitle-regular-xl-weight, 400);
 }
 
 /* PÁRRAFOS (PARAGRAPHS) */
 .paragraph-medium-sm {
-  font-size: var(--font-paragraph-size-sm);
-  line-height: var(--font-paragraph-line-sm);
-  font-weight: 500;
+  font-size: var(--typography-paragraph-medium-sm-size, var(--font-paragraph-size-sm));
+  line-height: var(--typography-paragraph-medium-sm-line, var(--font-paragraph-line-sm));
+  font-weight: var(--typography-paragraph-medium-sm-weight, 500);
 }
 
 .paragraph-medium-md {
-  font-size: var(--font-paragraph-size-md);
-  line-height: var(--font-paragraph-line-md);
-  font-weight: 500;
+  font-size: var(--typography-paragraph-medium-md-size, var(--font-paragraph-size-md));
+  line-height: var(--typography-paragraph-medium-md-line, var(--font-paragraph-line-md));
+  font-weight: var(--typography-paragraph-medium-md-weight, 500);
 }
 
 .paragraph-medium-lg {
-  font-size: var(--font-paragraph-size-lg);
-  line-height: var(--font-paragraph-line-lg);
-  font-weight: 500;
+  font-size: var(--typography-paragraph-medium-lg-size, var(--font-paragraph-size-lg));
+  line-height: var(--typography-paragraph-medium-lg-line, var(--font-paragraph-line-lg));
+  font-weight: var(--typography-paragraph-medium-lg-weight, 500);
 }
 
 /* PÁRRAFOS REGULARES */
 .paragraph-regular-sm {
-  font-size: var(--font-paragraph-size-sm);
-  line-height: var(--font-paragraph-line-sm);
-  font-weight: 400;
+  font-size: var(--typography-paragraph-regular-sm-size, var(--font-paragraph-size-sm));
+  line-height: var(--typography-paragraph-regular-sm-line, var(--font-paragraph-line-sm));
+  font-weight: var(--typography-paragraph-regular-sm-weight, 400);
 }
 
 .paragraph-regular-md {
-  font-size: var(--font-paragraph-size-md);
-  line-height: var(--font-paragraph-line-md);
-  font-weight: 400;
+  font-size: var(--typography-paragraph-regular-md-size, var(--font-paragraph-size-md));
+  line-height: var(--typography-paragraph-regular-md-line, var(--font-paragraph-line-md));
+  font-weight: var(--typography-paragraph-regular-md-weight, 400);
 }
 
 .paragraph-regular-lg {
-  font-size: var(--font-paragraph-size-lg);
-  line-height: var(--font-paragraph-line-lg);
-  font-weight: 400;
+  font-size: var(--typography-paragraph-regular-lg-size, var(--font-paragraph-size-lg));
+  line-height: var(--typography-paragraph-regular-lg-line, var(--font-paragraph-line-lg));
+  font-weight: var(--typography-paragraph-regular-lg-weight, 400);
 }

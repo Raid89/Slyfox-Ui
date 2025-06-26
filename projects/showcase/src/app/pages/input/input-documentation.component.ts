@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { SlyfoxUiInputComponent } from '../../../../../slyfox-components/input/input.component';
 import { SlyfoxUiIconComponent } from '../../../../../slyfox-components/icons/icons.component';
 import { PropertiesTableComponent } from '../properties-table/properties-table.component';
+import { CssVarsTableComponent } from '../../shared/css-vars-table';
 import { IComponentProperty } from '../../interfaces/properties.interface';
 
 @Component({
@@ -13,7 +14,8 @@ import { IComponentProperty } from '../../interfaces/properties.interface';
     CommonModule,
     SlyfoxUiInputComponent,
     SlyfoxUiIconComponent,
-    PropertiesTableComponent
+    PropertiesTableComponent,
+    CssVarsTableComponent
   ],
   templateUrl: './input-documentation.component.html',
   styleUrls: ['./input-documentation.component.scss']
@@ -179,5 +181,22 @@ export class InputDocumentationComponent {
       values: 'CSS style object',
       default: '{}'
     }
+  ];
+
+  // CSS Variables for the documentation table
+  public inputCssVars = [
+    { name: '--input-bg', default: '#fff', description: 'Fondo del input' },
+    { name: '--input-border', default: '1px solid var(--border-color-75)', description: 'Borde' },
+    { name: '--input-radius', default: '8px', description: 'Radio del borde' },
+    { name: '--input-padding', default: '0 1rem', description: 'Padding interno' },
+    { name: '--input-font-size', default: '1.6rem', description: 'Tamaño de fuente' },
+    { name: '--input-label-color', default: '#36455D', description: 'Color del label' },
+    { name: '--input-label-font-size', default: '1.6rem', description: 'Tamaño fuente label' },
+    { name: '--input-label-font-weight', default: '700', description: 'Peso fuente label' },
+    { name: '--input-placeholder-color', default: 'var(--border-color-400)', description: 'Color placeholder' },
+    { name: '--input-disabled-bg', default: 'var(--fill-color-75)', description: 'Fondo deshabilitado' },
+    { name: '--input-disabled-color', default: 'var(--text-color-100)', description: 'Texto deshabilitado' },
+    { name: '--input-error-color', default: 'var(--error-color-200)', description: 'Color error' },
+    { name: '--input-success-color', default: 'var(--success-color-200)', description: 'Color éxito' }
   ];
 }

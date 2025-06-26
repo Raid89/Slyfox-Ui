@@ -1,66 +1,108 @@
+/*
+========================================
+ Slyfox Avatar Component
+========================================
+
+This component displays a user avatar with optional border and background. All design tokens are exposed as CSS variables for easy theming.
+
+Customization:
+- Global: Override variables in :root or your main theme file.
+- Per Component: Override variables in a parent selector or component host.
+- Per Instance: Use inline style or a wrapper class.
+
+Available CSS Variables:
+| Variable                      | Default                        | Description                        |
+|-------------------------------|--------------------------------|------------------------------------|
+| --avatar-radius               | 9999px                         | Border radius                      |
+| --avatar-border-width         | 4px                            | Border width                       |
+| --avatar-border-color         | transparent                    | Border color (default)             |
+| --avatar-border-primary       | var(--primary-color-200)       | Primary border color               |
+| --avatar-border-secondary     | var(--secondary-color-200)     | Secondary border color             |
+| --avatar-bg-primary           | var(--primary-color-50)        | Primary background color           |
+| --avatar-bg-secondary         | var(--border-color-50)         | Secondary background color         |
+| --avatar-size-xs              | 32px                           | Extra small size                   |
+| --avatar-size-sm              | 40px                           | Small size                         |
+| --avatar-size-md              | 48px                           | Medium size                        |
+| --avatar-size-lg              | 56px                           | Large size                         |
+| --avatar-size-xl              | 64px                           | Extra large size                   |
+| --avatar-size-xxl             | 80px                           | 2x Extra large size                |
+| --avatar-font-size-xs         | 12px                           | Font size for xs                   |
+| --avatar-font-size-sm         | 14px                           | Font size for sm                   |
+| --avatar-font-size-md         | 16px                           | Font size for md                   |
+| --avatar-font-size-lg         | 18px                           | Font size for lg                   |
+| --avatar-font-size-xl         | 20px                           | Font size for xl                   |
+| --avatar-font-size-xxl        | 24px                           | Font size for xxl                  |
+
+Example: Custom avatar border
+-----------------------------
+<div class="my-avatar" style="--avatar-border-color: #00C853;"></div>
+}
+*/
+
+
 .slf-avatar {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 9999px;
+  border-radius: var(--avatar-radius, 9999px);
   overflow: hidden;
   transition: transform .3s;
-  border: 4px solid transparent;
+  border: var(--avatar-border-width, 4px) solid var(--avatar-border-color, transparent);
 
   &--bordered {
-    border: 4px solid var(--primary-color-200);
+    border-color: var(--avatar-border-primary, var(--primary-color-200));
   }
 
   &--border-primary.slf-avatar--bordered {
-    border: 4px solid var(--primary-color-200);
+    border-color: var(--avatar-border-primary, var(--primary-color-200));
   }
 
   &--border-secondary.slf-avatar--bordered {
-    border: 4px solid var(--secondary-color-200);
+    border-color: var(--avatar-border-secondary, var(--secondary-color-200));
   }
 
   &--bg-primary {
-    background-color: var(--primary-color-50);
+    background-color: var(--avatar-bg-primary, var(--primary-color-50));
   }
 
   &--bg-secondary {
-    background-color: var(--border-color-50);
+    background-color: var(--avatar-bg-secondary, var(--border-color-50));
   }
 
   &--xs {
-    width: 32px;
-    height: 32px;
-    font-size: 12px;
+    width: var(--avatar-size-xs, 32px);
+    height: var(--avatar-size-xs, 32px);
+    font-size: var(--avatar-font-size-xs, 12px);
   }
 
   &--sm {
-    width: 40px;
-    height: 40px;
-    font-size: 14px;
+    width: var(--avatar-size-sm, 40px);
+    height: var(--avatar-size-sm, 40px);
+    font-size: var(--avatar-font-size-sm, 14px);
   }
 
   &--md {
-    width: 48px;
-    height: 48px;
-    font-size: 16px;
+    width: var(--avatar-size-md, 48px);
+    height: var(--avatar-size-md, 48px);
+    font-size: var(--avatar-font-size-md, 16px);
   }
 
   &--lg {
-    width: 56px;
-    height: 56px;
-    font-size: 18px;
+    width: var(--avatar-size-lg, 56px);
+    height: var(--avatar-size-lg, 56px);
+    font-size: var(--avatar-font-size-lg, 18px);
   }
 
   &--xl {
-    width: 64px;
-    height: 64px;
-    font-size: 20px;
+    width: var(--avatar-size-xl, 64px);
+    height: var(--avatar-size-xl, 64px);
+    font-size: var(--avatar-font-size-xl, 20px);
   }
 
   &--xxl {
-    width: 72px;
-    height: 72px;
-    font-size: 24px;
+    width: var(--avatar-size-xxl, 80px);
+    height: var(--avatar-size-xxl, 80px);
+    font-size: var(--avatar-font-size-xxl, 24px);
   }
 
   &:hover {

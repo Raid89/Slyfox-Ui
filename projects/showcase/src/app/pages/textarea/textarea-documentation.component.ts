@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { SlyfoxUiTextareaComponent } from '../../../../../slyfox-components/textarea/textarea.component';
 import { PropertiesTableComponent } from '../properties-table/properties-table.component';
 import { IComponentProperty } from '../../interfaces/properties.interface';
+import { CssVarsTableComponent } from '../../shared/css-vars-table';
 
 @Component({
   selector: 'app-textarea-documentation',
@@ -11,7 +12,8 @@ import { IComponentProperty } from '../../interfaces/properties.interface';
   imports: [
     CommonModule,
     SlyfoxUiTextareaComponent,
-    PropertiesTableComponent
+    PropertiesTableComponent,
+    CssVarsTableComponent
   ],
   templateUrl: './textarea-documentation.component.html',
   styleUrls: ['./textarea-documentation.component.scss']
@@ -124,5 +126,22 @@ export class TextareaDocumentationComponent {
       values: 'CSS style object',
       default: '{}'
     }
+  ];
+
+  // CSS Variables for the documentation table
+  public textareaCssVars = [
+    { name: '--textarea-bg', default: '#fff', description: 'Fondo del textarea' },
+    { name: '--textarea-border', default: '1px solid var(--border-color-75)', description: 'Borde' },
+    { name: '--textarea-radius', default: '8px', description: 'Radio del borde' },
+    { name: '--textarea-padding', default: '1rem 1.4rem', description: 'Padding interno' },
+    { name: '--textarea-font-size', default: '1.6rem', description: 'Tamaño de fuente' },
+    { name: '--textarea-label-color', default: '#36455D', description: 'Color del label' },
+    { name: '--textarea-label-font-size', default: '1.6rem', description: 'Tamaño fuente label' },
+    { name: '--textarea-label-font-weight', default: '700', description: 'Peso fuente label' },
+    { name: '--textarea-placeholder-color', default: 'var(--border-color-400)', description: 'Color placeholder' },
+    { name: '--textarea-disabled-bg', default: 'var(--fill-color-75)', description: 'Fondo deshabilitado' },
+    { name: '--textarea-disabled-color', default: 'var(--text-color-100)', description: 'Texto deshabilitado' },
+    { name: '--textarea-error-color', default: 'var(--error-color-200)', description: 'Color error' },
+    { name: '--textarea-success-color', default: 'var(--success-color-200)', description: 'Color éxito' }
   ];
 }

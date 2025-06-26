@@ -57,4 +57,42 @@
   </section>
 
   <table-properties-name [Properties]="checkboxProperties" [ComponentName]="'Checkbox'"></table-properties-name>
+
+  <!-- =============================
+       Personalización por CSS Variables
+       ============================= -->
+  <section class="doc-section">
+    <header class="section-header">
+      <h3>Personalización por CSS Variables</h3>
+      <p>Puedes personalizar el Checkbox globalmente, por componente o por instancia usando las siguientes variables CSS:</p>
+    </header>
+    <div class="doc-demo">
+      <table class="css-vars-table">
+        <thead>
+          <tr>
+            <th>Variable</th>
+            <th>Valor por defecto</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>--checkbox-bg</td><td>#fff</td><td>Fondo del checkbox</td></tr>
+          <tr><td>--checkbox-border</td><td>1px solid var(--border-color-75)</td><td>Borde</td></tr>
+          <tr><td>--checkbox-radius</td><td>4px</td><td>Radio del borde</td></tr>
+          <tr><td>--checkbox-size</td><td>20px</td><td>Tamaño del checkbox</td></tr>
+          <tr><td>--checkbox-color</td><td>var(--primary-color-200)</td><td>Color del check</td></tr>
+          <tr><td>--checkbox-bg-checked</td><td>var(--primary-color-200)</td><td>Fondo cuando está seleccionado</td></tr>
+          <tr><td>--checkbox-bg-disabled</td><td>var(--fill-color-75)</td><td>Fondo deshabilitado</td></tr>
+          <tr><td>--checkbox-color-disabled</td><td>var(--text-color-100)</td><td>Color deshabilitado</td></tr>
+          <tr><td>--checkbox-label-color</td><td>#36455D</td><td>Color del label</td></tr>
+          <tr><td>--checkbox-label-font-size</td><td>1.6rem</td><td>Tamaño fuente label</td></tr>
+          <tr><td>--checkbox-label-font-weight</td><td>700</td><td>Peso fuente label</td></tr>
+        </tbody>
+      </table>
+      <div class="code-example" style="margin-top:1.5rem;">
+        <strong>Ejemplo de personalización por instancia:</strong>
+        <pre><code class="language-html">&lt;slf-ui-checkbox style="--checkbox-bg: #f0f0f0; --checkbox-radius: 12px;"&gt;&lt;/slf-ui-checkbox&gt;</code></pre>
+      </div>
+    </div>
+  </section>
 </div>
